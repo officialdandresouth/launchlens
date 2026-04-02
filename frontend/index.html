@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LaunchLens — Find Your First Product</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="navbar-inner">
+            <a href="#" class="navbar-logo">LaunchLens</a>
+            <span class="navbar-badge">Updated weekly with live Amazon data</span>
+        </div>
+    </header>
+
+    <!-- Progress bar across all screens -->
+    <nav class="progress-bar">
+        <div class="progress-steps">
+            <div class="step active" data-screen="budget">1. Budget</div>
+            <div class="step" data-screen="categories">2. Categories</div>
+            <div class="step" data-screen="deep-dive">3. Deep Dive</div>
+            <div class="step" data-screen="spec">4. Product Spec</div>
+            <div class="step" data-screen="economics">5. Economics</div>
+            <div class="step" data-screen="suppliers">6. Suppliers</div>
+            <div class="step" data-screen="launch">7. Launch Plan</div>
+        </div>
+    </nav>
+
+    <!-- Screen container — each screen renders here -->
+    <main id="app"></main>
+
+    <!-- JS modules -->
+    <script type="module" src="/js/app.js"></script>
+</body>
+</html>

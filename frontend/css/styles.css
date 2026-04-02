@@ -1,0 +1,414 @@
+/* ===== Variables & Reset ===== */
+:root {
+    --navy: #0a0e27;
+    --navy-light: #131836;
+    --purple: #2d1b69;
+    --accent: #6c63ff;
+    --accent-hover: #5a52d5;
+    --green: #2ecc71;
+    --red: #e74c3c;
+    --yellow: #f39c12;
+    --text: #e0e0e0;
+    --text-muted: #8892b0;
+    --card-bg: rgba(255, 255, 255, 0.04);
+    --card-border: rgba(255, 255, 255, 0.08);
+    --radius: 12px;
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    background: linear-gradient(135deg, var(--navy) 0%, var(--purple) 50%, #1a1a4e 100%);
+    color: var(--text);
+    min-height: 100vh;
+}
+
+/* ===== Navbar ===== */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 200;
+    background: rgba(10, 14, 39, 0.9);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--card-border);
+    padding: 0 32px;
+}
+
+.navbar-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 56px;
+}
+
+.navbar-logo {
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: var(--accent);
+    text-decoration: none;
+    letter-spacing: -0.5px;
+}
+
+.navbar-badge {
+    font-size: 0.75rem;
+    color: var(--green);
+    background: rgba(46, 204, 113, 0.1);
+    border: 1px solid rgba(46, 204, 113, 0.25);
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-weight: 500;
+}
+
+/* ===== Progress Bar ===== */
+.progress-bar {
+    position: fixed;
+    top: 56px;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    background: rgba(10, 14, 39, 0.95);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--card-border);
+    padding: 0 24px;
+}
+
+.progress-bar.hidden {
+    display: none;
+}
+
+.progress-steps {
+    display: flex;
+    max-width: 900px;
+    margin: 0 auto;
+    overflow-x: auto;
+}
+
+.step {
+    flex: 1;
+    text-align: center;
+    padding: 14px 8px;
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    white-space: nowrap;
+    position: relative;
+    transition: color 0.3s;
+}
+
+.step.active {
+    color: var(--accent);
+    font-weight: 600;
+}
+
+.step.completed {
+    color: var(--green);
+}
+
+.step.active::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+    right: 20%;
+    height: 2px;
+    background: var(--accent);
+    border-radius: 2px;
+}
+
+/* ===== Main App Container ===== */
+#app {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 32px 48px;
+    min-height: 100vh;
+}
+
+/* ===== Hero Section (Screen 1) ===== */
+.hero {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    min-height: calc(100vh - 120px);
+    padding-top: 20px;
+}
+
+.hero-left {
+    flex: 1;
+    min-width: 0;
+}
+
+.hero-right {
+    flex: 0 0 420px;
+}
+
+.hero-headline {
+    font-size: 2.6rem;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.hero-headline-accent {
+    display: block;
+    background: linear-gradient(135deg, var(--accent) 0%, #a78bfa 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.hero-subtitle {
+    font-size: 1.1rem;
+    color: var(--text-muted);
+    line-height: 1.7;
+    margin-bottom: 36px;
+    max-width: 520px;
+}
+
+.hero-budget {
+    margin-bottom: 32px;
+}
+
+.hero-budget .budget-display {
+    font-size: 3.2rem;
+    margin-bottom: 16px;
+    text-align: left;
+}
+
+.hero-budget .budget-slider {
+    max-width: 100%;
+}
+
+.hero-budget .budget-range-labels {
+    max-width: 100%;
+    margin-bottom: 0;
+}
+
+.btn-hero {
+    padding: 16px 40px;
+    font-size: 1.1rem;
+}
+
+.hero-image {
+    width: 100%;
+    border-radius: var(--radius);
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+    object-fit: cover;
+}
+
+/* ===== Screen Transitions ===== */
+.screen {
+    animation: fadeIn 0.4s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(16px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* ===== Typography ===== */
+.screen-title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+    background: linear-gradient(135deg, #fff 0%, var(--accent) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.screen-subtitle {
+    font-size: 1.1rem;
+    color: var(--text-muted);
+    margin-bottom: 40px;
+    line-height: 1.6;
+}
+
+/* ===== Cards ===== */
+.card {
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: var(--radius);
+    padding: 24px;
+    margin-bottom: 16px;
+    transition: border-color 0.3s, transform 0.2s;
+}
+
+.card:hover {
+    border-color: var(--accent);
+    transform: translateY(-2px);
+}
+
+/* ===== Buttons ===== */
+.btn-primary {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 14px 32px;
+    background: var(--accent);
+    color: #fff;
+    border: none;
+    border-radius: var(--radius);
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.btn-primary:hover {
+    background: var(--accent-hover);
+    transform: translateY(-1px);
+}
+
+.btn-primary:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    transform: none;
+}
+
+.btn-secondary {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 24px;
+    background: transparent;
+    color: var(--accent);
+    border: 1px solid var(--accent);
+    border-radius: var(--radius);
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn-secondary:hover {
+    background: rgba(108, 99, 255, 0.1);
+}
+
+/* ===== Budget Screen ===== */
+.budget-input-group {
+    text-align: center;
+    margin: 48px 0;
+}
+
+.budget-display {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 24px;
+    font-variant-numeric: tabular-nums;
+}
+
+.budget-display span {
+    color: var(--accent);
+}
+
+.budget-slider {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    max-width: 500px;
+    height: 8px;
+    border-radius: 4px;
+    background: var(--navy-light);
+    outline: none;
+    margin-bottom: 16px;
+}
+
+.budget-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: var(--accent);
+    cursor: pointer;
+    border: 3px solid #fff;
+    box-shadow: 0 2px 8px rgba(108, 99, 255, 0.4);
+    transition: transform 0.2s;
+}
+
+.budget-slider::-webkit-slider-thumb:hover {
+    transform: scale(1.15);
+}
+
+.budget-range-labels {
+    display: flex;
+    justify-content: space-between;
+    max-width: 500px;
+    margin: 0 auto 48px;
+    color: var(--text-muted);
+    font-size: 0.85rem;
+}
+
+.budget-cta {
+    text-align: center;
+}
+
+/* ===== Loading Spinner ===== */
+.loading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 64px 0;
+    color: var(--text-muted);
+}
+
+.spinner {
+    width: 40px;
+    height: 40px;
+    border: 3px solid var(--card-border);
+    border-top-color: var(--accent);
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+    margin-bottom: 16px;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 900px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        gap: 32px;
+        padding-top: 10px;
+    }
+
+    .hero-right {
+        flex: none;
+        width: 100%;
+        max-width: 400px;
+        order: -1;
+    }
+
+    .hero-subtitle {
+        max-width: 100%;
+    }
+
+    .hero-budget .budget-display {
+        text-align: center;
+    }
+
+    .hero-headline { font-size: 2rem; }
+}
+
+@media (max-width: 600px) {
+    .screen-title { font-size: 1.6rem; }
+    .budget-display { font-size: 2.8rem; }
+    .step { font-size: 0.7rem; padding: 12px 4px; }
+    .hero-headline { font-size: 1.6rem; }
+    .hero-budget .budget-display { font-size: 2.4rem; }
+    .navbar-badge { display: none; }
+}
