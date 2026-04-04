@@ -1,0 +1,295 @@
+{
+  "generated_at": "2026-04-03T12:00:00Z",
+  "categories": [
+    {
+      "id": "home-kitchen-organizers",
+      "name": "Kitchen & Drawer Organizers",
+      "parent_category": "Home & Kitchen",
+      "sample_products": 48,
+      "min_viable_budget": 2000,
+      "avg_price": 24.99,
+      "avg_margin_pct": 42.0,
+      "scores": {
+        "gross_margin": 78,
+        "demand_satisfaction_gap": 65,
+        "revenue_concentration": 71,
+        "capital_efficiency": 82,
+        "barrier_to_entry": 85,
+        "composite": 76
+      },
+      "score_explanations": {
+        "gross_margin": "Avg 42% margin after FBA fees; low return rate due to non-fragile product",
+        "demand_satisfaction_gap": "Reviews frequently mention 'flimsy dividers' and 'doesn't fit standard drawers' — room for a better-built option",
+        "revenue_concentration": "Top 3 sellers hold 28% of revenue — moderate room for new entrants",
+        "capital_efficiency": "Can stock 80+ units at $24.99 with $2K budget",
+        "barrier_to_entry": "Simple bamboo/plastic manufacturing, no certifications needed"
+      },
+      "top_products": [
+        {"name": "Bamboo Drawer Organizer Set (5-Piece)", "price": 22.99, "rating": 4.3, "reviews_count": 1847},
+        {"name": "Expandable Kitchen Utensil Tray", "price": 18.49, "rating": 4.1, "reviews_count": 2314},
+        {"name": "Stackable Pantry Storage Bins (Set of 8)", "price": 29.99, "rating": 4.5, "reviews_count": 987}
+      ]
+    },
+    {
+      "id": "pet-supplies-dog-toys",
+      "name": "Dog Chew & Puzzle Toys",
+      "parent_category": "Pet Supplies",
+      "sample_products": 52,
+      "min_viable_budget": 1500,
+      "avg_price": 14.99,
+      "avg_margin_pct": 48.0,
+      "scores": {
+        "gross_margin": 88,
+        "demand_satisfaction_gap": 72,
+        "revenue_concentration": 62,
+        "capital_efficiency": 90,
+        "barrier_to_entry": 80,
+        "composite": 79
+      },
+      "score_explanations": {
+        "gross_margin": "High 48% margin — low material cost, small/light for FBA shipping",
+        "demand_satisfaction_gap": "Top complaint is durability — 'my dog destroyed it in 10 minutes' appears in 30%+ of 1-2 star reviews",
+        "revenue_concentration": "Fragmented market — top 3 hold only 18% of reviews, many small sellers",
+        "capital_efficiency": "At $14.99 avg price, $1.5K stocks 200+ units — excellent inventory turnover",
+        "barrier_to_entry": "Simple rubber/nylon manufacturing, but must pass pet safety standards (CPSIA)"
+      },
+      "top_products": [
+        {"name": "Indestructible Rubber Chew Bone (Large)", "price": 12.99, "rating": 4.0, "reviews_count": 3421},
+        {"name": "Puzzle Treat Dispenser Ball", "price": 16.99, "rating": 4.4, "reviews_count": 1567},
+        {"name": "Rope & Rubber Tug Toy (3-Pack)", "price": 11.49, "rating": 3.9, "reviews_count": 2890}
+      ]
+    },
+    {
+      "id": "sports-resistance-bands",
+      "name": "Resistance Bands & Sets",
+      "parent_category": "Sports & Outdoors",
+      "sample_products": 38,
+      "min_viable_budget": 2500,
+      "avg_price": 19.99,
+      "avg_margin_pct": 52.0,
+      "scores": {
+        "gross_margin": 92,
+        "demand_satisfaction_gap": 58,
+        "revenue_concentration": 55,
+        "capital_efficiency": 78,
+        "barrier_to_entry": 75,
+        "composite": 73
+      },
+      "score_explanations": {
+        "gross_margin": "52% margin — extremely low COGS ($2-4 wholesale), lightweight shipping",
+        "demand_satisfaction_gap": "Market is somewhat saturated but 'snapping' and 'rolling up' are common complaints worth solving",
+        "revenue_concentration": "Moderately concentrated — a few big brands (Fit Simplify, INTEY) dominate",
+        "capital_efficiency": "Good unit economics but need variety packs to compete (5-band sets)",
+        "barrier_to_entry": "Low barrier, but latex quality testing recommended to avoid injury liability"
+      },
+      "top_products": [
+        {"name": "5-Level Resistance Band Set with Carry Bag", "price": 12.99, "rating": 4.4, "reviews_count": 5672},
+        {"name": "Fabric Hip Resistance Bands (3-Pack)", "price": 18.99, "rating": 4.5, "reviews_count": 3211},
+        {"name": "Latex-Free Exercise Band Kit (11-Piece)", "price": 24.99, "rating": 4.2, "reviews_count": 1893}
+      ]
+    },
+    {
+      "id": "home-kitchen-silicone-mats",
+      "name": "Silicone Baking & Kitchen Mats",
+      "parent_category": "Home & Kitchen",
+      "sample_products": 31,
+      "min_viable_budget": 1500,
+      "avg_price": 12.99,
+      "avg_margin_pct": 45.0,
+      "scores": {
+        "gross_margin": 82,
+        "demand_satisfaction_gap": 55,
+        "revenue_concentration": 68,
+        "capital_efficiency": 92,
+        "barrier_to_entry": 82,
+        "composite": 75
+      },
+      "score_explanations": {
+        "gross_margin": "45% margin — very cheap to manufacture, FDA food-grade silicone is standard",
+        "demand_satisfaction_gap": "Some complaints about 'curling edges' and 'chemical smell' — solvable with better materials",
+        "revenue_concentration": "Top 3 hold 24% — room to enter with better branding",
+        "capital_efficiency": "At $12.99, $1.5K buys 250+ units — fast turnover",
+        "barrier_to_entry": "Must be FDA food-safe certified, but testing is cheap ($200-400)"
+      },
+      "top_products": [
+        {"name": "Non-Stick Silicone Baking Mat (2-Pack)", "price": 11.99, "rating": 4.6, "reviews_count": 4102},
+        {"name": "Extra-Thick Pastry Rolling Mat", "price": 14.99, "rating": 4.3, "reviews_count": 1876},
+        {"name": "Silicone Dish Drying Mat (Large)", "price": 9.99, "rating": 4.1, "reviews_count": 2543}
+      ]
+    },
+    {
+      "id": "electronics-phone-mounts",
+      "name": "Car & Desk Phone Mounts",
+      "parent_category": "Electronics",
+      "sample_products": 44,
+      "min_viable_budget": 3000,
+      "avg_price": 16.99,
+      "avg_margin_pct": 38.0,
+      "scores": {
+        "gross_margin": 68,
+        "demand_satisfaction_gap": 70,
+        "revenue_concentration": 48,
+        "capital_efficiency": 72,
+        "barrier_to_entry": 60,
+        "composite": 64
+      },
+      "score_explanations": {
+        "gross_margin": "38% margin — decent but higher return rate (compatibility issues) eats profit",
+        "demand_satisfaction_gap": "Strong signal: 'doesn't hold heavy phones', 'suction cup fails in heat' — real pain points",
+        "revenue_concentration": "Highly concentrated — iOttie and Mpow dominate with 40%+ market share",
+        "capital_efficiency": "Moderate — need $3K for meaningful inventory due to SKU variety (car vs desk)",
+        "barrier_to_entry": "Requires design differentiation and FCC compliance for magnetic mounts"
+      },
+      "top_products": [
+        {"name": "Magnetic Air Vent Car Mount", "price": 13.99, "rating": 4.0, "reviews_count": 6543},
+        {"name": "Dashboard Suction Cup Holder (Adjustable)", "price": 17.99, "rating": 3.8, "reviews_count": 4321},
+        {"name": "Gravity-Lock Desk Stand (Aluminum)", "price": 22.99, "rating": 4.5, "reviews_count": 1234}
+      ]
+    },
+    {
+      "id": "pet-supplies-cat-scratchers",
+      "name": "Cat Scratching Posts & Pads",
+      "parent_category": "Pet Supplies",
+      "sample_products": 36,
+      "min_viable_budget": 3500,
+      "avg_price": 28.99,
+      "avg_margin_pct": 40.0,
+      "scores": {
+        "gross_margin": 72,
+        "demand_satisfaction_gap": 68,
+        "revenue_concentration": 65,
+        "capital_efficiency": 58,
+        "barrier_to_entry": 70,
+        "composite": 67
+      },
+      "score_explanations": {
+        "gross_margin": "40% margin but bulky shipping increases FBA fees, especially for tall posts",
+        "demand_satisfaction_gap": "Common complaints: 'fell over', 'carpet shreds everywhere', 'too small for large cats'",
+        "revenue_concentration": "Mid-range — several established brands but none dominant",
+        "capital_efficiency": "Higher unit cost + bulky storage = need more capital for meaningful stock",
+        "barrier_to_entry": "No certifications needed but packaging/shipping logistics are tricky for large items"
+      },
+      "top_products": [
+        {"name": "Sisal Rope Scratching Post (32-inch)", "price": 24.99, "rating": 4.2, "reviews_count": 3456},
+        {"name": "Cardboard Scratcher Lounge (Reversible)", "price": 19.99, "rating": 4.4, "reviews_count": 5678},
+        {"name": "Wall-Mounted Scratching Panel (Set of 3)", "price": 34.99, "rating": 4.1, "reviews_count": 987}
+      ]
+    },
+    {
+      "id": "office-desk-accessories",
+      "name": "Desk Organizers & Accessories",
+      "parent_category": "Office Products",
+      "sample_products": 40,
+      "min_viable_budget": 2500,
+      "avg_price": 22.99,
+      "avg_margin_pct": 44.0,
+      "scores": {
+        "gross_margin": 80,
+        "demand_satisfaction_gap": 52,
+        "revenue_concentration": 70,
+        "capital_efficiency": 76,
+        "barrier_to_entry": 88,
+        "composite": 72
+      },
+      "score_explanations": {
+        "gross_margin": "44% margin — low COGS for bamboo/metal organizers, good size-to-value ratio",
+        "demand_satisfaction_gap": "Market is mature with fewer obvious pain points, but 'cheap feel' and 'wobbles' are common",
+        "revenue_concentration": "Distributed market — many small brands, no single dominant player",
+        "capital_efficiency": "Moderate pricing allows 100+ units with $2.5K budget",
+        "barrier_to_entry": "Very low — simple products, no certifications, easy to brand"
+      },
+      "top_products": [
+        {"name": "Bamboo Desktop Organizer with Drawer", "price": 26.99, "rating": 4.4, "reviews_count": 2345},
+        {"name": "Metal Mesh Desk Set (5-Piece)", "price": 19.99, "rating": 4.1, "reviews_count": 3210},
+        {"name": "Monitor Stand with Storage Slots", "price": 21.99, "rating": 4.3, "reviews_count": 1876}
+      ]
+    },
+    {
+      "id": "health-essential-oils",
+      "name": "Essential Oil Sets & Diffuser Oils",
+      "parent_category": "Health & Household",
+      "sample_products": 29,
+      "min_viable_budget": 4000,
+      "avg_price": 19.99,
+      "avg_margin_pct": 55.0,
+      "scores": {
+        "gross_margin": 95,
+        "demand_satisfaction_gap": 48,
+        "revenue_concentration": 42,
+        "capital_efficiency": 65,
+        "barrier_to_entry": 50,
+        "composite": 61
+      },
+      "score_explanations": {
+        "gross_margin": "55% margin — oils are extremely cheap to bottle, high perceived value",
+        "demand_satisfaction_gap": "Low gap — established brands have strong reviews, hard to differentiate on quality alone",
+        "revenue_concentration": "Very concentrated — doTERRA, NOW, Plant Therapy own the space",
+        "capital_efficiency": "Need variety sets (6-12 oils) to compete, which raises per-unit cost",
+        "barrier_to_entry": "GMP compliance needed, FDA scrutiny on health claims, organic certification expensive"
+      },
+      "top_products": [
+        {"name": "Top 6 Essential Oil Gift Set", "price": 14.99, "rating": 4.5, "reviews_count": 8765},
+        {"name": "Lavender Oil (4oz, Therapeutic Grade)", "price": 12.99, "rating": 4.6, "reviews_count": 5432},
+        {"name": "12-Oil Aromatherapy Starter Kit", "price": 24.99, "rating": 4.3, "reviews_count": 3210}
+      ]
+    },
+    {
+      "id": "sports-yoga-accessories",
+      "name": "Yoga Blocks, Straps & Accessories",
+      "parent_category": "Sports & Outdoors",
+      "sample_products": 33,
+      "min_viable_budget": 2000,
+      "avg_price": 15.99,
+      "avg_margin_pct": 50.0,
+      "scores": {
+        "gross_margin": 90,
+        "demand_satisfaction_gap": 45,
+        "revenue_concentration": 58,
+        "capital_efficiency": 85,
+        "barrier_to_entry": 78,
+        "composite": 71
+      },
+      "score_explanations": {
+        "gross_margin": "50% margin — EVA foam blocks cost $1-2 wholesale, straps even less",
+        "demand_satisfaction_gap": "Mature market with satisfied customers — hard to find clear unmet needs",
+        "revenue_concentration": "Few big players (Gaiam, Manduka) but many small sellers coexist",
+        "capital_efficiency": "Lightweight, cheap units — $2K stocks 250+ blocks",
+        "barrier_to_entry": "No certifications, simple manufacturing, easy to private-label"
+      },
+      "top_products": [
+        {"name": "High-Density EVA Foam Yoga Block (2-Pack)", "price": 12.99, "rating": 4.7, "reviews_count": 7654},
+        {"name": "Cotton Yoga Strap with D-Ring (8ft)", "price": 9.99, "rating": 4.5, "reviews_count": 4321},
+        {"name": "Cork Yoga Block (Natural, Non-Slip)", "price": 18.99, "rating": 4.6, "reviews_count": 2109}
+      ]
+    },
+    {
+      "id": "electronics-cable-organizers",
+      "name": "Cable Management & Organizers",
+      "parent_category": "Electronics",
+      "sample_products": 42,
+      "min_viable_budget": 5000,
+      "avg_price": 14.99,
+      "avg_margin_pct": 35.0,
+      "scores": {
+        "gross_margin": 62,
+        "demand_satisfaction_gap": 60,
+        "revenue_concentration": 52,
+        "capital_efficiency": 70,
+        "barrier_to_entry": 65,
+        "composite": 62
+      },
+      "score_explanations": {
+        "gross_margin": "35% margin — competitive pricing pressure keeps margins thinner",
+        "demand_satisfaction_gap": "'Adhesive doesn't hold' and 'clips too small for thicker cables' are recurring complaints",
+        "revenue_concentration": "Somewhat concentrated — J Channel and SimpleCord have strong positions",
+        "capital_efficiency": "Low price point but need variety packs and kits to differentiate, raising per-SKU cost",
+        "barrier_to_entry": "Low technical barrier but heavy competition — need strong listing optimization"
+      },
+      "top_products": [
+        {"name": "Under-Desk Cable Management Tray (2-Pack)", "price": 17.99, "rating": 4.3, "reviews_count": 3456},
+        {"name": "Self-Adhesive Cable Clips (50-Pack)", "price": 8.99, "rating": 4.0, "reviews_count": 6789},
+        {"name": "Cable Sleeve Zip Kit (4 Sizes)", "price": 13.99, "rating": 4.2, "reviews_count": 2345}
+      ]
+    }
+  ]
+}

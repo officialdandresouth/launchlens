@@ -6,26 +6,45 @@ LaunchLens is a web app for first-time Amazon FBA sellers to find what product t
 
 Tagline: "You have $10K. This tool tells you where to put it."
 
-## Current Progress (as of April 2, 2026)
+## Current Progress (as of April 3, 2026)
 
 ### Phase 1 — DONE:
 - Project structure created at `C:\Users\justd\OneDrive\Desktop\launchlens\`
-- Git repo initialized, initial commit pushed to GitHub
+- Git repo initialized, pushed to GitHub (https://github.com/officialdandresouth/launchlens)
 - FastAPI backend (`backend/main.py`) serves frontend + `/api/health` + `/images` static mount
 - Hash-based client-side router (`frontend/js/app.js`) with progress bar auto-hide on hero
-- Screen 1 (Budget Input) — full hero page redesign complete:
-  - Sticky navbar: "LaunchLens" logo + green "Updated weekly with live Amazon data" badge
-  - Two-column hero: left has headline, subtitle, budget slider ($1K-$25K), CTA button; right has hero image
-  - Responsive: stacks vertically at 900px, badge hides at 600px
-- Screen 2 (Categories) — placeholder with loading spinner
-- Dark theme CSS (navy/purple gradient matching previous project)
 - `.env.example`, `.gitignore`, `requirements.txt` created
-- Hero image at `frontend/images/hero-ecommerce.jpg`
 
-### Next — Phase 2:
-- Data pipeline: ScraperAPI fetching + Claude processing
-- Category scoring and rankings (Screen 2)
-- API endpoints for category data
+### Phase 2 Part A — DONE (Screen 2 backend + UI with seed data):
+- `backend/data/category_scores.json` — 10 realistic Amazon subcategories as seed data
+- `backend/models/category.py` — Pydantic schemas (ScoreBreakdown, TopProduct, CategoryScore, CategoriesResponse)
+- `backend/services/data_loader.py` — loads JSON at startup, filters by budget, sorts by composite score
+- `backend/routes/categories.py` — `GET /api/categories?budget=N` endpoint (validates 1000–25000)
+- `frontend/js/screens/categories.js` — fetches API, renders ranked cards with score bars and color coding
+- API tested and working
+
+### Visual Redesign — DONE (Framer-style premium dark theme):
+- **Design language:** Pure black background, minimal/premium aesthetic inspired by Framer templates
+- **Particle animation:** `frontend/js/particles.js` — interactive canvas-based particle network (mouse repulsion, connected lines)
+- **Screen 1 (Hero):** Centered layout with:
+  - Pulsing green dot badge ("Updated weekly with live Amazon data")
+  - Large headline: "Find What to Sell / Before You Invest"
+  - Budget slider with dual CTAs (filled white + outlined)
+  - Scroll-down mouse indicator
+  - Auto-scrolling stats marquee ticker
+- **Navbar:** Framer-style — logo left, nav links + white "Get Started" pill button right
+- **CSS:** Complete rewrite — black bg, Inter font, pill buttons, 4px score bars, uppercase labels
+- **Screen 2:** Updated to match — dark cards, thin score bars, green/yellow/red color coding
+- Responsive at 768px and 480px breakpoints
+
+### Phase 2 Part B — NOT STARTED (Real Data Pipeline):
+- `scripts/fetch_data.py` — ScraperAPI fetcher (user has API key ready)
+- `scripts/preprocess.py` — BeautifulSoup parser + Claude Haiku analysis
+- `scripts/seed_scores.py` — scoring algorithm
+
+### Next:
+- Build real data pipeline (Phase 2 Part B)
+- Phase 3: Screen 3 (Category Deep Dive — biggest differentiator)
 
 ## Tech Stack
 

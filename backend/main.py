@@ -6,6 +6,9 @@ from pathlib import Path
 app = FastAPI(title="LaunchLens", version="0.1.0")
 
 # --- API Routes ---
+from backend.routes.categories import router as categories_router
+app.include_router(categories_router)
+
 
 @app.get("/api/health")
 def health():

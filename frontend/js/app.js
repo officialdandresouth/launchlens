@@ -34,6 +34,9 @@ function navigate() {
     const renderFn = screens[screenName];
 
     if (renderFn) {
+        // Clean up previous screen if needed
+        if (window.__cleanupBudget) window.__cleanupBudget();
+
         const app = document.getElementById('app');
         app.innerHTML = '';
         renderFn(app);
