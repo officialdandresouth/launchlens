@@ -1,295 +1,653 @@
 {
-  "generated_at": "2026-04-03T12:00:00Z",
+  "generated_at": "2026-04-04T00:36:11.355285",
   "categories": [
     {
-      "id": "home-kitchen-organizers",
-      "name": "Kitchen & Drawer Organizers",
-      "parent_category": "Home & Kitchen",
-      "sample_products": 48,
-      "min_viable_budget": 2000,
-      "avg_price": 24.99,
-      "avg_margin_pct": 42.0,
-      "scores": {
-        "gross_margin": 78,
-        "demand_satisfaction_gap": 65,
-        "revenue_concentration": 71,
-        "capital_efficiency": 82,
-        "barrier_to_entry": 85,
-        "composite": 76
-      },
-      "score_explanations": {
-        "gross_margin": "Avg 42% margin after FBA fees; low return rate due to non-fragile product",
-        "demand_satisfaction_gap": "Reviews frequently mention 'flimsy dividers' and 'doesn't fit standard drawers' — room for a better-built option",
-        "revenue_concentration": "Top 3 sellers hold 28% of revenue — moderate room for new entrants",
-        "capital_efficiency": "Can stock 80+ units at $24.99 with $2K budget",
-        "barrier_to_entry": "Simple bamboo/plastic manufacturing, no certifications needed"
-      },
-      "top_products": [
-        {"name": "Bamboo Drawer Organizer Set (5-Piece)", "price": 22.99, "rating": 4.3, "reviews_count": 1847},
-        {"name": "Expandable Kitchen Utensil Tray", "price": 18.49, "rating": 4.1, "reviews_count": 2314},
-        {"name": "Stackable Pantry Storage Bins (Set of 8)", "price": 29.99, "rating": 4.5, "reviews_count": 987}
-      ]
-    },
-    {
       "id": "pet-supplies-dog-toys",
-      "name": "Dog Chew & Puzzle Toys",
+      "name": "Dog Puzzle & Chew Toys",
       "parent_category": "Pet Supplies",
-      "sample_products": 52,
+      "sample_products": 99,
       "min_viable_budget": 1500,
-      "avg_price": 14.99,
-      "avg_margin_pct": 48.0,
-      "scores": {
-        "gross_margin": 88,
-        "demand_satisfaction_gap": 72,
-        "revenue_concentration": 62,
-        "capital_efficiency": 90,
-        "barrier_to_entry": 80,
-        "composite": 79
-      },
-      "score_explanations": {
-        "gross_margin": "High 48% margin — low material cost, small/light for FBA shipping",
-        "demand_satisfaction_gap": "Top complaint is durability — 'my dog destroyed it in 10 minutes' appears in 30%+ of 1-2 star reviews",
-        "revenue_concentration": "Fragmented market — top 3 hold only 18% of reviews, many small sellers",
-        "capital_efficiency": "At $14.99 avg price, $1.5K stocks 200+ units — excellent inventory turnover",
-        "barrier_to_entry": "Simple rubber/nylon manufacturing, but must pass pet safety standards (CPSIA)"
-      },
-      "top_products": [
-        {"name": "Indestructible Rubber Chew Bone (Large)", "price": 12.99, "rating": 4.0, "reviews_count": 3421},
-        {"name": "Puzzle Treat Dispenser Ball", "price": 16.99, "rating": 4.4, "reviews_count": 1567},
-        {"name": "Rope & Rubber Tug Toy (3-Pack)", "price": 11.49, "rating": 3.9, "reviews_count": 2890}
-      ]
-    },
-    {
-      "id": "sports-resistance-bands",
-      "name": "Resistance Bands & Sets",
-      "parent_category": "Sports & Outdoors",
-      "sample_products": 38,
-      "min_viable_budget": 2500,
-      "avg_price": 19.99,
-      "avg_margin_pct": 52.0,
-      "scores": {
-        "gross_margin": 92,
-        "demand_satisfaction_gap": 58,
-        "revenue_concentration": 55,
-        "capital_efficiency": 78,
-        "barrier_to_entry": 75,
-        "composite": 73
-      },
-      "score_explanations": {
-        "gross_margin": "52% margin — extremely low COGS ($2-4 wholesale), lightweight shipping",
-        "demand_satisfaction_gap": "Market is somewhat saturated but 'snapping' and 'rolling up' are common complaints worth solving",
-        "revenue_concentration": "Moderately concentrated — a few big brands (Fit Simplify, INTEY) dominate",
-        "capital_efficiency": "Good unit economics but need variety packs to compete (5-band sets)",
-        "barrier_to_entry": "Low barrier, but latex quality testing recommended to avoid injury liability"
-      },
-      "top_products": [
-        {"name": "5-Level Resistance Band Set with Carry Bag", "price": 12.99, "rating": 4.4, "reviews_count": 5672},
-        {"name": "Fabric Hip Resistance Bands (3-Pack)", "price": 18.99, "rating": 4.5, "reviews_count": 3211},
-        {"name": "Latex-Free Exercise Band Kit (11-Piece)", "price": 24.99, "rating": 4.2, "reviews_count": 1893}
-      ]
-    },
-    {
-      "id": "home-kitchen-silicone-mats",
-      "name": "Silicone Baking & Kitchen Mats",
-      "parent_category": "Home & Kitchen",
-      "sample_products": 31,
-      "min_viable_budget": 1500,
-      "avg_price": 12.99,
-      "avg_margin_pct": 45.0,
-      "scores": {
-        "gross_margin": 82,
-        "demand_satisfaction_gap": 55,
-        "revenue_concentration": 68,
-        "capital_efficiency": 92,
-        "barrier_to_entry": 82,
-        "composite": 75
-      },
-      "score_explanations": {
-        "gross_margin": "45% margin — very cheap to manufacture, FDA food-grade silicone is standard",
-        "demand_satisfaction_gap": "Some complaints about 'curling edges' and 'chemical smell' — solvable with better materials",
-        "revenue_concentration": "Top 3 hold 24% — room to enter with better branding",
-        "capital_efficiency": "At $12.99, $1.5K buys 250+ units — fast turnover",
-        "barrier_to_entry": "Must be FDA food-safe certified, but testing is cheap ($200-400)"
-      },
-      "top_products": [
-        {"name": "Non-Stick Silicone Baking Mat (2-Pack)", "price": 11.99, "rating": 4.6, "reviews_count": 4102},
-        {"name": "Extra-Thick Pastry Rolling Mat", "price": 14.99, "rating": 4.3, "reviews_count": 1876},
-        {"name": "Silicone Dish Drying Mat (Large)", "price": 9.99, "rating": 4.1, "reviews_count": 2543}
-      ]
-    },
-    {
-      "id": "electronics-phone-mounts",
-      "name": "Car & Desk Phone Mounts",
-      "parent_category": "Electronics",
-      "sample_products": 44,
-      "min_viable_budget": 3000,
-      "avg_price": 16.99,
-      "avg_margin_pct": 38.0,
-      "scores": {
-        "gross_margin": 68,
-        "demand_satisfaction_gap": 70,
-        "revenue_concentration": 48,
-        "capital_efficiency": 72,
-        "barrier_to_entry": 60,
-        "composite": 64
-      },
-      "score_explanations": {
-        "gross_margin": "38% margin — decent but higher return rate (compatibility issues) eats profit",
-        "demand_satisfaction_gap": "Strong signal: 'doesn't hold heavy phones', 'suction cup fails in heat' — real pain points",
-        "revenue_concentration": "Highly concentrated — iOttie and Mpow dominate with 40%+ market share",
-        "capital_efficiency": "Moderate — need $3K for meaningful inventory due to SKU variety (car vs desk)",
-        "barrier_to_entry": "Requires design differentiation and FCC compliance for magnetic mounts"
-      },
-      "top_products": [
-        {"name": "Magnetic Air Vent Car Mount", "price": 13.99, "rating": 4.0, "reviews_count": 6543},
-        {"name": "Dashboard Suction Cup Holder (Adjustable)", "price": 17.99, "rating": 3.8, "reviews_count": 4321},
-        {"name": "Gravity-Lock Desk Stand (Aluminum)", "price": 22.99, "rating": 4.5, "reviews_count": 1234}
-      ]
-    },
-    {
-      "id": "pet-supplies-cat-scratchers",
-      "name": "Cat Scratching Posts & Pads",
-      "parent_category": "Pet Supplies",
-      "sample_products": 36,
-      "min_viable_budget": 3500,
-      "avg_price": 28.99,
-      "avg_margin_pct": 40.0,
+      "avg_price": 13.47,
+      "avg_margin_pct": 32,
       "scores": {
         "gross_margin": 72,
-        "demand_satisfaction_gap": 68,
-        "revenue_concentration": 65,
-        "capital_efficiency": 58,
-        "barrier_to_entry": 70,
+        "demand_satisfaction_gap": 58,
+        "revenue_concentration": 52,
+        "capital_efficiency": 78,
+        "barrier_to_entry": 75,
         "composite": 67
       },
       "score_explanations": {
-        "gross_margin": "40% margin but bulky shipping increases FBA fees, especially for tall posts",
-        "demand_satisfaction_gap": "Common complaints: 'fell over', 'carpet shreds everywhere', 'too small for large cats'",
-        "revenue_concentration": "Mid-range — several established brands but none dominant",
-        "capital_efficiency": "Higher unit cost + bulky storage = need more capital for meaningful stock",
-        "barrier_to_entry": "No certifications needed but packaging/shipping logistics are tricky for large items"
+        "gross_margin": "Average price $13.47 with typical COGS $3-4/unit and shipping $2-3. After 30% FBA fees (~$4), realistic margin is 30-35%. Mid-tier margin category\u2014not premium, but sustainable for volume players.",
+        "demand_satisfaction_gap": "Most products rate 4.2-4.5 stars, indicating satisfied customers. However, lower-rated options (3.9-4.0) and price sensitivity (range $4.99-$36.90) suggest opportunity for differentiated features, better durability claims, or niche pricing strategies. Room to innovate but not desperate.",
+        "revenue_concentration": "Market is fragmented but with clear winners: Benebone (107K reviews), HIPPIH (4.7K), PETSTA (8.4K), and Pineapple (4.6K) show high concentration. Top 5 products account for ~40% of review volume. New entrants face established competitors but can still carve niches in underserved segments.",
+        "capital_efficiency": "At $13.47 avg price and low unit cost, a $1,500 budget gets 30-40 units after shipping. $2,000-3,000 budget enables meaningful inventory. Better capital efficiency than premium categories\u2014low barrier to initial stock.",
+        "barrier_to_entry": "Products are simple rubber/plastic toys, mostly treat dispensers. No special certifications required (toys for dogs, not chew hazards). Manufacturing is straightforward with Asian suppliers. Main barrier is brand trust and reviews, not technical complexity. Low manufacturing barrier but moderate brand-building challenge."
       },
       "top_products": [
-        {"name": "Sisal Rope Scratching Post (32-inch)", "price": 24.99, "rating": 4.2, "reviews_count": 3456},
-        {"name": "Cardboard Scratcher Lounge (Reversible)", "price": 19.99, "rating": 4.4, "reviews_count": 5678},
-        {"name": "Wall-Mounted Scratching Panel (Set of 3)", "price": 34.99, "rating": 4.1, "reviews_count": 987}
+        {
+          "name": "Benebone Wishbone Durable Dog Chew Toy for Aggressive Chewers, Real Bacon, Made in USA, Medium",
+          "price": 9.99,
+          "rating": 4.5,
+          "reviews_count": 107017
+        },
+        {
+          "name": "PETSTA Dog Puzzle Toys, Treat Dispensing Dog Enrichment Toys for IQ Training and Brain Stimulation, Interactive Mentally Stimulating Toys as Gifts for Puppies, Cats, Dogs",
+          "price": 13.99,
+          "rating": 4.5,
+          "reviews_count": 8397
+        },
+        {
+          "name": "West Paw Qwizl Durable Zogoflex Dog Puzzle Toy for Mental Stimulation, and Enrichment - Treat Dispensing for Bully Sticks and Dental Sticks - Dishwasher Safe - Made in USA - Large - Aqua",
+          "price": 26.95,
+          "rating": 4.4,
+          "reviews_count": 8280
+        },
+        {
+          "name": "HIPPIH Dog Puzzle Toy 2 Pack, Interactive Dog Toys for Treat Dispensing, Durable Puppy Toys for Teething, Dog Treat Ball for Teeth/Slow Feeder/IQ Training/Playing, Blue-2.75\u2033, Green-3.14\u2033",
+          "price": 8.99,
+          "rating": 4.4,
+          "reviews_count": 4763
+        },
+        {
+          "name": "Pineapple Dog Toys for Large Dogs Puppy, Dog Chew Toys for Small Medium Dogs to Keep Them Busy, Interactive Dog Toys Tough Dog Puzzle Toys Treat Dispensing Durable Dog Dental Chew",
+          "price": 15.99,
+          "rating": 4.4,
+          "reviews_count": 4577
+        }
+      ]
+    },
+    {
+      "id": "home-kitchen-organizers",
+      "name": "Kitchen Drawer Organizers",
+      "parent_category": "Home & Kitchen",
+      "sample_products": 130,
+      "min_viable_budget": 1500,
+      "avg_price": 26.5,
+      "avg_margin_pct": 32,
+      "scores": {
+        "gross_margin": 68,
+        "demand_satisfaction_gap": 62,
+        "revenue_concentration": 48,
+        "capital_efficiency": 75,
+        "barrier_to_entry": 78,
+        "composite": 66
+      },
+      "score_explanations": {
+        "gross_margin": "Realistic 32% margin estimate: avg price $26.50 minus ~$8-9 COGS (bamboo/plastic from China), minus ~$8-9 FBA fees (35% of price), minus ~$1-2 shipping buffer. Low-price items ($5-7) may hit 25-28% due to FBA percentage fees; premium items ($35-40) can reach 35-40%. Conservative mid-range estimate of 32% reflects mix.",
+        "demand_satisfaction_gap": "Strong overall ratings (4.6-4.8 avg across top products) indicate satisfaction, but opportunity exists: (1) Few 5-star reviews despite high volume suggests room for innovation; (2) Price fragmentation ($5.98 to $157.99) indicates unclear value prop\u2014mid-range competitors don't own the market; (3) Review comments likely mention durability, expanding mechanism issues common in organizers. Gap is moderate\u2014not a 'broken' category, but not oversaturated with perfect solutions.",
+        "revenue_concentration": "MODERATE CONCENTRATION\u2014risk factor: Top 3 products by reviews = 28,055 + 13,015 + 42,356 = 83,426 reviews vs. 130 total products. Pipishell (42K), Vtopmart (41K), and Lifewit (28K) dominate significantly. However, market still has room: ~100 other SKUs, long tail is healthy, and search query 'kitchen drawer organizer' shows diverse results. New entrant would struggle against these brands but can carve niche (premium bamboo, eco-angle, etc.).",
+        "capital_efficiency": "EXCELLENT: Avg price $26.50 allows ~75-100 units on $2-2.5K budget (realistic min viable). Low unit cost means lower per-unit risk and fast cash flow if moving inventory. Best-in-class for home organization. Can do first order with $1.5K investment, scale quickly.",
+        "barrier_to_entry": "LOW-TO-MODERATE: (1) No FDA/certifications required (unlike food storage); (2) Manufacturing simple\u2014bulk injection molding or bamboo assembly from existing suppliers; (3) Designs are variations on known concepts (expandable trays, dividers, bins); (4) Supply chain straightforward (established factories in China for these products). Downsides: Established brands (Pipishell, ROYAL CRAFT, Vtopmart) have review moats & brand recognition. Private label feasible but requires differentiation angle (sustainability, design, color options, bundling)."
+      },
+      "top_products": [
+        {
+          "name": "Pipishell Bamboo Expandable Silverware Drawer Organizer",
+          "price": 25.99,
+          "rating": 4.7,
+          "reviews_count": 42356
+        },
+        {
+          "name": "Vtopmart 25 PCS Clear Plastic Drawer Organizers Set",
+          "price": 17.99,
+          "rating": 4.7,
+          "reviews_count": 41087
+        },
+        {
+          "name": "Lifewit Silverware Drawer Organizer",
+          "price": 5.98,
+          "rating": 4.6,
+          "reviews_count": 28055
+        },
+        {
+          "name": "ROYAL CRAFT WOOD Luxury Bamboo Kitchen Drawer Organizer",
+          "price": 39.97,
+          "rating": 4.6,
+          "reviews_count": 35872
+        },
+        {
+          "name": "Purawood Kitchen Drawer Organizer",
+          "price": 39.99,
+          "rating": 4.6,
+          "reviews_count": 13015
+        }
+      ]
+    },
+    {
+      "id": "automotive-car-phone-mounts",
+      "name": "Car Phone Mounts",
+      "parent_category": "Automotive Accessories",
+      "sample_products": 35,
+      "min_viable_budget": 2000,
+      "avg_price": 17.48,
+      "avg_margin_pct": 32,
+      "scores": {
+        "gross_margin": 68,
+        "demand_satisfaction_gap": 58,
+        "revenue_concentration": 52,
+        "capital_efficiency": 72,
+        "barrier_to_entry": 74,
+        "composite": 65
+      },
+      "score_explanations": {
+        "gross_margin": "Realistic margins are 28-35% after Amazon FBA fees (30-35% of sale price), China shipping ($3-5/unit for bulk), and COGS (~$3-6/unit depending on type). Average product price is $17.48, so gross profit per unit is roughly $4.50-6.00. Competitive pricing keeps margins moderate.",
+        "demand_satisfaction_gap": "Most products rate 4.3-4.5 stars with high review counts (5K-60K reviews), indicating solid product-market fit. However, some newer/premium products (magnetic mounts $25+) have low review counts (378-5786), suggesting unsatisfied demand for premium variants. Rating floor is 3.8 stars, indicating quality expectations are high but some improvement pockets exist.",
+        "revenue_concentration": "Top 5 products account for ~280K reviews out of ~520K total (54%), showing significant concentration among established brands (VANMASS, andobil, Miracase). However, mid-tier products ($9-16) have distributed review counts (2K-25K), providing entry opportunities for new sellers with product differentiation.",
+        "capital_efficiency": "With average price of $17.48 and typical $2-2.5K entry budget, a seller could stock 115-140 units (30 units minimum + safety stock). This provides reasonable velocity testing with acceptable inventory risk for a new seller.",
+        "barrier_to_entry": "Car phone mounts require minimal engineering\u2014simple spring mechanisms, suction cups, or magnetic adhesion. No special certifications required (unlike car seats or airbags). Manufacturing is straightforward ODM/OEM with minimal tooling costs ($500-1500 for custom molds). Low brand loyalty\u2014customers compare on reviews, price, and visible specifications. Easy to create differentiated variants (MagSafe focus, strong suction, gooseneck design)."
+      },
+      "top_products": [
+        {
+          "name": "VANMASS Ultimate Car Phone Mount (85+LBS Strongest Suction)",
+          "price": 25.98,
+          "rating": 4.4,
+          "reviews_count": 60505
+        },
+        {
+          "name": "andobil Car Phone Holder (2026 Military-Grade 89lbs Suction)",
+          "price": 26.99,
+          "rating": 4.4,
+          "reviews_count": 30114
+        },
+        {
+          "name": "ANDERY Car Phone Holder for MagSafe (78+LBS Strongest Suction)",
+          "price": 25.6,
+          "rating": 4.5,
+          "reviews_count": 18712
+        },
+        {
+          "name": "Miracase Phone Holders for Your Car (Air Vent Metal Hook)",
+          "price": 12.99,
+          "rating": 4.4,
+          "reviews_count": 41699
+        },
+        {
+          "name": "Qifutan Dash Mounted Phone Holders (Universal)",
+          "price": 9.99,
+          "rating": 4.4,
+          "reviews_count": 17649
+        }
+      ]
+    },
+    {
+      "id": "kitchen-silicone-utensils",
+      "name": "Silicone Kitchen Utensils",
+      "parent_category": "Home & Kitchen",
+      "sample_products": 130,
+      "min_viable_budget": 2500,
+      "avg_price": 23.5,
+      "avg_margin_pct": 32,
+      "scores": {
+        "gross_margin": 68,
+        "demand_satisfaction_gap": 55,
+        "revenue_concentration": 48,
+        "capital_efficiency": 75,
+        "barrier_to_entry": 72,
+        "composite": 64
+      },
+      "score_explanations": {
+        "gross_margin": "Realistic margins of ~32% after FBA fees (30-35% of avg $23.50 price = $7-8.23), shipping costs ($3-4/unit from China), and estimated COGS of $4-6/unit. Room exists but competitive pricing limits upside. Score reflects moderate-to-good profitability.",
+        "demand_satisfaction_gap": "Products show very high ratings (4.5-4.8 across all items) with minimal room to improve through quality differentiation. The market is well-satisfied but volume opportunity exists. Top sellers like Popco (18,650 reviews) and Umite Chef (29,925 reviews) indicate strong demand but also that satisfaction gaps are narrow. Score reflects saturated quality but strong volume demand.",
+        "revenue_concentration": "Moderate concentration risk. Top 3 products account for ~65K of ~200K+ total reviews in sample. Popco dominates tongs, Umite Chef dominates full sets, but many mid-tier products (1K-4K reviews) show newcomers can gain traction. Market is fragmented enough for niches (bulk packs, premium handles, eco-friendly) to succeed.",
+        "capital_efficiency": "At $23.50 avg price, a $2,500 budget funds ~105 units (accounting for 15% shrinkage/returns). This allows meaningful inventory across 3-4 SKU variants. Lower individual unit price (vs premium kitchen tools) enables faster inventory turnover and lower risk per product. Good capital efficiency.",
+        "barrier_to_entry": "Low barriers. No advanced certifications required beyond basic BPA-free/food-grade (standard for all competitors). Manufacturing is straightforward injection-molded silicone + handles. Minimal tooling costs for importers. Differentiation possible through color, set size, bundling, or handle design rather than innovation. Strong OEM suppliers in China. Only real barrier is brand/review volume\u2014newcomers must compete on price or unique bundling."
+      },
+      "top_products": [
+        {
+          "name": "Umite Chef Kitchen Cooking Utensils Set, 33 pcs Non-Stick Silicone Cooking Kitchen Utensils Spatula Set with Holder, Wooden Handle Silicone Kitchen Gadgets Utensil Set (Khaki)",
+          "price": 21.99,
+          "rating": 4.5,
+          "reviews_count": 29925
+        },
+        {
+          "name": "Popco 3 Piece Kitchen Tongs Set 7, 9, 12 Inch - Stainless Steel Nonstick Tongs with Silicone Tips - Heat Resistant and Dishwasher Safe for Cooking, Grilling, Salad, and Everyday Serving",
+          "price": 9.99,
+          "rating": 4.7,
+          "reviews_count": 18650
+        },
+        {
+          "name": "AOTHOD Silicone Cooking Utensils Set - 446\u00b0F Heat Resistant Kitchen Utensils,Turner Tongs,Spatula,Spoon,Brush,Whisk,Kitchen Utensil Gadgets Tools Set for Nonstick Cookware,Dishwasher Safe (BPA Free)",
+          "price": 19.19,
+          "rating": 4.6,
+          "reviews_count": 21599
+        },
+        {
+          "name": "Kitchen Utensil Set-Silicone Cooking Utensils-33 Kitchen Gadgets & Spoons for Nonstick Cookware-Silicone and Stainless Steel Spatula Set-Best Kitchen Tools, Useful Pots and Pans Accessories",
+          "price": 39.99,
+          "rating": 4.6,
+          "reviews_count": 7017
+        },
+        {
+          "name": "oannao Silicone Cooking Utensils Kitchen Utensil Set - 446\u00b0F Heat Resistant Silicone Kitchen Utensils Set, Spatula,Turner Tongs, Spoon, Whisk,Kitchen Gadgets for Nonstick Cookware, BPA Free (Gray)",
+          "price": 25.99,
+          "rating": 4.5,
+          "reviews_count": 15869
+        }
       ]
     },
     {
       "id": "office-desk-accessories",
-      "name": "Desk Organizers & Accessories",
+      "name": "Office Desk Accessories",
       "parent_category": "Office Products",
-      "sample_products": 40,
-      "min_viable_budget": 2500,
-      "avg_price": 22.99,
-      "avg_margin_pct": 44.0,
+      "sample_products": 130,
+      "min_viable_budget": 2000,
+      "avg_price": 22.5,
+      "avg_margin_pct": 32,
       "scores": {
-        "gross_margin": 80,
-        "demand_satisfaction_gap": 52,
-        "revenue_concentration": 70,
-        "capital_efficiency": 76,
-        "barrier_to_entry": 88,
-        "composite": 72
+        "gross_margin": 68,
+        "demand_satisfaction_gap": 55,
+        "revenue_concentration": 48,
+        "capital_efficiency": 72,
+        "barrier_to_entry": 75,
+        "composite": 63
       },
       "score_explanations": {
-        "gross_margin": "44% margin — low COGS for bamboo/metal organizers, good size-to-value ratio",
-        "demand_satisfaction_gap": "Market is mature with fewer obvious pain points, but 'cheap feel' and 'wobbles' are common",
-        "revenue_concentration": "Distributed market — many small brands, no single dominant player",
-        "capital_efficiency": "Moderate pricing allows 100+ units with $2.5K budget",
-        "barrier_to_entry": "Very low — simple products, no certifications, easy to brand"
+        "gross_margin": "Achievable but constrained. Average price ~$22.50 with estimated COGS of $6-8 (China sourcing), FBA fees (~$7-8 per unit at this price point), and shipping (~$3-4). Leaves ~32% margin after all costs. Some low-priced items ($5-10) have thinner margins; higher-priced organizers ($30-47) could reach 38-40%. Conservative estimate given competitive pricing.",
+        "demand_satisfaction_gap": "Moderate opportunity. Most products rate 4.5-4.7 stars\u2014very high satisfaction, suggesting market is well-served. Few products with 3.5-4.0 rating complaints. However, diversity in product types (pen holders, file organizers, monitor stands) shows fragmented needs. Room for innovation in specific subcategories, but not urgent unmet demand.",
+        "revenue_concentration": "Significant concentration risk. Amazon Basics products dominate with 5,300+ reviews, OPNICE has 3,600-4,300 reviews, Simple Trending has 4,700+. Top 5 brands control ~40% of visible reviews. Newcomer would struggle for visibility competing against these established players with massive review counts. Makes ranking harder.",
+        "capital_efficiency": "Strong advantage. Average price of $22.50 means $2,000 budget covers ~90 units; $2,500 covers ~110 units. Shipping/logistics costs are manageable due to lower dimensional weight. Unfinished inventory risk is moderate\u2014office accessories move steadily year-round, not seasonal.",
+        "barrier_to_entry": "Low-to-moderate barriers. Most products are simple molded plastic, metal mesh, or wood\u2014no complex manufacturing or certifications required. Design variation is the main differentiator (colors, sizes, multi-functionality). However, competing against Amazon Basics and established brands requires solid design and sourcing to hit price points while maintaining margin. Supply chain established, no patents blocking entry.",
+        "composite": "63 - This is a CAUTIOUSLY MODERATE category. Strong on capital efficiency and low barriers, but held back by high market concentration and thin margins. The category has proven demand (high volume, strong ratings), but profitability requires careful sourcing and differentiation. Best suited for sellers who can source premium materials, unique designs (e.g., eco-friendly, luxury finishes), or underserved subcategories (e.g., standing desk organizers, cable management)."
       },
       "top_products": [
-        {"name": "Bamboo Desktop Organizer with Drawer", "price": 26.99, "rating": 4.4, "reviews_count": 2345},
-        {"name": "Metal Mesh Desk Set (5-Piece)", "price": 19.99, "rating": 4.1, "reviews_count": 3210},
-        {"name": "Monitor Stand with Storage Slots", "price": 21.99, "rating": 4.3, "reviews_count": 1876}
+        {
+          "name": "Amazon Basics Rectangular Plastic Desk Organizer, Half Accessory Tray",
+          "price": 5.0,
+          "rating": 4.5,
+          "reviews_count": 5363
+        },
+        {
+          "name": "Amazon Basics Rectangular Plastic Desk Organizer with Storage Trays",
+          "price": 9.0,
+          "rating": 4.5,
+          "reviews_count": 5435
+        },
+        {
+          "name": "SKYDUE 360 Rotating Plastic Desk Pen Organizer with 5 Slots",
+          "price": 9.98,
+          "rating": 4.7,
+          "reviews_count": 5063
+        },
+        {
+          "name": "Simple Trending 7 Tier Desk File Organizer",
+          "price": 29.97,
+          "rating": 4.7,
+          "reviews_count": 4787
+        },
+        {
+          "name": "OPNICE Desk Organizer, 4-Tier Desktop File Organizer",
+          "price": 19.65,
+          "rating": 4.5,
+          "reviews_count": 3648
+        }
       ]
     },
     {
-      "id": "health-essential-oils",
-      "name": "Essential Oil Sets & Diffuser Oils",
-      "parent_category": "Health & Household",
-      "sample_products": 29,
-      "min_viable_budget": 4000,
-      "avg_price": 19.99,
-      "avg_margin_pct": 55.0,
+      "id": "baby-teething-toys",
+      "name": "Baby Teething Toys (Silicone)",
+      "parent_category": "Baby > Toys",
+      "sample_products": 130,
+      "min_viable_budget": 2500,
+      "avg_price": 9.12,
+      "avg_margin_pct": 32,
       "scores": {
-        "gross_margin": 95,
+        "gross_margin": 68,
+        "demand_satisfaction_gap": 58,
+        "revenue_concentration": 45,
+        "capital_efficiency": 72,
+        "barrier_to_entry": 72,
+        "composite": 63
+      },
+      "score_explanations": {
+        "gross_margin": "Average price ~$9.12 with estimated COGS of $2-3 and FBA fees (~32% of price = $2.90) leaves ~$3-4 per unit in gross profit. Realistic margin is 32-35% after all costs. Score reflects solid but not exceptional margins typical for low-priced consumables.",
+        "demand_satisfaction_gap": "Market is highly satisfied \u2014 most products rate 4.6-4.9 stars with very few complaints evident. However, the segment has clear subcategories (rings, sticks, mittens, brushes) suggesting unmet preferences for specific product types. Score reflects modest opportunity to differentiate through form factor or feature innovation rather than quality gaps.",
+        "revenue_concentration": "Moderate concentration risk. Top products have 12,000-88,000 reviews but the market shows significant breadth with 130+ products scraped. No single brand dominates; multiple products across $5-20 price range succeed. Newcomers have room but face established players with strong social proof.",
+        "capital_efficiency": "Low average price ($9.12) and entry-level budget of $2,500 allows stocking 200-270 units (30-unit starting batch = ~$250 COGS + ~$800-1200 shipping). This is excellent capital efficiency \u2014 low per-unit risk and ability to test multiple variants. Higher score reflects quick inventory turnover potential.",
+        "barrier_to_entry": "Manufacturing is straightforward \u2014 silicone molding is commodity process. BPA-free certification is standard (not premium), minimal regulatory complexity. No patents blocking entry. Design copying is obvious but reverse-engineering is simple. Main barrier is building brand trust through reviews/marketing. Lower complexity = higher score.",
+        "composite": 63
+      },
+      "top_products": [
+        {
+          "name": "Nuby Ice Gel Teether Keys",
+          "price": 4.28,
+          "rating": 4.7,
+          "reviews_count": 88706
+        },
+        {
+          "name": "Baby Elefun Baby Teething Toys 5X Pain Relief",
+          "price": 8.98,
+          "rating": 4.8,
+          "reviews_count": 12968
+        },
+        {
+          "name": "Frida Baby Silicone Teething Toys, 4-in-1 Teether",
+          "price": 7.99,
+          "rating": 4.6,
+          "reviews_count": 11208
+        },
+        {
+          "name": "Teething Sticks for Babies 36+ Months (Multicolor 6-Pack)",
+          "price": 9.99,
+          "rating": 4.8,
+          "reviews_count": 9887
+        },
+        {
+          "name": "Baby Montessori Sensory Toys for 0-6 Months",
+          "price": 9.99,
+          "rating": 4.7,
+          "reviews_count": 7824
+        }
+      ]
+    },
+    {
+      "id": "fitness-resistance-bands",
+      "name": "Resistance Bands & Exercise Bands",
+      "parent_category": "Sports & Outdoors",
+      "sample_products": 97,
+      "min_viable_budget": 3000,
+      "avg_price": 18.47,
+      "avg_margin_pct": 32,
+      "scores": {
+        "gross_margin": 68,
         "demand_satisfaction_gap": 48,
         "revenue_concentration": 42,
-        "capital_efficiency": 65,
-        "barrier_to_entry": 50,
-        "composite": 61
+        "capital_efficiency": 75,
+        "barrier_to_entry": 72,
+        "composite": 58
       },
       "score_explanations": {
-        "gross_margin": "55% margin — oils are extremely cheap to bottle, high perceived value",
-        "demand_satisfaction_gap": "Low gap — established brands have strong reviews, hard to differentiate on quality alone",
-        "revenue_concentration": "Very concentrated — doTERRA, NOW, Plant Therapy own the space",
-        "capital_efficiency": "Need variety sets (6-12 oils) to compete, which raises per-unit cost",
-        "barrier_to_entry": "GMP compliance needed, FDA scrutiny on health claims, organic certification expensive"
+        "gross_margin": "Realistic margins of ~32% after FBA fees (30-35%), shipping (~$4/unit from China), and modest COGS (~$2-3/unit for basic bands). Low-price items ($5-$10) suffer more from fee burden; higher-price sets ($25-40) support better margins. Score moderately strong but not exceptional.",
+        "demand_satisfaction_gap": "Most products rate 4.4-4.7 stars with very high review counts \u2014 extremely competitive and saturated. No glaring quality gap that signals unmet demand. Low-end basic bands and high-end heavy bands both well-covered. Little room for product differentiation. Gap exists but is modest.",
+        "revenue_concentration": "Fit Simplify (134K reviews) and WHATAFIT (35K reviews) dominate heavily. Followed by several products with 7K-22K reviews. Long tail exists but the top 2-3 products capture disproportionate share. Newcomer would struggle to break through noise. Moderate barrier to visibility.",
+        "capital_efficiency": "Average price of ~$18.47 with a $3K budget allows ~160 units (assuming $15-18 landed cost per unit). Resistance bands are lightweight and pack efficiently, so per-unit storage is favorable. Low unit cost enables diversification across multiple SKUs. Capital goes far \u2014 good risk distribution.",
+        "barrier_to_entry": "Resistance bands are simple commodity items with minimal IP, certification, or manufacturing complexity. No exclusivity or patentable features. Suppliers are abundant in China. Branding matters minimally \u2014 buyers optimize for price/reviews. Very easy to source and private label. No regulatory hurdles. High entry accessibility.",
+        "composite": "Moderate opportunity. Strong capital efficiency and low barriers offset by extreme market saturation, minimal quality gaps, and dominant review-count leaders. Feasible for newcomers targeting niche angles (fabric bands, eco materials, premium packaging) but organic growth difficult. Better as supporting SKU than core business focus."
       },
       "top_products": [
-        {"name": "Top 6 Essential Oil Gift Set", "price": 14.99, "rating": 4.5, "reviews_count": 8765},
-        {"name": "Lavender Oil (4oz, Therapeutic Grade)", "price": 12.99, "rating": 4.6, "reviews_count": 5432},
-        {"name": "12-Oil Aromatherapy Starter Kit", "price": 24.99, "rating": 4.3, "reviews_count": 3210}
+        {
+          "name": "Fit Simplify Resistance Loop Exercise Bands with Instruction Guide and Carry Bag, Set of 5",
+          "price": 9.98,
+          "rating": 4.5,
+          "reviews_count": 134986
+        },
+        {
+          "name": "WHATAFIT Resistance Bands, Exercise Bands, Resistance Bands for Working Out, Work Out Bands with Handles for Men and Women Fitness, Strength Training Home Gym Equipment",
+          "price": 27.97,
+          "rating": 4.6,
+          "reviews_count": 35567
+        },
+        {
+          "name": "Renoj Resistance Bands for Working Out: 3-Set Professional Exercise Bands for Pilates, Yoga, Home Gym, Booty, Leg Training",
+          "price": 15.99,
+          "rating": 4.7,
+          "reviews_count": 42445
+        },
+        {
+          "name": "WALITO Resistance Bands for Working Out, Fabric Exercise Bands for Legs and Butt, Workout Bands for Women and Men",
+          "price": 12.99,
+          "rating": 4.7,
+          "reviews_count": 25029
+        },
+        {
+          "name": "VEICK Resistance Bands, Exercise Bands, Workout Bands, Resistance Bands for Working Out with Handles for Men and Women",
+          "price": 27.97,
+          "rating": 4.6,
+          "reviews_count": 22642
+        }
       ]
     },
     {
-      "id": "sports-yoga-accessories",
-      "name": "Yoga Blocks, Straps & Accessories",
+      "id": "yoga-mats",
+      "name": "Non-Slip Yoga Mats (Thick)",
       "parent_category": "Sports & Outdoors",
-      "sample_products": 33,
-      "min_viable_budget": 2000,
-      "avg_price": 15.99,
-      "avg_margin_pct": 50.0,
+      "sample_products": 99,
+      "min_viable_budget": 2500,
+      "avg_price": 29.5,
+      "avg_margin_pct": 32,
       "scores": {
-        "gross_margin": 90,
-        "demand_satisfaction_gap": 45,
-        "revenue_concentration": 58,
-        "capital_efficiency": 85,
-        "barrier_to_entry": 78,
-        "composite": 71
+        "gross_margin": 65,
+        "demand_satisfaction_gap": 48,
+        "revenue_concentration": 35,
+        "capital_efficiency": 72,
+        "barrier_to_entry": 68,
+        "composite": 57
       },
       "score_explanations": {
-        "gross_margin": "50% margin — EVA foam blocks cost $1-2 wholesale, straps even less",
-        "demand_satisfaction_gap": "Mature market with satisfied customers — hard to find clear unmet needs",
-        "revenue_concentration": "Few big players (Gaiam, Manduka) but many small sellers coexist",
-        "capital_efficiency": "Lightweight, cheap units — $2K stocks 250+ blocks",
-        "barrier_to_entry": "No certifications, simple manufacturing, easy to private-label"
+        "gross_margin": "At $29.50 avg price, realistic COGS is $8-10/unit (manufactured in China). FBA fees run ~$8.70 (28-30% of price). Shipping from supplier adds $3-4/unit. This leaves ~$8-10/unit gross margin (27-34%), trending toward the lower-middle range. Competitive pricing pressure from Fitvids ($16.99), CAP Barbell ($18.99), and Amazon Basics ($21.58) limits upside. Score reflects solid but not exceptional margins.",
+        "demand_satisfaction_gap": "Most products rate 4.4-4.7 stars with minimal negative clustering\u2014very few 3.5-4.0 range products. This suggests the market is reasonably satisfied. However, some lower-priced competitors have massive review counts (Fitvids: 94k, Amazon Basics: 67k) with 4.5-4.6 ratings, indicating room for better value positioning. The gap exists but isn't dramatic.",
+        "revenue_concentration": "Heavy concentration in top products: Amazon Basics (67.7k reviews), Fitvids (94k reviews), Retrospec (14k reviews) dominate. Mid-tier products cluster 2k-9k reviews; long tail is sparse. This concentration makes it harder for new entrants to gain traction\u2014you're competing against established players with significant review velocity and trust. Score reflects unfavorable distribution.",
+        "capital_efficiency": "At $29.50 avg price with $2,500-3,000 budget (realistic for FBA entry), you can stock 85-100 units\u2014a healthy initial inventory for testing. Shipping to FBA is ~$0.50-1.00/unit (lightweight product). Low per-unit cost and low inventory footprint support multiple SKU variants (thickness, color, length). This is a strength.",
+        "barrier_to_entry": "Yoga mats are low-complexity manufacturing with no certifications required (unlike electronics/supplements). TPE/NBR materials are commodity. Sourcing is straightforward from Alibaba/1688. However, brand recognition matters\u2014top sellers (Gaiam, Retrospec, Amazon Basics) have strong moats. Differentiation is challenging but not impossible (alignment marks, eco-friendly materials, unique strap design). Realistic barrier.",
+        "composite": "57 reflects a middle-tier opportunity with real demand but saturated competition. Margins are acceptable but compressed. Capital efficiency is good, but revenue concentration and modest demand satisfaction gaps (product quality is already high) limit upside. Best suited for niche variants (wider mats, eco-friendly, specific thickness combos) rather than head-to-head competition with incumbents."
       },
       "top_products": [
-        {"name": "High-Density EVA Foam Yoga Block (2-Pack)", "price": 12.99, "rating": 4.7, "reviews_count": 7654},
-        {"name": "Cotton Yoga Strap with D-Ring (8ft)", "price": 9.99, "rating": 4.5, "reviews_count": 4321},
-        {"name": "Cork Yoga Block (Natural, Non-Slip)", "price": 18.99, "rating": 4.6, "reviews_count": 2109}
+        {
+          "name": "Amazon Basics Extra Thick Exercise Yoga Mat with Carrying Strap",
+          "price": 21.58,
+          "rating": 4.6,
+          "reviews_count": 67691
+        },
+        {
+          "name": "Fitvids Yoga Mat, 1/2-Inch Extra Thick High Density Exercise Mat, Anti-Tear Exercise Yoga Mat with Carrying Strap",
+          "price": 17.99,
+          "rating": 4.5,
+          "reviews_count": 94020
+        },
+        {
+          "name": "Gaiam Yoga Mat, Pilates & Exercise Mat, Thick 2/5\" (10mm) Workout Mat with Easy-Cinch Carrying Strap",
+          "price": 25.26,
+          "rating": 4.6,
+          "reviews_count": 45611
+        },
+        {
+          "name": "Retrospec Solana Yoga Mat 1\" Thick w/Nylon Strap for Men & Women - Non Slip Exercise Mat",
+          "price": 39.99,
+          "rating": 4.5,
+          "reviews_count": 14059
+        },
+        {
+          "name": "BalanceFrom 71x24 Inches Extra Thick Yoga Mat 1-Inch High-Density Foam",
+          "price": 29.97,
+          "rating": 4.7,
+          "reviews_count": 18646
+        }
       ]
     },
     {
-      "id": "electronics-cable-organizers",
-      "name": "Cable Management & Organizers",
-      "parent_category": "Electronics",
-      "sample_products": 42,
-      "min_viable_budget": 5000,
-      "avg_price": 14.99,
-      "avg_margin_pct": 35.0,
+      "id": "travel-packing-cubes",
+      "name": "Travel Packing Cubes",
+      "parent_category": "Clothing & Accessories",
+      "sample_products": 108,
+      "min_viable_budget": 1500,
+      "avg_price": 19.5,
+      "avg_margin_pct": 28,
       "scores": {
-        "gross_margin": 62,
-        "demand_satisfaction_gap": 60,
-        "revenue_concentration": 52,
-        "capital_efficiency": 70,
-        "barrier_to_entry": 65,
-        "composite": 62
+        "gross_margin": 52,
+        "demand_satisfaction_gap": 58,
+        "revenue_concentration": 42,
+        "capital_efficiency": 72,
+        "barrier_to_entry": 75,
+        "composite": 56
       },
       "score_explanations": {
-        "gross_margin": "35% margin — competitive pricing pressure keeps margins thinner",
-        "demand_satisfaction_gap": "'Adhesive doesn't hold' and 'clips too small for thicker cables' are recurring complaints",
-        "revenue_concentration": "Somewhat concentrated — J Channel and SimpleCord have strong positions",
-        "capital_efficiency": "Low price point but need variety packs and kits to differentiate, raising per-SKU cost",
-        "barrier_to_entry": "Low technical barrier but heavy competition — need strong listing optimization"
+        "gross_margin": "Average price ~$19.50. With FBA fees (30-35% of $19.50 = ~$6), estimated COGS of $4-5/unit from China, shipping $3-4, total landed cost is ~$13-14. Realistic margin: $5.50-6.50 per unit (28-33%). Below-average due to competitive pricing pressure and low price point limiting absolute profit dollars.",
+        "demand_satisfaction_gap": "Most products rated 4.5-4.8 stars (minimal complaints visible). However, several competitors have massive review counts (42K+) suggesting room for differentiated features or better customer service. Newer entrants with 4.6+ ratings suggest the market rewards quality. Moderate opportunity exists but satisfaction is generally high.",
+        "revenue_concentration": "BAGAIL dominates with 42K reviews across multiple color variants (1 ASIN). Veken, Shacke, and TravelWise also have 9K-34K reviews. However, 108 products scraped shows a long tail market\u2014many smaller brands exist with <5K reviews. Medium concentration; room for niche players.",
+        "capital_efficiency": "Average price $19.50 with ~$2K min viable budget allows 100+ units to stock (at ~$13-14 landed cost), mitigating risk. High unit velocity at this price point (travel essentials). Strong score due to affordability and low per-unit commitment.",
+        "barrier_to_entry": "Packing cubes are simple nylon/polyester bags with zippers\u2014no complex manufacturing, certifications, or patents required. BAGAIL includes Global Recycled Standard/OEKO-TEX certifications, but these are optional differentiators, not barriers. Easy to source from any Chinese factory. Low barriers.",
+        "composite": "Moderate-to-good FBA opportunity. Low margins (28%) and high revenue concentration from mega-brands (BAGAIL, Amazon Essentials) limit upside, but strong capital efficiency, easy entry, and satisfied-but-not-exceptional customer experience create viable niches for differentiation (compression tech, eco-materials, bundle sets, or superior customer support)."
       },
       "top_products": [
-        {"name": "Under-Desk Cable Management Tray (2-Pack)", "price": 17.99, "rating": 4.3, "reviews_count": 3456},
-        {"name": "Self-Adhesive Cable Clips (50-Pack)", "price": 8.99, "rating": 4.0, "reviews_count": 6789},
-        {"name": "Cable Sleeve Zip Kit (4 Sizes)", "price": 13.99, "rating": 4.2, "reviews_count": 2345}
+        {
+          "name": "BAGAIL 8 Set Packing Cubes Luggage Packing Organizers - Cream (Global Recycled Standard)",
+          "price": 16.99,
+          "rating": 4.6,
+          "reviews_count": 42242
+        },
+        {
+          "name": "Amazon Essentials 4-Piece Packing Cubes Travel Accessories Set",
+          "price": 17.82,
+          "rating": 4.6,
+          "reviews_count": 42720
+        },
+        {
+          "name": "Veken 10 Set/8 Set Packing Cubes for Travel Essentials",
+          "price": 16.99,
+          "rating": 4.6,
+          "reviews_count": 34586
+        },
+        {
+          "name": "Shacke Packing Cubes for Travel 5 Set - Compression Luggage Organizer Bags",
+          "price": 27.99,
+          "rating": 4.8,
+          "reviews_count": 23623
+        },
+        {
+          "name": "Veken 9/11 Set Compression Packing Cubes for Travel Essentials",
+          "price": 22.99,
+          "rating": 4.7,
+          "reviews_count": 13461
+        }
       ]
+    },
+    {
+      "id": "phone-cases-iphone",
+      "name": "iPhone 15 Cases (Protective)",
+      "parent_category": "Cell Phones & Accessories",
+      "sample_products": 60,
+      "min_viable_budget": 1500,
+      "avg_price": 14.25,
+      "avg_margin_pct": 28,
+      "scores": {
+        "gross_margin": 52,
+        "demand_satisfaction_gap": 58,
+        "revenue_concentration": 42,
+        "capital_efficiency": 72,
+        "barrier_to_entry": 68,
+        "composite": 56
+      },
+      "score_explanations": {
+        "gross_margin": "Realistic but tight margins. Avg price $14.25 with 30-35% FBA fees (~$4.40), $3.50-4.50 shipping from China, and estimated COGS of $2-3. Net margin: ~28%. iPhone cases are commodity products with heavy price competition. Top sellers (FNTCASE $5.36, magnetic cases at $7.98-9.99) operate on razor-thin margins. Only higher-priced cases ($24-32) achieve 35%+ margins, but those are niche (design/brand premium).",
+        "demand_satisfaction_gap": "Moderate opportunity. Most products rate 4.4-4.7 stars\u2014consistently high satisfaction. However, 100K+ review products (Miracase, FNTCASE, SUPFINE, Diaclara) indicate established market dominance and competitive maturity. Complaint patterns from lower-rated products suggest opportunities in: yellowing resistance (mentioned multiple times as a selling point), privacy/anti-spy features (niche angle), and full-body protection bundles. The gap exists but requires differentiation.",
+        "revenue_concentration": "Highly concentrated\u2014problematic for new entrants. Top 5 products by review count: Miracase (107K), FNTCASE (68K), Diaclara (62K), SUPFINE (59K), Mkeke (45K). These 5 dominate ~25-30% of visible market share. Rank falls off sharply\u2014many products have <2K reviews. Winner-take-most dynamics favor established brands. Score reflects difficulty for newcomers to break into top tier.",
+        "capital_efficiency": "Strong advantage for this category. Low avg price ($14.25) means a $1,500-2,000 budget funds 100-150 units (30-unit MoQ realistic for dropship, but direct manufacturing requires higher). More units = better cash flow management = lower risk per SKU. Much better than higher-ticket categories. Budget floor is realistic: ~$1,500 covers 30-unit order + FBA prep + initial marketing.",
+        "barrier_to_entry": "Relatively low\u2014favorable for startups. No certifications required. Manufacturing is straightforward (mold + TPU/PC injection). Supply chain mature via Alibaba/1688. However, brand dominance (OtterBox, Speck, ESR, PopSockets) and massive review counts create *market* barriers. Product differentiation is key\u2014purely generic cases compete solely on price. Design/niche angles (floral, luxury, eco-materials) show traction but require design R&D.",
+        "composite": "56/100 reflects a **moderate-opportunity, high-competition** category. Strong capital efficiency and low manufacturing barrier offset by tight margins, high revenue concentration, and saturated market with established players. Viable but requires: (1) design/brand differentiation, (2) target specific sub-niche (women/floral/eco/privacy), (3) accept lower margins or compete on volume. Not recommended for first-time sellers seeking easy wins."
+      },
+      "top_products": [
+        {
+          "name": "Miracase Glass Series for iPhone 15 Case (9H Tempered Glass + MagSafe)",
+          "price": 17.95,
+          "rating": 4.3,
+          "reviews_count": 107200
+        },
+        {
+          "name": "FNTCASE for iPhone 15 Case Clear (Magnetic + Screen Protector)",
+          "price": 5.36,
+          "rating": 4.6,
+          "reviews_count": 68396
+        },
+        {
+          "name": "Diaclara Designed for iPhone 15 Case (Full Body + Screen Protector)",
+          "price": 14.39,
+          "rating": 4.4,
+          "reviews_count": 62563
+        },
+        {
+          "name": "SUPFINE Magnetic for iPhone 15 Case (Military Grade Drop Protection)",
+          "price": 9.99,
+          "rating": 4.6,
+          "reviews_count": 59367
+        },
+        {
+          "name": "Mkeke for iPhone 15 Case Clear (Military-Grade Drop Protection)",
+          "price": 9.98,
+          "rating": 4.7,
+          "reviews_count": 45427
+        }
+      ]
+    },
+    {
+      "id": "reusable-water-bottles",
+      "name": "Insulated Stainless Steel Water Bottles",
+      "parent_category": "Sports & Outdoors",
+      "sample_products": 109,
+      "min_viable_budget": 2500,
+      "avg_price": 20.5,
+      "avg_margin_pct": 28,
+      "scores": {
+        "gross_margin": 48,
+        "demand_satisfaction_gap": 45,
+        "revenue_concentration": 35,
+        "capital_efficiency": 72,
+        "barrier_to_entry": 62,
+        "composite": 44
+      },
+      "score_explanations": {
+        "gross_margin": "Average product price ~$20.50. After FBA fees (30-35%), ~$3-4 per unit shipping/handling costs, and estimated COGS of $4-6 per unit, realistic margin is 25-32%. Category margins are compressed due to high competition and commoditization. Premium brands (Owala, Hydro Flask at $30-45) achieve better margins but represent small share of market.",
+        "demand_satisfaction_gap": "Average ratings are very high (4.5-4.7 across products). This indicates strong product-market fit but LIMITED opportunity for 'problem-solving' differentiation. Most reviews are positive, suggesting customer satisfaction is already high. Market is mature rather than under-served. Gap exists only in niche features (specific lid types, eco-materials, unique aesthetics).",
+        "revenue_concentration": "Severe concentration: Owala FreeSip variants dominate with 115K reviews each. IRON FLASK has 67K reviews, ThermoFlask 10K+, CamelBak 11K+. Top 5 products account for ~250K of ~450K estimated total reviews. New entrants would struggle against these established bestsellers with massive review velocity advantage.",
+        "capital_efficiency": "Favorable: $20.50 average price means a $2,500 budget buys ~120 units (assuming $3-4/unit landed cost after shipping from China). At $2-3K budget, can stock 80-100 units safely. Lower per-unit cost reduces inventory risk and allows faster inventory turns to test product fit.",
+        "barrier_to_entry": "Moderate: Manufacturing is straightforward (vacuum insulation is commodity-level technology). Key barriers are: (1) established brand dominance (Owala, Hydro Flask, CamelBak), (2) need for SGS/BPA certifications, (3) minimum order quantities (typically 500-1000 units from suppliers), (4) design/color differentiation now critical due to market saturation. Private label is viable but brand moat exists.",
+        "composite": "44/100 - BELOW AVERAGE opportunity. Strong capital efficiency and moderate barrier-to-entry are offset by thin margins (28%), high revenue concentration (tough to break through), and saturated market with minimal satisfaction gaps. This is a 'me-too' category where success requires either: (A) significant capital for brand marketing, (B) unique design/feature innovation, or (C) targeting underserved micro-niche (e.g., eco-friendly, specific sports, kids). Recommend exploring adjacent categories like water bottle ACCESSORIES (caps, straws, carriers) for better margins with lower competition."
+      },
+      "top_products": [
+        {
+          "name": "Owala FreeSip Insulated Stainless Steel Water Bottle with Straw, 24 Oz, Denim",
+          "price": 29.98,
+          "rating": 4.7,
+          "reviews_count": 115519
+        },
+        {
+          "name": "IRON \u00b0FLASK Camping & Hiking Hydration Flask with Straw, 40 oz Midnight Black",
+          "price": 19.99,
+          "rating": 4.7,
+          "reviews_count": 67071
+        },
+        {
+          "name": "Hydro Flask Water Bottle - Insulated Stainless Steel - 32 Oz Indigo Blue",
+          "price": 44.95,
+          "rating": 4.7,
+          "reviews_count": 29858
+        },
+        {
+          "name": "ThermoFlask Stainless Steel Water Bottles 2-Pack - 24 oz",
+          "price": 35.99,
+          "rating": 4.8,
+          "reviews_count": 10773
+        },
+        {
+          "name": "CamelBak Chute Mag Vacuum Insulated Stainless Steel Water Bottle",
+          "price": 33.99,
+          "rating": 4.7,
+          "reviews_count": 11088
+        }
+      ]
+    },
+    {
+      "id": "led-strip-lights",
+      "name": "LED Strip Lights for Bedroom",
+      "parent_category": "Tools & Home Improvement",
+      "sample_products": 139,
+      "min_viable_budget": 3000,
+      "avg_price": 16.5,
+      "avg_margin_pct": 28,
+      "scores": {
+        "gross_margin": 48,
+        "demand_satisfaction_gap": 35,
+        "revenue_concentration": 32,
+        "capital_efficiency": 72,
+        "barrier_to_entry": 62,
+        "composite": 42
+      },
+      "score_explanations": {
+        "gross_margin": "Margins are compressed. At $9-20 avg price, after 35% FBA fees ($3-7), $3-4 shipping from China, and ~$2-3 COGS, you're left with ~28% net margin. Cheaper products (under $10) are particularly tight; premium smart strips ($25+) offer better returns but lower volume.",
+        "demand_satisfaction_gap": "Market is well-satisfied. Most products rate 4.2-4.5 stars with massive review counts (thousands to 135K+). Very few complaints visible at lower star ratings. Limited room for product innovation \u2014 market is mature and customers are happy with existing solutions.",
+        "revenue_concentration": "Extreme concentration among 3-4 players. DAYBETTER and Govee dominate with products having 6K-135K reviews. The #1 product alone has 135K reviews. New entrants would struggle to gain visibility against entrenched brands with massive social proof.",
+        "capital_efficiency": "At $16.50 avg price, a $3K budget gets ~180 units (realistic for 30-unit minimum orders with shipping). Good turnover velocity possible given high demand, but tight margins limit ROI per unit sold.",
+        "barrier_to_entry": "Moderate barriers. Manufacturing is straightforward (sourcing LED strips + controllers from Shenzhen suppliers), but requires:\n- FCC/CE certifications for smart variants\n- Quality control (defect rates matter hugely with 4+ star expectations)\n- Competitive supplier relationships to hit cost targets\n- Branding/differentiation crowded by established players\nNot highly complex, but not trivial."
+      },
+      "top_products": "[\n  {\n    \"name\": \"DAYBETTER LED Strip Lights 200 ft (2 Rolls of 100 ft), Smart App Control Lighting Bedroom Rome Decor with Remote, RGB Music Sync Color Changing LED Lights for Party\",\n    \"price\": 17.99,\n    \"rating\": 4.4,\n    \"reviews_count\": 135638\n  },\n  {\n    \"name\": \"DAYBETTER LED Strip Lights 32.8 ft RGB Color Changing Lights Strip for Bedroom, Desk, Home Decoration, with Remote and Power Supply\",\n    \"price\": 9.49,\n    \"rating\": 4.4,\n    \"reviews_count\": 135638\n  },\n  {\n    \"name\": \"Govee Smart RGB LED Strip Lights, 16.4ft WiFi LED Strip Lighting Work with Alexa and Google Assistant, 16 Million Colors with App Control and Music Sync LED Lights for Bedroom, Home Decor\",\n    \"price\": 19.99,\n    \"rating\": 4.5,\n    \"reviews_count\": 62035\n  },\n  {\n    \"name\": \"DAYBETTER LED Strip Lights 100 ft Smart with App Remote Control, 5050 RGB for Bedroom, Living Room, Home Decoration, Music Sync Color Changing for Room Party(2 Rolls of 50 ft)\",\n    \"price\": 13.99,\n    \"rating\": 4.4,\n    \"reviews_count\": 50889\n  },\n  {\n    \"name\": \"DAYBETTER SMD 5050 Remote Control Led Strip Lights 20ft, RGB Color Changing Led Strip with Remote Control for Room, Bedroom, Suitable for Home Decor, Living Room, Kitchen, Home Party Decoration, 24V\",\n    \"price\": 9.99,\n    \"rating\": 4.4,\n    \"reviews_count\": 47383\n  }\n"
     }
   ]
 }

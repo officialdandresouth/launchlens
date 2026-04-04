@@ -37,13 +37,22 @@ Tagline: "You have $10K. This tool tells you where to put it."
 - **Screen 2:** Updated to match — dark cards, thin score bars, green/yellow/red color coding
 - Responsive at 768px and 480px breakpoints
 
-### Phase 2 Part B — NOT STARTED (Real Data Pipeline):
-- `scripts/fetch_data.py` — ScraperAPI fetcher (user has API key ready)
-- `scripts/preprocess.py` — BeautifulSoup parser + Claude Haiku analysis
-- `scripts/seed_scores.py` — scoring algorithm
+### Phase 2 Part B — DONE (Real Data Pipeline):
+- `backend/services/scraper.py` — ScraperAPI integration with autoparse for Amazon search results
+- `scripts/scrape_categories.py` — Scrapes 12 FBA-friendly categories (2 pages each, ~100 products per category)
+- `scripts/score_categories.py` — Sends real product data to Claude Haiku via tool use to score each category
+- **1,266 real Amazon products** scraped and scored across 12 categories
+- Scores based on: gross margin, demand satisfaction gap, revenue concentration, capital efficiency, barrier to entry
+- Raw data stored in `backend/data/raw_scraped.json`, final scores in `backend/data/category_scores.json`
+
+### Landing Page Enhancements — DONE:
+- Removed scroll-down mouse animation
+- Added "Why LaunchLens" section below hero — explains all 7 steps, directs users back to Get Started
+- "How It Works" button scrolls to the Why section
+- Animated stock trend lines (red/green alternating) that follow mouse cursor across screen
+- Removed redundant "Categories" navbar link
 
 ### Next:
-- Build real data pipeline (Phase 2 Part B)
 - Phase 3: Screen 3 (Category Deep Dive — biggest differentiator)
 
 ## Tech Stack
@@ -94,22 +103,25 @@ launchlens/
   backend/
     main.py                  # FastAPI app
     routes/                  # API route files per screen
-    services/                # Claude wrapper, data loading, scoring
+    services/
+      data_loader.py         # Loads JSON, filters by budget
+      scraper.py             # ScraperAPI integration (Amazon search)
     models/                  # Pydantic schemas
-    data/                    # Pre-computed JSON files
+    data/
+      category_scores.json   # AI-scored categories (from real data)
+      raw_scraped.json       # Raw scraped Amazon product data
   frontend/
     index.html               # HTML shell with navbar + progress bar
     css/styles.css           # Dark theme
     js/app.js                # Hash router + state management
+    js/particles.js          # Interactive particle canvas
     js/screens/              # One JS file per screen
-    js/components/           # Shared components (charts, loading)
     images/                  # Static images (hero, etc.)
   scripts/
-    fetch_data.py            # ScraperAPI data fetching
-    preprocess.py            # Claude processing pipeline
-    seed_scores.py           # Category ranking computation
+    scrape_categories.py     # Scrapes Amazon via ScraperAPI
+    score_categories.py      # Scores categories via Claude Haiku tool use
   .github/workflows/
-    refresh_data.yml         # Weekly cron automation
+    refresh_data.yml         # Weekly cron automation (planned)
 ```
 
 ## Full Plan File
