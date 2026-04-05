@@ -1,5 +1,3 @@
-import { init as initParticles, destroy as destroyParticles } from '../particles.js';
-
 export function renderBudget(container) {
     const state = window.launchLensState;
 
@@ -7,8 +5,6 @@ export function renderBudget(container) {
     document.querySelector('.progress-bar').classList.add('hidden');
 
     container.innerHTML = `
-        <canvas class="hero-canvas" id="hero-canvas"></canvas>
-
         <div class="hero">
             <div class="hero-badge">
                 <span class="hero-badge-dot"></span>
@@ -48,7 +44,7 @@ export function renderBudget(container) {
 
             <div class="hero-ctas">
                 <button class="btn-primary" id="budget-continue">
-                    Show Me What I Can Sell &rarr;
+                    Get Started &rarr;
                 </button>
                 <button class="btn-secondary" id="hero-learn-more">
                     How It Works
@@ -56,9 +52,6 @@ export function renderBudget(container) {
             </div>
 
         </div>
-
-        <!-- Animated stock lines overlay -->
-        <div class="stock-lines-container" id="stock-lines"></div>
 
         <!-- Why LaunchLens / How It Works section -->
         <section class="why-section" id="why-section">
@@ -99,18 +92,18 @@ export function renderBudget(container) {
                 </p>
 
                 <div class="why-cta">
-                    <a href="#budget" class="btn-primary why-cta-btn" onclick="window.scrollTo({top:0,behavior:'smooth'}); return false;">
+                    <a href="#categories" class="btn-primary why-cta-btn">
                         Get Started &rarr;
                     </a>
-                    <span class="why-cta-hint">Set your budget above and we'll take it from there</span>
+                    <span class="why-cta-hint">We'll find the best categories for your budget</span>
                 </div>
             </div>
         </section>
 
         <div class="marquee-section">
             <div class="marquee-track">
-                <span class="marquee-item"><strong>10+</strong> Categories Analyzed</span>
-                <span class="marquee-item"><strong>500+</strong> Products Tracked</span>
+                <span class="marquee-item"><strong>75+</strong> Categories Analyzed</span>
+                <span class="marquee-item"><strong>5,000+</strong> Products Tracked</span>
                 <span class="marquee-item"><strong>AI-Powered</strong> Scoring Engine</span>
                 <span class="marquee-item"><strong>Updated</strong> Every Monday</span>
                 <span class="marquee-item"><strong>$1K–$25K</strong> Budget Range</span>
@@ -118,8 +111,8 @@ export function renderBudget(container) {
                 <span class="marquee-item"><strong>Free</strong> To Use</span>
                 <span class="marquee-item"><strong>Claude AI</strong> Analysis</span>
                 <!-- Duplicate for seamless loop -->
-                <span class="marquee-item"><strong>10+</strong> Categories Analyzed</span>
-                <span class="marquee-item"><strong>500+</strong> Products Tracked</span>
+                <span class="marquee-item"><strong>75+</strong> Categories Analyzed</span>
+                <span class="marquee-item"><strong>5,000+</strong> Products Tracked</span>
                 <span class="marquee-item"><strong>AI-Powered</strong> Scoring Engine</span>
                 <span class="marquee-item"><strong>Updated</strong> Every Monday</span>
                 <span class="marquee-item"><strong>$1K–$25K</strong> Budget Range</span>
@@ -129,16 +122,6 @@ export function renderBudget(container) {
             </div>
         </div>
     `;
-
-    // Initialize particle animation
-    const canvas = document.getElementById('hero-canvas');
-    initParticles(canvas);
-
-    // Clean up particles when navigating away
-    window.__cleanupBudget = () => {
-        destroyParticles();
-        delete window.__cleanupBudget;
-    };
 
     // Wire up the slider
     const slider = document.getElementById('budget-slider');
@@ -159,129 +142,4 @@ export function renderBudget(container) {
     document.getElementById('hero-learn-more').addEventListener('click', () => {
         document.getElementById('why-section').scrollIntoView({ behavior: 'smooth' });
     });
-
-    // Animated stock trend lines
-    startStockLines();
-}
-
-function startStockLines() {
-    const container = document.getElementById('stock-lines');
-    if (!container) return;
-
-    let nextIsGreen = true; // alternate colors
-    let mouseY = window.innerHeight / 2; // default to center
-
-    // Track mouse position
-    function onMouseMove(e) { mouseY = e.clientY; }
-    window.addEventListener('mousemove', onMouseMove);
-
-    function createLine() {
-        const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
-        svg.classList.add('stock-line');
-
-        const color = nextIsGreen ? '#00d47e' : '#ff4d4d';
-        nextIsGreen = !nextIsGreen; // alternate for next time
-
-        // Center on mouse Y with slight random offset
-        const offset = (Math.random() - 0.5) * 120;
-        const yPx = mouseY + offset - 150; // -150 to center the 300px-tall SVG
-        svg.style.top = `${yPx}px`;
-
-        const segments = 18 + Math.floor(Math.random() * 10);
-        const segWidth = 60; // narrower segments = spikier look
-        const width = segments * segWidth;
-        const height = 300;
-
-        svg.setAttribute('viewBox', `0 0 ${width} ${height}`);
-        svg.setAttribute('width', `${width}`);
-        svg.setAttribute('height', `${height}`);
-
-        // Build sharp, spiky upward-trending path
-        let points = [];
-        let y = height * 0.8; // start low
-        for (let i = 0; i <= segments; i++) {
-            const x = i * segWidth;
-            points.push({ x, y });
-
-            // Strong upward bias with sharp spikes
-            const spike = (Math.random() - 0.35) * 55; // biased negative = upward
-            const upwardPull = -6; // constant upward drift
-            y += upwardPull + spike;
-            y = Math.max(15, Math.min(height - 15, y));
-        }
-
-        // Sharp polyline path (no smooth curves — real stock chart feel)
-        let d = `M ${points[0].x} ${points[0].y}`;
-        for (let i = 1; i < points.length; i++) {
-            d += ` L ${points[i].x} ${points[i].y}`;
-        }
-
-        // Add an arrowhead at the end pointing in the direction of the last segment
-        const last = points[points.length - 1];
-        const prev = points[points.length - 2];
-        const angle = Math.atan2(last.y - prev.y, last.x - prev.x);
-        const arrowLen = 18;
-        const arrowSpread = 0.45;
-        const ax1 = last.x - arrowLen * Math.cos(angle - arrowSpread);
-        const ay1 = last.y - arrowLen * Math.sin(angle - arrowSpread);
-        const ax2 = last.x - arrowLen * Math.cos(angle + arrowSpread);
-        const ay2 = last.y - arrowLen * Math.sin(angle + arrowSpread);
-
-        // Glow filter
-        const filterId = `glow-${Date.now()}-${Math.random()}`;
-        const defs = document.createElementNS('http://www.w3.org/2000/svg', 'defs');
-        defs.innerHTML = `
-            <filter id="${filterId}" x="-20%" y="-20%" width="140%" height="140%">
-                <feGaussianBlur stdDeviation="5" result="blur"/>
-                <feMerge>
-                    <feMergeNode in="blur"/>
-                    <feMergeNode in="SourceGraphic"/>
-                </feMerge>
-            </filter>
-        `;
-        svg.appendChild(defs);
-
-        // The line path
-        const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
-        path.setAttribute('d', d);
-        path.setAttribute('fill', 'none');
-        path.setAttribute('stroke', color);
-        path.setAttribute('stroke-width', '2.5');
-        path.setAttribute('stroke-linejoin', 'bevel');
-        path.setAttribute('stroke-linecap', 'round');
-        path.setAttribute('filter', `url(#${filterId})`);
-        path.setAttribute('opacity', '0.45');
-        svg.appendChild(path);
-
-        // Arrowhead
-        const arrow = document.createElementNS('http://www.w3.org/2000/svg', 'polygon');
-        arrow.setAttribute('points', `${last.x},${last.y} ${ax1},${ay1} ${ax2},${ay2}`);
-        arrow.setAttribute('fill', color);
-        arrow.setAttribute('filter', `url(#${filterId})`);
-        arrow.setAttribute('opacity', '0.45');
-        svg.appendChild(arrow);
-
-        container.appendChild(svg);
-
-        // Remove after animation completes
-        svg.addEventListener('animationend', () => svg.remove());
-    }
-
-    // Spawn a line every ~3 seconds
-    createLine();
-    const interval = setInterval(() => {
-        if (!document.getElementById('stock-lines')) {
-            clearInterval(interval);
-            return;
-        }
-        createLine();
-    }, 3000);
-
-    // Store interval for cleanup
-    const prevCleanup = window.__cleanupBudget;
-    window.__cleanupBudget = () => {
-        clearInterval(interval);
-        window.removeEventListener('mousemove', onMouseMove);
-        if (prevCleanup) prevCleanup();
-    };
 }

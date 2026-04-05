@@ -3,8 +3,12 @@ Take raw scraped Amazon data and use Claude to score each category.
 Produces the final category_scores.json consumed by the frontend.
 
 Run from project root: python -m scripts.score_categories
+
+Options:
+  --only id1,id2,...   Only score these category IDs (merge with existing scores)
 """
 
+import argparse
 import json
 import os
 import sys
@@ -31,7 +35,13 @@ SCORE_TOOL = {
             "sample_products": {"type": "integer", "description": "Number of products analyzed"},
             "min_viable_budget": {
                 "type": "integer",
-                "description": "Minimum budget in USD to viably enter this category (order ~30 units + shipping). Round to nearest 500.",
+                "description": (
+                    "Minimum budget in USD to viably enter this category. "
+                    "Include: initial inventory (30-50 units x COGS), shipping from China, "
+                    "Amazon FBA fees, packaging, and basic marketing. "
+                    "Range: $1,000 for cheap lightweight items to $25,000 for premium/bulky goods. "
+                    "Round to nearest 500."
+                ),
             },
             "avg_price": {"type": "number", "description": "Average product price in USD"},
             "avg_margin_pct": {
@@ -121,12 +131,13 @@ Here are the top products found:
 
 Score this category using the score_category tool. Base your analysis on the REAL data above:
 
-- **gross_margin**: Estimate realistic margins after Amazon FBA fees (~30-35% of price), shipping from China (~$3-5/unit), and estimated COGS. Higher score = better margins.
+- **gross_margin**: Estimate realistic margins after Amazon FBA fees (~30-35% of price), shipping from China (~$3-5/unit for light items, $8-15/unit for heavy/bulky), and estimated COGS. Higher score = better margins.
 - **demand_satisfaction_gap**: Look at ratings and review complaints implied by lower ratings. If many products have 3.5-4.0 stars, there's room for improvement. Higher score = more opportunity.
 - **revenue_concentration**: If a few products dominate (huge review counts vs others), it's harder to compete. Higher score = more distributed market = better for newcomers.
-- **capital_efficiency**: Based on avg price and a $2-5K budget, how many units could someone stock? Lower price = more units = lower risk. Higher score = better.
-- **barrier_to_entry**: Consider manufacturing complexity, certifications needed, brand dominance. Simple products = higher score.
+- **capital_efficiency**: Consider the unit cost from China (COGS), realistic MOQ, and shipping. Cheap lightweight items ($1-3 COGS) need less capital than expensive bulky ones ($20-60 COGS). Higher score = less capital needed per unit of potential revenue.
+- **barrier_to_entry**: Consider manufacturing complexity, certifications needed (UL, FCC, CE, FDA), custom tooling/molds, brand dominance, and dimensional weight for shipping. Simple products with no certifications = higher score.
 - **composite**: Weighted average — weight margin and demand gap highest.
+- **min_viable_budget**: Estimate the REALISTIC minimum investment to enter this category. Factor in: unit COGS from China, MOQ (typically 50-200 for simple items, 500-2000 for complex), ocean freight, FBA prep, packaging, and initial PPC budget. This should range from $1,000 for cheap lightweight goods to $25,000 for premium/bulky items requiring custom tooling.
 
 Be realistic and conservative. Don't inflate scores. Use the actual prices and ratings from the data."""
 
@@ -158,6 +169,17 @@ def score_category(client: anthropic.Anthropic, cat_id: str, cat_data: dict) -> 
 
 
 def main():
+    parser = argparse.ArgumentParser(description="LaunchLens — AI Category Scorer")
+    parser.add_argument(
+        "--only",
+        type=str,
+        default=None,
+        help="Comma-separated category IDs to score (merges with existing scores)",
+    )
+    args = parser.parse_args()
+
+    only_ids = set(s.strip() for s in args.only.split(",")) if args.only else None
+
     raw_path = DATA_DIR / "raw_scraped.json"
     if not raw_path.exists():
         print("No raw_scraped.json found. Run `python -m scripts.scrape_categories` first.")
@@ -166,9 +188,15 @@ def main():
     with open(raw_path, encoding="utf-8") as f:
         raw_data = json.load(f)
 
+    # Filter to only requested categories if --only is set
+    if only_ids:
+        raw_data = {k: v for k, v in raw_data.items() if k in only_ids}
+
     print("=" * 60)
     print("LaunchLens — AI Category Scorer")
     print(f"Scoring {len(raw_data)} categories with Claude")
+    if only_ids:
+        print(f"  Filtering to: {sorted(only_ids)}")
     print("=" * 60)
 
     client = anthropic.Anthropic()  # uses ANTHROPIC_API_KEY from env
@@ -188,6 +216,20 @@ def main():
             print(f"  -> Composite score: {result['scores']['composite']}")
         else:
             print(f"  -> FAILED")
+
+    # Merge with existing scores if --only was used
+    if only_ids:
+        scores_path = DATA_DIR / "category_scores.json"
+        if scores_path.exists():
+            with open(scores_path, encoding="utf-8") as f:
+                existing = json.load(f)
+            existing_categories = existing.get("categories", [])
+            # Remove old entries for re-scored IDs, keep the rest
+            new_ids = {c["id"] for c in scored_categories}
+            merged = [c for c in existing_categories if c["id"] not in new_ids]
+            merged.extend(scored_categories)
+            scored_categories = merged
+            print(f"\nMerged with {len(existing_categories)} existing categories")
 
     # Sort by composite score descending
     scored_categories.sort(key=lambda c: c["scores"]["composite"], reverse=True)

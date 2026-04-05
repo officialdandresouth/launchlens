@@ -1,0 +1,1803 @@
+{
+  "generated_at": "2026-04-04T16:30:19.167163",
+  "categories": {
+    "home-kitchen-organizers": {
+      "category_id": "home-kitchen-organizers",
+      "category_name": "Home & Kitchen > home-kitchen-organizers",
+      "market_summary": {
+        "price_range": "$5.98 - $52.22",
+        "avg_rating": 4.64,
+        "total_products_analyzed": 40,
+        "market_insight": "The kitchen drawer organizer market is dominated by expandable and adjustable designs, with strong competition between bamboo/wood and clear plastic options. Bamboo products command premium pricing ($23-$52) with high satisfaction, while plastic organizers ($6-$20) capture volume sales. Top performers emphasize expandability, multi-compartment designs, and eco-friendly materials."
+      },
+      "features": [
+        {
+          "feature_name": "Expandable/Adjustable",
+          "mention_count": 28,
+          "satisfaction_pct": 93,
+          "avg_rating_with_feature": 4.66,
+          "insight": "Expandable sizing is the dominant feature across 70% of products, with consistently high ratings\u2014sellers who offer adjustable widths capture strong customer satisfaction and appear in top performers."
+        },
+        {
+          "feature_name": "Bamboo/Natural Wood Material",
+          "mention_count": 18,
+          "satisfaction_pct": 92,
+          "avg_rating_with_feature": 4.64,
+          "insight": "Bamboo products are the premium segment with slightly higher average prices and strong ratings; natural material appeal drives customer preference despite 2-3x higher cost than plastic alternatives."
+        },
+        {
+          "feature_name": "Clear/Transparent Plastic",
+          "mention_count": 12,
+          "satisfaction_pct": 90,
+          "avg_rating_with_feature": 4.6,
+          "insight": "Clear plastic organizers enable visibility of contents and appeal to budget-conscious buyers; ratings are only slightly lower than bamboo, suggesting transparency is highly valued for practical visibility."
+        },
+        {
+          "feature_name": "Multi-Compartment/Slots (5+ compartments)",
+          "mention_count": 16,
+          "satisfaction_pct": 92,
+          "avg_rating_with_feature": 4.64,
+          "insight": "Products highlighting 5+ compartments/slots score well and address the core use case; this feature clearly resonates with buyers seeking dedicated storage for different utensil types."
+        },
+        {
+          "feature_name": "Non-Slip/Anti-Slip Surface",
+          "mention_count": 7,
+          "satisfaction_pct": 91,
+          "avg_rating_with_feature": 4.62,
+          "insight": "Non-slip linings appear on fewer products but consistently achieve high ratings; this safety/stability feature is underadvertised despite clear buyer appreciation when present."
+        },
+        {
+          "feature_name": "BPA-Free/Food-Safe",
+          "mention_count": 6,
+          "satisfaction_pct": 90,
+          "avg_rating_with_feature": 4.6,
+          "insight": "Health and safety certifications are highlighted by early movers but remain underutilized; eco-conscious and food-contact-concerned buyers show strong purchase intent when emphasized."
+        },
+        {
+          "feature_name": "Multi-Use/Versatile (Kitchen + Bedroom + Office + Bathroom)",
+          "mention_count": 14,
+          "satisfaction_pct": 91,
+          "avg_rating_with_feature": 4.62,
+          "insight": "Positioning organizers as multi-room solutions expands addressable market; products emphasizing versatility across kitchen, bedroom, bathroom and office maintain excellent satisfaction scores."
+        },
+        {
+          "feature_name": "Set/Bundle (Multiple Pieces or Pack)",
+          "mention_count": 11,
+          "satisfaction_pct": 89,
+          "avg_rating_with_feature": 4.58,
+          "insight": "Multi-piece sets and bundle deals score slightly lower but capture higher order value; 25-piece sets are popular for buyers needing organization across multiple rooms or drawer types."
+        }
+      ]
+    },
+    "pet-supplies-dog-toys": {
+      "category_id": "pet-supplies-dog-toys",
+      "category_name": "Pet Supplies > Dog Toys - Dog Chew Puzzle Toys",
+      "market_summary": {
+        "price_range": "$4.99 - $36.90",
+        "avg_rating": 4.3,
+        "total_products_analyzed": 108,
+        "market_insight": "The dog puzzle toy market is highly competitive with strong average ratings (4.3 stars), indicating solid product-market fit. Most products cluster in the $8-16 price range with treat-dispensing and mental stimulation as dominant features. Premium products ($25+) command similar ratings to budget options, suggesting buyers value functionality over brand prestige."
+      },
+      "features": [
+        {
+          "feature_name": "Treat Dispensing",
+          "mention_count": 32,
+          "satisfaction_pct": 87,
+          "avg_rating_with_feature": 4.35,
+          "insight": "The #1 advertised feature across the category. Products emphasizing treat/kibble dispensing consistently achieve 4.35 stars, making this a proven buyer value driver."
+        },
+        {
+          "feature_name": "Durable/Indestructible for Aggressive Chewers",
+          "mention_count": 28,
+          "satisfaction_pct": 84,
+          "avg_rating_with_feature": 4.2,
+          "insight": "Highly sought but satisfaction slightly lower (4.2 stars). Buyers are skeptical of durability claims\u2014opportunity for sellers to differentiate with genuine aggressive-chewer tested products."
+        },
+        {
+          "feature_name": "Mental Stimulation/Brain Enrichment",
+          "mention_count": 26,
+          "satisfaction_pct": 88,
+          "avg_rating_with_feature": 4.4,
+          "insight": "Mental enrichment messaging resonates strongly (4.4 stars). Buyers increasingly value cognitive engagement over passive chewing\u2014high-potential angle for new entrants."
+        },
+        {
+          "feature_name": "Interactive/Puzzle with Difficulty Levels",
+          "mention_count": 19,
+          "satisfaction_pct": 88,
+          "avg_rating_with_feature": 4.4,
+          "insight": "Multi-level difficulty puzzles achieve excellent ratings. Progressive challenge design appeals to serious dog owners willing to pay premium prices ($17-37)."
+        },
+        {
+          "feature_name": "Freezable/Frozen Treats Compatible",
+          "mention_count": 12,
+          "satisfaction_pct": 87,
+          "avg_rating_with_feature": 4.35,
+          "insight": "A niche but high-satisfaction feature (4.35 stars). Freezable toys offer temperature variety and novelty\u2014underexploited relative to potential demand."
+        },
+        {
+          "feature_name": "Slow Feeder/Portion Control",
+          "mention_count": 15,
+          "satisfaction_pct": 85,
+          "avg_rating_with_feature": 4.25,
+          "insight": "Health-conscious buyers seek portion control. This angle attracts owners managing weight or feeding picky eaters\u2014mid-tier opportunity."
+        },
+        {
+          "feature_name": "Squeaker/Crinkle/Sound Elements",
+          "mention_count": 11,
+          "satisfaction_pct": 81,
+          "avg_rating_with_feature": 4.05,
+          "insight": "Sound-equipped toys rank slightly lower (4.05 stars). Buyers may see squeakers as gimmicky or durability concerns\u2014consider minimalist sound design or silent alternatives."
+        },
+        {
+          "feature_name": "Made in USA/Premium Brand",
+          "mention_count": 8,
+          "satisfaction_pct": 90,
+          "avg_rating_with_feature": 4.5,
+          "insight": "Premium domestic manufacturing (West Paw, Benebone) achieves highest ratings (4.5 stars) despite 2-3x price premium. Quality reputation and sustainability messaging drive loyalty."
+        }
+      ]
+    },
+    "fitness-resistance-bands": {
+      "category_id": "sports-outdoors-fitness-resistance-bands",
+      "category_name": "Sports & Outdoors > Fitness Resistance Bands",
+      "market_summary": {
+        "price_range": "$4.99 - $49.99",
+        "avg_rating": 4.54,
+        "total_products_analyzed": 40,
+        "market_insight": "The resistance bands market is highly competitive with strong customer satisfaction across price points. Loop bands (simple elastic loops) dominate the budget segment ($5-10), while comprehensive sets with handles, door anchors, and ankle straps command premium pricing ($25-50). Fabric bands and specialty options (booty bands, pull-up assist bands) represent emerging differentiation opportunities."
+      },
+      "features": [
+        {
+          "feature_name": "5-Level/Multi-Level Resistance",
+          "mention_count": 8,
+          "satisfaction_pct": 89,
+          "avg_rating_with_feature": 4.56,
+          "insight": "Products offering multiple resistance levels are highly rated (4.56 avg), suggesting customers value progression and versatility \u2014 this is a strong differentiator."
+        },
+        {
+          "feature_name": "With Handles",
+          "mention_count": 18,
+          "satisfaction_pct": 88,
+          "avg_rating_with_feature": 4.5,
+          "insight": "Handles are among the most advertised features, appearing on nearly half of analyzed products, indicating they're a baseline expectation for premium kits."
+        },
+        {
+          "feature_name": "Door Anchor & Ankle Straps",
+          "mention_count": 16,
+          "satisfaction_pct": 87,
+          "avg_rating_with_feature": 4.48,
+          "insight": "Accessory completeness (door anchors, ankle straps) correlates with 4.48 avg rating \u2014 buyers want all-in-one solutions that eliminate the need for additional purchases."
+        },
+        {
+          "feature_name": "Fabric/Cloth Material (Non-Latex)",
+          "mention_count": 7,
+          "satisfaction_pct": 91,
+          "avg_rating_with_feature": 4.64,
+          "insight": "Fabric resistance bands achieve 4.64 avg rating, the highest of any category \u2014 customers prefer soft, skin-friendly materials, especially for leg/glute workouts and extended wear."
+        },
+        {
+          "feature_name": "For Booty/Legs/Glutes",
+          "mention_count": 9,
+          "satisfaction_pct": 88,
+          "avg_rating_with_feature": 4.52,
+          "insight": "Targeted lower-body workout bands are explicitly popular; 9 products emphasize glute/leg focus with strong 4.52 avg rating \u2014 a specific use-case niche."
+        },
+        {
+          "feature_name": "Physical Therapy/Rehabilitation",
+          "mention_count": 15,
+          "satisfaction_pct": 87,
+          "avg_rating_with_feature": 4.48,
+          "insight": "Therapy positioning appears across 15 products with 4.48 avg rating \u2014 therapeutic applications drive serious buyers willing to invest in quality equipment."
+        },
+        {
+          "feature_name": "Carrying Bag/Storage Pouch",
+          "mention_count": 12,
+          "satisfaction_pct": 88,
+          "avg_rating_with_feature": 4.5,
+          "insight": "Portable kits with carrying bags are advertised on 12 products with 4.50 avg rating \u2014 portability and organization add perceived value for home gym users."
+        },
+        {
+          "feature_name": "Heavy/High Resistance (150+ LBS)",
+          "mention_count": 6,
+          "satisfaction_pct": 85,
+          "avg_rating_with_feature": 4.42,
+          "insight": "Heavy-duty bands (150-300 LBS) are less common but achieve 4.42 avg rating \u2014 underserved niche for serious strength athletes wanting high-tension workouts."
+        }
+      ],
+      "opportunities": [
+        {
+          "opportunity": "Eco-Certified/Sustainable Resistance Bands",
+          "priority": "medium",
+          "reasoning": "3-4 products mention Global Recycled Standard, OEKO-TEX, or FSC certifications, but no products strongly emphasize sustainability as a primary feature. This gap suggests room for eco-conscious sellers to differentiate."
+        },
+        {
+          "opportunity": "Silicone/Hybrid Material Bands",
+          "priority": "medium",
+          "reasoning": "One product mentions 'silicone' (B0FJ1G4G54, 4.8 rating, $43.99), yet silicone/hybrid blends are rare. This premium material could capture customers seeking durability + comfort."
+        },
+        {
+          "opportunity": "Step-by-Step Exercise Guides or App Integration",
+          "priority": "high",
+          "reasoning": "Many products mention 'instruction guide' but none mention app integration, video training, or workout programs. Digital content differentiation is largely untapped."
+        },
+        {
+          "opportunity": "Professional/Athletic-Grade Performance Bands",
+          "priority": "high",
+          "reasoning": "Only 2 products explicitly market 'Professional' positioning; heavy-duty athlete market (strength training, powerlifting) is underserved despite 6 products mentioning heavy resistance."
+        }
+      ]
+    },
+    "office-desk-accessories": {
+      "category_id": "office-desk-accessories",
+      "category_name": "Office Products > office-desk-accessories",
+      "market_summary": {
+        "price_range": "$6.98 - $33.98",
+        "avg_rating": 4.6,
+        "total_products_analyzed": 40,
+        "market_insight": "The desk organizer market is highly competitive with strong customer satisfaction (4.6/5 average). Multi-tier/multi-compartment designs dominate the category, with successful products combining file organization, pen holders, and drawers. High-volume bestsellers like the Simple Houseware mesh organizer (35K+ reviews) and phone stands show buyers value practical, versatile solutions at mid-range prices ($15-$25)."
+      },
+      "features": [
+        {
+          "feature_name": "Multi-Tier Design (3-7 tiers)",
+          "mention_count": 18,
+          "avg_rating_with_feature": 4.6,
+          "satisfaction_pct": 92,
+          "insight": "Nearly half of analyzed products feature tiered organization; this is table-stakes for maximizing desk space and paper management efficiency."
+        },
+        {
+          "feature_name": "Pen/Pencil Holders (2+ holders)",
+          "mention_count": 16,
+          "avg_rating_with_feature": 4.6,
+          "satisfaction_pct": 92,
+          "insight": "Dual pen holders are a standard combo feature in best-selling models; buyers expect writing implements storage alongside file organization."
+        },
+        {
+          "feature_name": "Mesh Material/Metal Mesh",
+          "mention_count": 12,
+          "avg_rating_with_feature": 4.6,
+          "satisfaction_pct": 92,
+          "insight": "Mesh construction is popular for visibility, durability, and professional appearance; materials matter in this category."
+        },
+        {
+          "feature_name": "Drawer Compartment",
+          "mention_count": 15,
+          "avg_rating_with_feature": 4.6,
+          "satisfaction_pct": 92,
+          "insight": "Roughly 38% of products include a sliding drawer; this is a high-value add-on that increases perceived storage capacity and appeal."
+        },
+        {
+          "feature_name": "360-Degree Rotating Design",
+          "mention_count": 5,
+          "avg_rating_with_feature": 4.7,
+          "satisfaction_pct": 94,
+          "insight": "Rotating pen holders score slightly higher satisfaction (4.7 avg); a differentiation opportunity for compact, swivel-based designs."
+        },
+        {
+          "feature_name": "Monitor Stand/Riser Function",
+          "mention_count": 6,
+          "avg_rating_with_feature": 4.6,
+          "satisfaction_pct": 92,
+          "insight": "Dual-purpose monitor stand organizers tap ergonomics + storage; growing niche combining productivity tools into one product."
+        },
+        {
+          "feature_name": "Adjustable/Customizable Compartments",
+          "mention_count": 3,
+          "avg_rating_with_feature": 4.5,
+          "satisfaction_pct": 90,
+          "insight": "Very few products advertise adjustable dividers or customization; major underserved opportunity for modular organization solutions."
+        },
+        {
+          "feature_name": "Non-Slip Pads/Feet",
+          "mention_count": 2,
+          "avg_rating_with_feature": 4.4,
+          "satisfaction_pct": 88,
+          "insight": "Rare feature mention despite obvious utility; highlighting stability/non-slip construction could be a simple competitive advantage."
+        }
+      ],
+      "opportunities": [
+        {
+          "opportunity": "Adjustable/Modular Compartment Systems",
+          "priority": "high",
+          "reasoning": "Only 3 products mention customizable dividers or adjustable sections. Customers want flexibility to organize different item sizes. A modular, expandable organizer with magnetic or sliding dividers could capture buyers tired of fixed-compartment designs."
+        },
+        {
+          "opportunity": "Eco-Friendly/Sustainable Materials (Bamboo, Recycled Plastic)",
+          "priority": "high",
+          "reasoning": "Zero products in sample advertise sustainable materials despite growing ESG consciousness. Eco-certified desk organizers in bamboo or recycled materials are underrepresented\u2014premium price point possible."
+        },
+        {
+          "opportunity": "Aesthetic/Concrete & Designer Sets (3-piece Collections)",
+          "priority": "medium",
+          "reasoning": "Only 2-3 aesthetic/decorative organizer sets found; niche emerging for stylish, Instagram-worthy office d\u00e9cor bundles (e.g., KIBAGA concrete set, 4.8 rating). Growing opportunity in premium d\u00e9cor-focused segment."
+        },
+        {
+          "opportunity": "Anti-Tip/Weighted Base & Cable Management Integration",
+          "priority": "medium",
+          "reasoning": "Few mention stability/anti-tip features or cable routing. As WFH and standing desks grow, organizers with built-in cable clips, weighted bases, and ergonomic design could stand out."
+        }
+      ]
+    },
+    "baby-teething-toys": {
+      "category_id": "baby-teething-toys",
+      "category_name": "Baby > Baby Teething Toys",
+      "features": [
+        {
+          "feature_name": "BPA Free",
+          "mention_count": 38,
+          "avg_rating_with_feature": 4.77,
+          "satisfaction_pct": 95,
+          "insight": "BPA-Free is a critical safety expectation\u2014nearly all products advertise it and maintain 4.77\u2605 avg, indicating buyers trust this standard feature for peace of mind."
+        },
+        {
+          "feature_name": "Silicone Material",
+          "mention_count": 40,
+          "avg_rating_with_feature": 4.75,
+          "satisfaction_pct": 94,
+          "insight": "Silicone dominates the category (100% of sampled products) with consistently high ratings, confirming it's the preferred material for safety, durability, and comfort."
+        },
+        {
+          "feature_name": "Freezer Safe / Cooling Relief",
+          "mention_count": 12,
+          "avg_rating_with_feature": 4.7,
+          "satisfaction_pct": 92,
+          "insight": "Cold-relief teethers are mentioned less frequently but rate well (4.70\u2605), suggesting buyers value this feature when available but it's not universally emphasized."
+        },
+        {
+          "feature_name": "Easy-to-Hold / Anti-Dropping Design",
+          "mention_count": 8,
+          "avg_rating_with_feature": 4.78,
+          "satisfaction_pct": 96,
+          "insight": "Products highlighting ergonomic grip or wrist-band designs score highest (4.78\u2605), showing parents deeply appreciate toys their babies won't lose in public."
+        },
+        {
+          "feature_name": "Textured / Multi-Sensory Surface",
+          "mention_count": 14,
+          "avg_rating_with_feature": 4.76,
+          "satisfaction_pct": 95,
+          "insight": "Textured designs (bumps, bristles, varied surfaces) appear in 14 products with 4.76\u2605 ratings, indicating sensory stimulation is a valued differentiator."
+        },
+        {
+          "feature_name": "Multi-Pack Bundle (2+ pieces)",
+          "mention_count": 18,
+          "avg_rating_with_feature": 4.74,
+          "satisfaction_pct": 94,
+          "insight": "Bundle deals (2, 3, 4, 5+ packs) are popular and rate well, suggesting parents appreciate having multiple teethers for different ages and backup options."
+        },
+        {
+          "feature_name": "Age-Range Targeting (0-6, 6-12, 12-24 months)",
+          "mention_count": 22,
+          "avg_rating_with_feature": 4.73,
+          "satisfaction_pct": 93,
+          "insight": "Explicit age-range callouts appear in over half the products, helping parents select developmentally appropriate teethers and showing this is a key buying signal."
+        },
+        {
+          "feature_name": "Fruit/Animal/Fun Shape (Novelty Design)",
+          "mention_count": 15,
+          "avg_rating_with_feature": 4.77,
+          "satisfaction_pct": 95,
+          "insight": "Playful shapes (strawberry, giraffe, avocado, koala) maintain top ratings (4.77\u2605), proving that form-function fusion and visual appeal drive engagement and satisfaction."
+        }
+      ],
+      "market_summary": {
+        "price_range": "$4.28 - $19.99",
+        "total_products_analyzed": 40,
+        "avg_rating": 4.76,
+        "market_insight": "The baby teething toy market is highly competitive and mature, dominated by silicone teethers with universal BPA-Free safety standards. Buyers are satisfied across the board (4.76\u2605 avg), making differentiation challenging. Top performers leverage multi-sensory textures, fun shapes, multi-packs, and ergonomic designs to stand out, while price clustering ($7\u2013$10) suggests value-for-money is critical."
+      },
+      "opportunities": [
+        {
+          "opportunity": "Specialized Teethers for Back Molars or Specific Age Milestones",
+          "priority": "high",
+          "reasoning": "Only 1 product explicitly targets 36+ month molars (teething sticks). As babies progress through teething stages, multi-stage product sets addressing gum pain at specific ages (e.g., 'Front Teeth 3-6mo' vs. 'Back Molars 12-18mo') are underserved."
+        },
+        {
+          "opportunity": "Eco-Friendly / Organic / Sustainable Certifications",
+          "priority": "high",
+          "reasoning": "Only 1-2 products mention eco-credentials (e.g., ClimatePartner certified). Parents increasingly demand sustainable, plant-based, or certified organic materials\u2014a rare claim in this dataset."
+        },
+        {
+          "opportunity": "Heating Capability or Temperature-Control Features",
+          "priority": "medium",
+          "reasoning": "No products advertise warming or temperature-switching (warm vs. cold relief). Some teething pain responds better to warmth; dual-mode teethers could fill this gap."
+        },
+        {
+          "opportunity": "Hygiene/Cleaning Innovation (Built-in Storage Cases, Antimicrobial)",
+          "priority": "medium",
+          "reasoning": "Only 2-3 products mention storage cases or sanitizing features. Parents fret over contamination; marketed hygiene innovations (dishwasher-safe, antimicrobial coatings, cleaning kits) are largely absent."
+        }
+      ]
+    },
+    "car-phone-mounts": {
+      "category_id": "automotive-car-phone-mounts",
+      "category_name": "Automotive > Car Phone Mounts",
+      "features": [
+        {
+          "feature_name": "Magnetic/MagSafe Compatible",
+          "mention_count": 18,
+          "avg_rating_with_feature": 4.35,
+          "satisfaction_pct": 87,
+          "insight": "Strong performer with 87% satisfaction; magnetic mounts dominate premium segment and drive significant customer loyalty."
+        },
+        {
+          "feature_name": "360\u00b0 Adjustable/Rotation",
+          "mention_count": 16,
+          "avg_rating_with_feature": 4.35,
+          "satisfaction_pct": 87,
+          "insight": "Highly valued multi-angle positioning feature with consistent 4.35 avg rating shows customers prioritize viewing flexibility."
+        },
+        {
+          "feature_name": "Strong Suction/High LBS Rating",
+          "mention_count": 13,
+          "avg_rating_with_feature": 4.38,
+          "satisfaction_pct": 88,
+          "insight": "Sellers emphasize suction strength (60+LBS claims) and these products score 88% satisfaction\u2014security is a key buyer concern."
+        },
+        {
+          "feature_name": "Dashboard/Windshield/Multi-Mount",
+          "mention_count": 19,
+          "avg_rating_with_feature": 4.34,
+          "satisfaction_pct": 87,
+          "insight": "Most advertised feature; multi-location mounting flexibility is table-stakes for competitive products in this category."
+        },
+        {
+          "feature_name": "Universal/All Smartphones",
+          "mention_count": 17,
+          "avg_rating_with_feature": 4.32,
+          "satisfaction_pct": 86,
+          "insight": "Device compatibility claims appear in 17 products with 86% satisfaction; buyers want assurance it works with their phones."
+        },
+        {
+          "feature_name": "Hands-Free/One-Hand Operation",
+          "mention_count": 11,
+          "avg_rating_with_feature": 4.39,
+          "satisfaction_pct": 88,
+          "insight": "Convenience-focused feature ranks among highest satisfaction (88%); appeals to safety-conscious drivers seeking easy phone access."
+        },
+        {
+          "feature_name": "Wireless Charging Integration",
+          "mention_count": 7,
+          "avg_rating_with_feature": 4.34,
+          "satisfaction_pct": 87,
+          "insight": "Premium feature in 7 products combining mounting + charging; 87% satisfaction suggests willingness to pay more for dual function."
+        },
+        {
+          "feature_name": "Military-Grade/Durable/Heavy-Duty",
+          "mention_count": 9,
+          "avg_rating_with_feature": 4.42,
+          "satisfaction_pct": 88,
+          "insight": "Quality/durability messaging in 9 products scores highest at 88% satisfaction; buyers value longevity claims for vehicle accessories."
+        }
+      ],
+      "market_summary": {
+        "price_range": "$7.99 - $47.99",
+        "total_products_analyzed": 45,
+        "avg_rating": 4.34,
+        "market_insight": "The car phone mount market is highly competitive with strong baseline quality (4.34 avg rating across 45 products). Magnetic/MagSafe mounts and multi-location mounting are now category standards, with most top sellers priced $9.99\u2013$25.98. Market is fragmenting into premium niches: wireless charging integration ($25\u2013$47), vehicle-specific mounts (Tesla, Toyota), and ultra-high suction products (100+LBS) command price premiums while maintaining 4.5+ ratings."
+      },
+      "top_products": [
+        {
+          "name": "VANMASS Car Phone Holder 2026 Ultimate Military-Grade Strongest Suction & Clip Windshield Dashboard",
+          "asin": "B07G61YN8K",
+          "price": 25.98,
+          "rating": 4.4,
+          "reviews_count": 60518,
+          "estimated_monthly_revenue": 74622,
+          "key_features": [
+            "Military-Grade",
+            "Strongest Suction (85+LBS)",
+            "Dashboard/Windshield Mount",
+            "360\u00b0 Rotation"
+          ]
+        },
+        {
+          "name": "VANMASS Car Phone Holder 2026 Ultimate Military-Grade Strongest Suction & Clip Windshield Dashboard (B09CMV7YVJ)",
+          "asin": "B09CMV7YVJ",
+          "price": 24.98,
+          "rating": 4.4,
+          "reviews_count": 48287,
+          "estimated_monthly_revenue": 59862,
+          "key_features": [
+            "Military-Grade",
+            "Strongest Suction",
+            "Dashboard/Windshield Mount",
+            "Universal Compatibility"
+          ]
+        },
+        {
+          "name": "ANDERY Car Phone Holder for Magsafe [78+LBS Strongest Suction & 2400gf Magnetic]",
+          "asin": "B0DN1S1YLV",
+          "price": 25.6,
+          "rating": 4.5,
+          "reviews_count": 18750,
+          "estimated_monthly_revenue": 23400,
+          "key_features": [
+            "MagSafe/Magnetic",
+            "Strong Suction (78+LBS)",
+            "360\u00b0 Adjustable",
+            "Eco-Friendly Material"
+          ]
+        },
+        {
+          "name": "Qifutan Dash Mounted Holders Phone Holders for Your Car Phone Mount",
+          "asin": "B0DSFJY5VD",
+          "price": 9.99,
+          "rating": 4.4,
+          "reviews_count": 17662,
+          "estimated_monthly_revenue": 7330,
+          "key_features": [
+            "Universal Mount",
+            "Dashboard/Windshield/Air Vent",
+            "Hands-Free",
+            "Affordable Price"
+          ]
+        },
+        {
+          "name": "Kaistyle for Magsafe Car Mount [20 Strong Magnets]",
+          "asin": "B0C1Y8Z6VT",
+          "price": 9.99,
+          "rating": 4.5,
+          "reviews_count": 27024,
+          "estimated_monthly_revenue": 11260,
+          "key_features": [
+            "MagSafe/20 Strong Magnets",
+            "Dashboard Mount",
+            "Eco-Friendly",
+            "Low Price Point"
+          ]
+        },
+        {
+          "name": "Miracase Phone Holders for Your Car with Metal Hook Clip",
+          "asin": "B0CHYBKQPM",
+          "price": 12.99,
+          "rating": 4.4,
+          "reviews_count": 41721,
+          "estimated_monthly_revenue": 22589,
+          "key_features": [
+            "Metal Hook Clip",
+            "Air Vent Mount",
+            "Universal Compatibility",
+            "Eco-Friendly"
+          ]
+        },
+        {
+          "name": "VANMASS [85+LBS Strongest Suction & Military-Grade 2026 Ultimate Car Phone Mount]",
+          "asin": "B08DKHHTFX",
+          "price": 25.98,
+          "rating": 4.4,
+          "reviews_count": 20858,
+          "estimated_monthly_revenue": 25654,
+          "key_features": [
+            "Strongest Suction (85+LBS)",
+            "Military-Grade",
+            "Dashboard/Windshield/Vent",
+            "Patent & Safety Certified"
+          ]
+        },
+        {
+          "name": "CHGeek Wireless Car Charger, 15W Fast Charging Auto Clamping Phone Holders",
+          "asin": "B08D5XJTJS",
+          "price": 25.99,
+          "rating": 4.2,
+          "reviews_count": 24416,
+          "estimated_monthly_revenue": 31744,
+          "key_features": [
+            "Wireless Charging (15W)",
+            "Auto Clamping",
+            "Dashboard Mount",
+            "Wide Device Compatibility"
+          ]
+        },
+        {
+          "name": "Qifutan Car Phone Holder Mount Phone Mount for Car Windshield Dashboard Air Vent",
+          "asin": "B0CHS69JW3",
+          "price": 9.97,
+          "rating": 4.3,
+          "reviews_count": 15356,
+          "estimated_monthly_revenue": 6349,
+          "key_features": [
+            "Universal Mount",
+            "Multi-Location (Dashboard/Windshield/Vent)",
+            "Hands-Free",
+            "Budget-Friendly"
+          ]
+        },
+        {
+          "name": "Blukar Car Phone Holder Mount, Super Stable Air Vent Cell Phone Car Mount",
+          "asin": "B0C1NK79FK",
+          "price": 7.99,
+          "rating": 4.5,
+          "reviews_count": 23720,
+          "estimated_monthly_revenue": 7897,
+          "key_features": [
+            "Metal Hook Clip",
+            "360\u00b0 Rotation",
+            "Air Vent Mount",
+            "One-Button Release"
+          ]
+        }
+      ]
+    },
+    "kitchen-silicone-utensils": {
+      "category_id": "home-kitchen-silicone-utensils",
+      "category_name": "Home & Kitchen > Kitchen Silicone Utensils",
+      "market_summary": {
+        "price_range": "$5.99 - $41.99",
+        "avg_rating": 4.6,
+        "total_products_analyzed": 40,
+        "market_insight": "The silicone kitchen utensil market is highly competitive with strong customer satisfaction (4.6 avg rating). Heat resistance and dishwasher safety are table stakes, with most products advertising 446\u00b0F+ capability. Market leaders emphasize set completeness (10-43 pieces) and premium materials like stainless steel handles and BPA-free silicone, with price clustering around $19-26 for mid-range sets."
+      },
+      "features": [
+        {
+          "feature_name": "Heat Resistant (446\u00b0F+)",
+          "mention_count": 28,
+          "satisfaction_pct": 92,
+          "avg_rating_with_feature": 4.65,
+          "insight": "Overwhelmingly popular feature mentioned in 70% of products; buyers strongly favor high heat tolerance (4.65 avg rating), making this a critical differentiator for nonstick cookware compatibility."
+        },
+        {
+          "feature_name": "BPA-Free",
+          "mention_count": 18,
+          "satisfaction_pct": 89,
+          "avg_rating_with_feature": 4.58,
+          "insight": "Health-conscious buyers seek BPA-free certification, and products advertising this see solid 4.58 ratings; this is a meaningful safety feature that justifies premium positioning."
+        },
+        {
+          "feature_name": "Dishwasher Safe",
+          "mention_count": 16,
+          "satisfaction_pct": 90,
+          "avg_rating_with_feature": 4.62,
+          "insight": "Convenience is paramount for kitchen tools; products touting dishwasher safety score high (4.62 rating), suggesting buyers value low-maintenance utensils and this feature deserves prominent placement."
+        },
+        {
+          "feature_name": "Stainless Steel Handle",
+          "mention_count": 15,
+          "satisfaction_pct": 91,
+          "avg_rating_with_feature": 4.64,
+          "insight": "Premium handle material elevates perceived quality; products with stainless steel handles average 4.64 stars, indicating durability and longevity matter significantly to repeat buyers."
+        },
+        {
+          "feature_name": "Nonstick/Food-Grade Silicone",
+          "mention_count": 22,
+          "satisfaction_pct": 91,
+          "avg_rating_with_feature": 4.61,
+          "insight": "Core benefit explicitly called out in 55% of products; high satisfaction (4.61) confirms buyers expect seamless cooking experience without sticking or scratching delicate cookware."
+        },
+        {
+          "feature_name": "Complete Set with Holder",
+          "mention_count": 14,
+          "satisfaction_pct": 88,
+          "avg_rating_with_feature": 4.54,
+          "insight": "Bundle convenience drives sales; sets with dedicated storage holders score 4.54 stars, appealing to buyers seeking organizational benefits and counter-ready solutions."
+        },
+        {
+          "feature_name": "Wooden/Acacia Handles",
+          "mention_count": 11,
+          "satisfaction_pct": 88,
+          "avg_rating_with_feature": 4.57,
+          "insight": "Premium aesthetic choice; wooden handles attract customers valuing natural materials and ergonomic comfort, with consistent 4.57 ratings showing solid buyer satisfaction."
+        },
+        {
+          "feature_name": "Large/Extended Length (13.6\"+)",
+          "mention_count": 3,
+          "satisfaction_pct": 94,
+          "avg_rating_with_feature": 4.78,
+          "insight": "Underserved niche with exceptional ratings (4.78 avg); longer utensils address deep-pot and wok cooking needs\u2014a rare feature that could differentiate new entrants in this gap."
+        }
+      ],
+      "opportunities": [
+        {
+          "opportunity": "Extra-Long Utensils (13.6\"+) for Woks & Deep Cooking",
+          "priority": "high",
+          "reasoning": "Only 3 products (7.5%) advertise extended length, yet those score exceptionally high (4.78 avg rating). Asian cooking and large-pot users represent an underserved segment\u2014a silicone utensil set designed for woks and large cookware could capture this gap with minimal competition."
+        },
+        {
+          "opportunity": "Premium Eco-Friendly/Recycled Materials Certification",
+          "priority": "high",
+          "reasoning": "Only 1-2 products explicitly mention recycled/sustainability certifications, yet eco-conscious buyers are willing to pay premiums. Products with recycled claim standards are emerging (4.9 rating) but remain rare\u2014positioning as 'eco-certified' or 'sustainable' could command 20-30% price lift."
+        },
+        {
+          "opportunity": "Ergonomic Grip Design with Antimicrobial Properties",
+          "priority": "medium",
+          "reasoning": "While ergonomic grip is mentioned in a few products (e.g., 'Upgrade Strong Handle with Ergonomic Grip'), no products advertise antimicrobial/antibacterial silicone. Growing health awareness post-pandemic suggests demand for food-contact surfaces with germ-resistance properties."
+        },
+        {
+          "opportunity": "Extreme Heat Resistance (600\u00b0F+) for Professional/Grilling Use",
+          "priority": "medium",
+          "reasoning": "Only 2 products explicitly claim 600\u00b0F+ heat resistance (vs. standard 446\u00b0F). BBQ and professional cooking enthusiasts may pay premiums for ultra-heat-resistant utensils; this niche remains largely unaddressed despite consistent buyer interest in heat specs."
+        }
+      ]
+    },
+    "travel-packing-cubes": {
+      "category_id": "clothing-accessories-travel-packing-cubes",
+      "category_name": "Clothing & Accessories > Travel Packing Cubes",
+      "market_summary": {
+        "price_range": "$6.99 - $59.99",
+        "avg_rating": 4.5,
+        "total_products_analyzed": 40,
+        "market_insight": "The packing cubes market is highly competitive with strong average ratings (4.5 stars). Price clustering at $16-30 dominates, with budget options ($6.99-$13.99) and premium variants ($40-60). BAGAIL, OlarHike, and Veken are category leaders with massive review counts (40k+), suggesting strong market consolidation. Eco-certifications (Global Recycled Standard, OEKO-TEX) are becoming table stakes for premium positioning."
+      },
+      "features": [
+        {
+          "feature_name": "Compression/Space-Saving",
+          "mention_count": 18,
+          "avg_rating_with_feature": 4.62,
+          "satisfaction_pct": 92,
+          "insight": "Compression is the most advertised premium feature with strong satisfaction; sellers using this keyword command higher prices ($22-$59) and maintain excellent ratings\u2014clear signal that customers value space efficiency."
+        },
+        {
+          "feature_name": "Multiple Set Sizes (8, 10, 11-piece sets)",
+          "mention_count": 16,
+          "avg_rating_with_feature": 4.58,
+          "satisfaction_pct": 92,
+          "insight": "Larger bundle sets (8+ pieces) are heavily advertised and highly rated\u2014customers appreciate comprehensive solutions; smaller sets (4-5 pieces) rate lower, suggesting incompleteness perception."
+        },
+        {
+          "feature_name": "Lightweight Material",
+          "mention_count": 11,
+          "avg_rating_with_feature": 4.51,
+          "satisfaction_pct": 90,
+          "insight": "Lightweight positioning appears in mid-range products ($16-27); minor emphasis compared to competitors suggests room for stronger material/weight messaging in budget tier."
+        },
+        {
+          "feature_name": "Eco-Friendly/Sustainable Materials",
+          "mention_count": 12,
+          "avg_rating_with_feature": 4.59,
+          "satisfaction_pct": 92,
+          "insight": "Global Recycled Standard and OEKO-TEX certifications appear in 12 products with 4.59 avg rating; premium brands leverage sustainability as quality signal\u2014nascent but growing segment."
+        },
+        {
+          "feature_name": "Specialized Compartments (Shoe, Toiletry, Laundry Bags)",
+          "mention_count": 13,
+          "avg_rating_with_feature": 4.52,
+          "satisfaction_pct": 90,
+          "insight": "About 1/3 of products bundle dedicated shoe/toiletry/laundry bags; these rated well (4.52 avg), indicating customer desire for organized sub-compartments beyond basic cubes."
+        },
+        {
+          "feature_name": "Double Zipper/Mesh Top",
+          "mention_count": 9,
+          "avg_rating_with_feature": 4.57,
+          "satisfaction_pct": 91,
+          "insight": "Mesh-top and double-zipper designs mentioned in 9 products with strong ratings; tactile quality signals (durability, ventilation) resonate with buyers but underemphasized relative to compression."
+        },
+        {
+          "feature_name": "Expandable/Compressible Design",
+          "mention_count": 14,
+          "avg_rating_with_feature": 4.58,
+          "satisfaction_pct": 92,
+          "insight": "Expandability (ability to pack more) mentioned in 14 products with 4.58 rating; positioned as flexibility benefit\u2014complements compression as both space-saving and adaptability story."
+        },
+        {
+          "feature_name": "Tear-Resistant/Durable Materials",
+          "mention_count": 7,
+          "avg_rating_with_feature": 4.56,
+          "satisfaction_pct": 91,
+          "insight": "Only 7 products explicitly mention tear/durability resistance; this low frequency despite high customer concern suggests underserved messaging opportunity for premium positioning."
+        }
+      ],
+      "opportunities": [
+        {
+          "opportunity": "Hyper-Durable/Travel-Proof Positioning (Tear-Proof, TSA-Grade Materials)",
+          "priority": "high",
+          "reasoning": "Only 7/40 products mention tear-resistance or durability despite this being a critical concern for frequent travelers. Premium brands (Aerotrunk, $59.99) hint at this but don't explicitly claim toughness. A product line emphasizing military-grade or ballistic materials with durability guarantees could capture the $30-60 segment."
+        },
+        {
+          "opportunity": "Smart Organization Systems (Numbered/Color-Coded Cubes, RFID Pockets, Weight-Distribution)",
+          "priority": "high",
+          "reasoning": "Only ECOHUB explicitly mentions 'Number Icon' for organization. Competitors focus on compression but miss the organization-as-primary-benefit angle. Smart labeling, color systems, or weight-balancing tech could differentiate in the saturated $16-27 market."
+        },
+        {
+          "opportunity": "Ultra-Premium Luxury Tier ($80-150) with Premium Materials + Lifetime Warranty",
+          "priority": "medium",
+          "reasoning": "Price ceiling is $59.99; no premium luxury variant exists. High-end travelers and gift buyers might accept premium pricing for premium materials (carbon fiber frames, premium ripstop, lifetime repairs)\u2014currently underserved above $60."
+        },
+        {
+          "opportunity": "Family/Kid-Specific Designs (Smaller Cubes, Fun Colors, Educational Organization)",
+          "priority": "medium",
+          "reasoning": "Only 1 product (Narwey) explicitly mentions 'Kids'; parents searching for packing solutions for children's clothes/toys represent an underexplored niche with potential for separate SKU lines and premium messaging."
+        }
+      ]
+    },
+    "led-strip-lights": {
+      "category_id": "led-strip-lights",
+      "category_name": "Tools & Home Improvement > led-strip-lights",
+      "features": [
+        {
+          "feature_name": "Music Sync / Music Synchronization",
+          "mention_count": 24,
+          "satisfaction_pct": 88,
+          "avg_rating_with_feature": 4.35,
+          "insight": "Music sync is a highly popular feature with strong satisfaction (4.35\u2605), appearing in nearly 60% of products and differentiating premium offerings from basic strips."
+        },
+        {
+          "feature_name": "Smart App Control / WiFi Control",
+          "mention_count": 22,
+          "satisfaction_pct": 87,
+          "avg_rating_with_feature": 4.33,
+          "insight": "App control is nearly universal among mid-range products (4.33\u2605 avg), making it an expected baseline feature for competitive sellers targeting bedroom/party segments."
+        },
+        {
+          "feature_name": "Remote Control / 44-Key Remote / RF Remote",
+          "mention_count": 20,
+          "satisfaction_pct": 85,
+          "avg_rating_with_feature": 4.25,
+          "insight": "Remote control remains highly valued even as apps proliferate (4.25\u2605), suggesting buyers want backup convenience options for quick adjustments."
+        },
+        {
+          "feature_name": "RGB / Color Changing",
+          "mention_count": 32,
+          "satisfaction_pct": 87,
+          "avg_rating_with_feature": 4.34,
+          "insight": "RGB color-changing dominates the market (80% of products), with excellent satisfaction, making it a must-have baseline feature for bedroom/decor segments."
+        },
+        {
+          "feature_name": "Long Length / Ultra Long (100ft+)",
+          "mention_count": 18,
+          "satisfaction_pct": 87,
+          "avg_rating_with_feature": 4.33,
+          "insight": "Longer strips (100ft+, 200ft, 300ft) command premium prices with maintained satisfaction (4.33\u2605), indicating buyers value coverage for large rooms and multiple areas."
+        },
+        {
+          "feature_name": "COB / High CRI / Daylight / Dimmable",
+          "mention_count": 12,
+          "satisfaction_pct": 88,
+          "avg_rating_with_feature": 4.38,
+          "insight": "Premium technical features (COB, high CRI 90+, dimmability) attract niche buyers with excellent satisfaction (4.38\u2605) and higher price points, signaling room for upmarket positioning."
+        },
+        {
+          "feature_name": "Voice Control / Smart Home Integration (Alexa/Google)",
+          "mention_count": 4,
+          "satisfaction_pct": 89,
+          "avg_rating_with_feature": 4.45,
+          "insight": "Voice control is severely underserved (only 4 products) despite exceptional satisfaction (4.45\u2605), representing a high-opportunity niche for smart home buyers."
+        },
+        {
+          "feature_name": "Waterproof / IP65+ Rating",
+          "mention_count": 3,
+          "satisfaction_pct": 84,
+          "avg_rating_with_feature": 4.2,
+          "insight": "Waterproof/IP-rated products are rare (3 mentions) despite moderate satisfaction, suggesting an untapped opportunity for outdoor, kitchen, and bathroom applications."
+        }
+      ],
+      "top_products": [
+        {
+          "name": "DAYBETTER LED Strip Lights 200 ft (2 Rolls of 100 ft), Smart App Control Lighting Bedroom Rome Decor with Remote, RGB Music Sync Color Changing LED Lights for Party",
+          "asin": "B0BXP35GQQ",
+          "price": 17.99,
+          "rating": 4.4,
+          "reviews_count": 135647,
+          "estimated_monthly_revenue": 101830,
+          "key_features": [
+            "200ft Ultra Long",
+            "RGB Music Sync",
+            "App Control",
+            "Remote Control"
+          ]
+        },
+        {
+          "name": "DAYBETTER Led Strip Lights 32.8 ft RGB Color Changing Lights Strip for Bedroom, Desk, Home Decoration, with Remote and Power Supply",
+          "asin": "B07SPZ2HGT",
+          "price": 9.49,
+          "rating": 4.4,
+          "reviews_count": 135647,
+          "estimated_monthly_revenue": 53868,
+          "key_features": [
+            "RGB Color Changing",
+            "Remote Control",
+            "Power Supply Included",
+            "Bedroom-Focused"
+          ]
+        },
+        {
+          "name": "DAYBETTER LED Strip Lights 130ft Lights Strip for Bedroom, Desk, Indoor Room Bedroom Brithday Gifts RGB Decor with Remote and 24V Power Supply",
+          "asin": "B0D4DJ6BRR",
+          "price": 9.98,
+          "rating": 4.3,
+          "reviews_count": 39225,
+          "estimated_monthly_revenue": 16289,
+          "key_features": [
+            "130ft Length",
+            "RGB Decor",
+            "Remote Control",
+            "Power Supply"
+          ]
+        },
+        {
+          "name": "Govee Smart RGB LED Strip Lights, 16.4ft WiFi LED Strip Lighting Work with Alexa and Google Assistant, 16 Million Colors with App Control and Music Sync LED Lights for Bedroom, Home Decor",
+          "asin": "B07N1CMGQQ",
+          "price": 19.99,
+          "rating": 4.5,
+          "reviews_count": 62037,
+          "estimated_monthly_revenue": 51615,
+          "key_features": [
+            "Smart WiFi Control",
+            "Voice Control (Alexa/Google)",
+            "Music Sync",
+            "16 Million Colors"
+          ]
+        },
+        {
+          "name": "Govee 100ft RGBIC LED Strip Lights, Smart LED Lights Work with Alexa and Google Assistant, LED Lights for Bedroom WiFi App Control Segmented DIY Multiple Colors, Color Changing Light, (2 x 50ft)",
+          "asin": "B09VBZC2CX",
+          "price": 56.99,
+          "rating": 4.5,
+          "reviews_count": 6769,
+          "estimated_monthly_revenue": 16123,
+          "key_features": [
+            "100ft Ultra Long",
+            "RGBIC Segmented Control",
+            "Voice Control",
+            "WiFi App Control"
+          ]
+        },
+        {
+          "name": "KSIPZE 100ft Led Strip Lights RGB Music Sync Color Changing Led Lights with Smart App Control Remote Led Lights for Bedroom Room Lighting Flexible Home D\u00e9cor",
+          "asin": "B09V366BDY",
+          "price": 9.98,
+          "rating": 4.4,
+          "reviews_count": 37443,
+          "estimated_monthly_revenue": 15546,
+          "key_features": [
+            "100ft Length",
+            "RGB Music Sync",
+            "Smart App Control",
+            "Remote Control"
+          ]
+        },
+        {
+          "name": "DAYBETTER LED Strip Lights 110ft, Smart Lighting Strips with App Remote Control, RGB Music Sync Color Changing Lights for Bedroom Kitchen Party Home Decor Luces led para cuarto (1 Roll)",
+          "asin": "B0DN1K2RLD",
+          "price": 9.99,
+          "rating": 4.4,
+          "reviews_count": 34747,
+          "estimated_monthly_revenue": 14476,
+          "key_features": [
+            "110ft Length",
+            "RGB Music Sync",
+            "App Control",
+            "Remote Control"
+          ]
+        },
+        {
+          "name": "Tenmiro 65.6ft Led Strip Lights, Ultra Long RGB Color Changing LED Light Strips Kit with 44 Keys Ir Remote Led Lights for Bedroom, Kitchen, Home Decoration",
+          "asin": "B087D55WK2",
+          "price": 11.98,
+          "rating": 4.5,
+          "reviews_count": 81712,
+          "estimated_monthly_revenue": 40860,
+          "key_features": [
+            "65.6ft Ultra Long",
+            "RGB Color Changing",
+            "44-Key IR Remote",
+            "DIY Kit"
+          ]
+        },
+        {
+          "name": "DAYBETTER Led Strip Lights 200 ft (2 Rolls of 100 ft) Ultra Long Smart Light Strips with App Voice Control Remote, RGB Music Sync Color Changing Lights for Bedroom, Kitchen, Party,Home Decoration",
+          "asin": "B09BR3DYKS",
+          "price": 18.99,
+          "rating": 4.4,
+          "reviews_count": 14511,
+          "estimated_monthly_revenue": 10886,
+          "key_features": [
+            "200ft Ultra Long",
+            "App Control",
+            "Voice Control",
+            "RGB Music Sync"
+          ]
+        },
+        {
+          "name": "DAYBETTER Led Strip Lights 32.8ft Kit with Remote and Power Supply Color Changing",
+          "asin": "B08D99TWQJ",
+          "price": 9.97,
+          "rating": 4.3,
+          "reviews_count": 43787,
+          "estimated_monthly_revenue": 18203,
+          "key_features": [
+            "32.8ft Length",
+            "Color Changing",
+            "Remote Control",
+            "Power Supply Kit"
+          ]
+        }
+      ]
+    },
+    "yoga-mats": {
+      "category_id": "sports_outdoors_yoga_mats",
+      "category_name": "Sports & Outdoors > Yoga Mats",
+      "market_summary": {
+        "price_range": "$16.99 - $69.95",
+        "avg_rating": 4.53,
+        "total_products_analyzed": 40,
+        "market_insight": "The yoga mat market is highly competitive with strong customer satisfaction (avg 4.53 stars). Non-slip surfaces, extra thickness (6mm-1 inch), and eco-friendly materials dominate product positioning. Premium brands like Gaiam, BalanceFrom, and newer brands like KEEP command larger review volumes, suggesting established market share, while budget options ($16-25) and ultra-premium ($45+) segments show growth opportunities."
+      },
+      "features": [
+        {
+          "feature_name": "Non-Slip Surface",
+          "mention_count": 38,
+          "satisfaction_pct": 95,
+          "avg_rating_with_feature": 4.55,
+          "insight": "Non-slip is table-stakes in yoga mats\u201438 of 40 products advertise it. Buyers rate these highly (4.55 stars), indicating the feature directly addresses a core customer pain point. Sellers competing on non-slip quality alone will struggle; differentiation via other attributes is essential."
+        },
+        {
+          "feature_name": "Extra Thick/Cushioned (6mm-1 inch)",
+          "mention_count": 35,
+          "satisfaction_pct": 92,
+          "avg_rating_with_feature": 4.52,
+          "insight": "Thickness is the second-most advertised feature (35 products). Mats with 1/2-inch or greater thickness score slightly better (4.52 stars avg) than thinner options, suggesting buyers value joint protection and comfort. Positioning as 'extra thick' is a proven satisfaction driver."
+        },
+        {
+          "feature_name": "Eco-Friendly/TPE Material",
+          "mention_count": 18,
+          "satisfaction_pct": 88,
+          "avg_rating_with_feature": 4.44,
+          "insight": "Nearly half the products highlight eco-friendly or TPE materials (18 products). These products score slightly lower than the market average (4.44 vs 4.53), suggesting while environmentally-conscious buyers exist, they may sacrifice satisfaction for values\u2014or pricing may be higher in this segment."
+        },
+        {
+          "feature_name": "Carrying Strap/Portability",
+          "mention_count": 34,
+          "satisfaction_pct": 90,
+          "avg_rating_with_feature": 4.5,
+          "insight": "34 of 40 products mention carrying straps. These score well (4.50 stars), confirming portability is expected standard. Mats without straps are rare; this is now a baseline expectation rather than a differentiator."
+        },
+        {
+          "feature_name": "Anti-Tear/Durable Material",
+          "mention_count": 16,
+          "satisfaction_pct": 89,
+          "avg_rating_with_feature": 4.48,
+          "insight": "16 products explicitly advertise anti-tear properties. These score slightly above average (4.48 stars), indicating durability messaging resonates with buyers seeking long-term value. A significant gap (24 products don't mention durability) suggests opportunity for sellers to emphasize this."
+        },
+        {
+          "feature_name": "Extra Wide (32+ inches)",
+          "mention_count": 8,
+          "satisfaction_pct": 88,
+          "avg_rating_with_feature": 4.4,
+          "insight": "Only 8 products advertise extra width (32 inches vs. standard 24 inches). These score slightly lower (4.40 stars), possibly due to higher price points and fewer buyers needing extra width. This is an underserved niche\u2014opportunity for targeted marketing to shoulder-width-conscious users."
+        },
+        {
+          "feature_name": "Printed Guides/Alignment Marks",
+          "mention_count": 7,
+          "satisfaction_pct": 91,
+          "avg_rating_with_feature": 4.58,
+          "insight": "Only 7 products include alignment guides or printed yoga poses. These score exceptionally high (4.58 stars), suggesting strong appeal to beginners or instructional-focused buyers. This is a high-satisfaction but underexploited niche\u2014major opportunity for new sellers targeting instructional angle."
+        },
+        {
+          "feature_name": "Hot Yoga Specific/Moisture-Resistant",
+          "mention_count": 4,
+          "satisfaction_pct": 87,
+          "avg_rating_with_feature": 4.35,
+          "insight": "Only 4 products explicitly position for hot yoga or moisture resistance (e.g., 'Dry-Grip'). These score lower (4.35 stars) than market average, suggesting either limited market size or products not fully meeting hot yoga demands. Opportunity for specialized hot yoga mats with better grip technology."
+        }
+      ]
+    },
+    "phone-cases-iphone": {
+      "category_id": "phone-cases-iphone",
+      "category_name": "Cell Phones & Accessories > Phone Cases - iPhone 15",
+      "features": [
+        {
+          "feature_name": "Military Grade Drop Protection",
+          "mention_count": 18,
+          "satisfaction_pct": 92,
+          "avg_rating_with_feature": 4.6,
+          "insight": "Buyers strongly prefer cases tested for military-grade drop protection; this is the #1 advertised feature with consistently high ratings across price points."
+        },
+        {
+          "feature_name": "MagSafe Compatible",
+          "mention_count": 16,
+          "satisfaction_pct": 88,
+          "avg_rating_with_feature": 4.4,
+          "insight": "MagSafe compatibility is a critical modern feature for iPhone 15, with strong satisfaction levels but more price sensitivity than drop protection."
+        },
+        {
+          "feature_name": "Screen Protector Included",
+          "mention_count": 9,
+          "satisfaction_pct": 90,
+          "avg_rating_with_feature": 4.5,
+          "insight": "Built-in or included screen protectors add perceived value and drive higher satisfaction; consider bundling strategies to compete on features per dollar."
+        },
+        {
+          "feature_name": "Shockproof Protection",
+          "mention_count": 14,
+          "satisfaction_pct": 89,
+          "avg_rating_with_feature": 4.45,
+          "insight": "Shockproof/dual-layer designs are table-stakes; focus on differentiating other aspects (aesthetics, grip, additional protectors) since buyers expect this."
+        },
+        {
+          "feature_name": "Anti-Scratch & Yellowing Resistant",
+          "mention_count": 8,
+          "satisfaction_pct": 91,
+          "avg_rating_with_feature": 4.55,
+          "insight": "Premium buyers care about long-term aesthetics; emphasizing anti-yellowing and scratch resistance (especially on clear cases) commands better ratings."
+        },
+        {
+          "feature_name": "Camera Lens Protector",
+          "mention_count": 7,
+          "satisfaction_pct": 88,
+          "avg_rating_with_feature": 4.4,
+          "insight": "Camera protection is a nice-to-have differentiator that adds ~0.5-1% to customer satisfaction; increasingly expected on mid-range cases ($12-20)."
+        },
+        {
+          "feature_name": "Magnetic Ring Stand / 360 Rotation",
+          "mention_count": 6,
+          "satisfaction_pct": 85,
+          "avg_rating_with_feature": 4.25,
+          "insight": "Magnetic ring stands appeal to hands-free users but show slightly lower satisfaction; functionality issues may be driving reviews down\u2014validate engineering before launch."
+        },
+        {
+          "feature_name": "Wallet/Card Holder",
+          "mention_count": 3,
+          "satisfaction_pct": 84,
+          "avg_rating_with_feature": 4.2,
+          "insight": "Card storage is underserved; only 3 products mention it despite niche demand. High-quality wallet cases ($15-25) could capture users seeking an all-in-one solution."
+        }
+      ],
+      "top_products": [
+        {
+          "name": "ESR for iPhone 15 Case, Compatible with MagSafe, Military-Grade Protection, Yellowing Resistant, Scratch-Resistant Back, Magnetic Phone Case for iPhone 15, Classic Series, Clear",
+          "asin": "B0CC1FTGMB",
+          "price": 12.99,
+          "rating": 4.7,
+          "reviews_count": 152039,
+          "estimated_monthly_revenue": 38010,
+          "key_features": [
+            "Military-Grade Protection",
+            "MagSafe Compatible",
+            "Yellowing Resistant",
+            "Scratch-Resistant"
+          ]
+        },
+        {
+          "name": "FNTCASE for iPhone 15 Case Clear: iPhone 14/13 Case Magnetic Phone Cases with Screen Protector Compatible with Magsafe Slim Anti Yellowing Rugged Protective Transparent Cell Cover",
+          "asin": "B0CFVDX4HT",
+          "price": 5.36,
+          "rating": 4.6,
+          "reviews_count": 68528,
+          "estimated_monthly_revenue": 15412,
+          "key_features": [
+            "Clear Case",
+            "MagSafe Compatible",
+            "Screen Protector",
+            "Anti-Yellowing"
+          ]
+        },
+        {
+          "name": "SUPFINE Magnetic for iPhone 15 Case (Compatible with MagSafe) (Military Grade Drop Protection) Translucent Matte Shockproof Phone Cover, Black",
+          "asin": "B0DH232C6S",
+          "price": 9.99,
+          "rating": 4.6,
+          "reviews_count": 59496,
+          "estimated_monthly_revenue": 12458,
+          "key_features": [
+            "Military Grade Drop Protection",
+            "MagSafe Compatible",
+            "Shockproof",
+            "Translucent Matte"
+          ]
+        },
+        {
+          "name": "GVIEWIN for iPhone 15 Case Floral, with Screen Protector&Camera Lens Protector,[Non Yellowing] Soft Shockproof Clear Phone Protective Cover for Women",
+          "asin": "B0CJNSX7GB",
+          "price": 10.79,
+          "rating": 4.7,
+          "reviews_count": 38978,
+          "estimated_monthly_revenue": 17643,
+          "key_features": [
+            "Floral Design",
+            "Screen Protector",
+            "Camera Lens Protector",
+            "Non-Yellowing"
+          ]
+        },
+        {
+          "name": "Diaclara Designed for iPhone 15 Case, Full Body Rugged Case with Built-in Touch Sensitive Anti-Scratch Screen Protector, with Camera Lens Protector",
+          "asin": "B0CHBCGP5R",
+          "price": 14.39,
+          "rating": 4.4,
+          "reviews_count": 62592,
+          "estimated_monthly_revenue": 37590,
+          "key_features": [
+            "Full Body Rugged",
+            "Built-in Screen Protector",
+            "Camera Lens Protector",
+            "Anti-Scratch"
+          ]
+        },
+        {
+          "name": "FNTCASE for iPhone 15 Case: for iPhone 14 Case & iPhone 13 Case [Compatible with Magsafe] Translucent Matte Magnetic Phone Cover - Military Grade Drop Protection",
+          "asin": "B0DFH8SNK5",
+          "price": 8.99,
+          "rating": 4.5,
+          "reviews_count": 24360,
+          "estimated_monthly_revenue": 9068,
+          "key_features": [
+            "Military Grade Drop Protection",
+            "MagSafe Compatible",
+            "Translucent Matte",
+            "Shockproof"
+          ]
+        },
+        {
+          "name": "OtterBox iPhone 16e, 15, 14, & 13 Commuter Series Case - Crisp Denim (Blue), Slim & Tough, Pocket-Friendly, with Port Protection",
+          "asin": "B0CGCKL11P",
+          "price": 24.99,
+          "rating": 4.6,
+          "reviews_count": 8525,
+          "estimated_monthly_revenue": 8859,
+          "key_features": [
+            "Slim & Tough",
+            "Pocket-Friendly",
+            "Port Protection",
+            "Commuter Series"
+          ]
+        },
+        {
+          "name": "Magnetic for iPhone 15 Case, [Compatible with MagSafe][Military Grade Drop Protection][Heavy Duty Protection][Non-Slip][Shockproof]",
+          "asin": "B0F489HN7Z",
+          "price": 7.98,
+          "rating": 4.5,
+          "reviews_count": 9102,
+          "estimated_monthly_revenue": 3012,
+          "key_features": [
+            "MagSafe Compatible",
+            "Military Grade Drop Protection",
+            "Heavy Duty",
+            "Non-Slip"
+          ]
+        },
+        {
+          "name": "SPIDERCASE for iPhone 15 Case, Magnetic Translucent Matte Case with 2PCS Tempered Glass Screen Protector Slim Phone Case",
+          "asin": "B0DSPWQWYH",
+          "price": 9.99,
+          "rating": 4.6,
+          "reviews_count": 6196,
+          "estimated_monthly_revenue": 2570,
+          "key_features": [
+            "Translucent Matte",
+            "Tempered Glass Screen Protector",
+            "Slim",
+            "Magnetic"
+          ]
+        },
+        {
+          "name": "BURGA Phone Case for iPhone 15 - Cute, Trendy, Aesthetic, Pattern Phone Cover, Hard Shell Protection - fits Apple iPhone 15",
+          "asin": "B0D12T4PLB",
+          "price": 31.96,
+          "rating": 4.5,
+          "reviews_count": 2381,
+          "estimated_monthly_revenue": 3183,
+          "key_features": [
+            "Cute/Trendy Design",
+            "Aesthetic Pattern",
+            "Hard Shell Protection",
+            "Women-Focused"
+          ]
+        }
+      ]
+    },
+    "reusable-water-bottles": {
+      "category_id": "sports-outdoors-reusable-water-bottles",
+      "category_name": "Sports & Outdoors > Reusable Water Bottles",
+      "market_summary": {
+        "price_range": "$7.99 - $42.95",
+        "total_products_analyzed": 40,
+        "avg_rating": 4.6,
+        "market_insight": "The insulated stainless steel water bottle market is highly competitive with strong buyer satisfaction (avg 4.6 stars). Premium brands like Owala, Hydro Flask, and IRON \u00b0FLASK command higher prices ($29-43) and massive review volumes, while budget alternatives ($8-15) capture significant market share with solid 4.5-4.6 ratings. Double-wall vacuum insulation, leak-proof lids, and multiple lid options (straw/spout) are now table-stakes features across all price tiers."
+      },
+      "features": [
+        {
+          "feature_name": "Double Wall Vacuum Insulation",
+          "mention_count": 35,
+          "satisfaction_pct": 92,
+          "avg_rating_with_feature": 4.6,
+          "insight": "Nearly every product advertises double-wall vacuum insulation as the core value prop; buyers clearly expect this as a baseline feature, and products deliver strong satisfaction (4.6 avg rating)."
+        },
+        {
+          "feature_name": "Leak Proof / Leakproof Lid",
+          "mention_count": 28,
+          "satisfaction_pct": 92,
+          "avg_rating_with_feature": 4.6,
+          "insight": "Leak-proof claims are highly common and products backing this feature maintain high ratings; trust in sealing is critical for travel/sports use cases."
+        },
+        {
+          "feature_name": "BPA Free",
+          "mention_count": 26,
+          "satisfaction_pct": 90,
+          "avg_rating_with_feature": 4.5,
+          "insight": "Health-conscious buyers actively seek BPA-free certification; this feature appears in ~65% of analyzed products and correlates with strong (4.5+) satisfaction."
+        },
+        {
+          "feature_name": "Multiple Lids (Straw + Spout)",
+          "mention_count": 19,
+          "satisfaction_pct": 91,
+          "avg_rating_with_feature": 4.6,
+          "insight": "Versatile lid options (2-in-1 or 3-lid bundles) appear in ~48% of products and drive high satisfaction; buyers appreciate flexibility for different drinking scenarios."
+        },
+        {
+          "feature_name": "Wide Mouth Opening",
+          "mention_count": 17,
+          "satisfaction_pct": 90,
+          "avg_rating_with_feature": 4.5,
+          "insight": "Wide-mouth design enables easier filling, cleaning, and ice insertion; mentioned in 42% of products with consistently strong ratings (4.5-4.6)."
+        },
+        {
+          "feature_name": "24-Hour Cold / 12-Hour Hot (Thermal Performance)",
+          "mention_count": 15,
+          "satisfaction_pct": 92,
+          "avg_rating_with_feature": 4.6,
+          "insight": "Specific thermal guarantees (24h cold/12h hot) are powerful sales triggers appearing in ~38% of products; buyers trust quantified performance claims that correlate with high ratings."
+        },
+        {
+          "feature_name": "Stainless Steel (304/Premium Grade)",
+          "mention_count": 37,
+          "satisfaction_pct": 92,
+          "avg_rating_with_feature": 4.6,
+          "insight": "Stainless steel is nearly universal; mentioning grade (e.g., 304) in product names reinforces durability perception and maintains 4.6+ satisfaction across all price points."
+        },
+        {
+          "feature_name": "Handle / Carry Strap",
+          "mention_count": 14,
+          "satisfaction_pct": 89,
+          "avg_rating_with_feature": 4.5,
+          "insight": "Handles and straps are featured in ~35% of products and improve portability appeal; particularly valued for travel/hiking use cases but slightly underrepresented vs. competitor benefits."
+        }
+      ]
+    },
+    "cable-organizers": {
+      "category_id": "electronics-accessories-cable-organizers",
+      "category_name": "Electronics Accessories > Cable Organizers",
+      "market_summary": {
+        "price_range": "$5.98 - $126.99",
+        "avg_rating": 4.63,
+        "total_products_analyzed": 40,
+        "market_insight": "The cable organizer market is highly competitive with strong customer satisfaction (4.63 avg rating). The category is dominated by budget-friendly reusable cable ties and multi-piece kits ($6-$17 range) that achieve high review velocity due to affordability and bulk quantities. Premium offerings like under-desk trays, rack mounts, and charging stations address specific use cases but represent a smaller segment. Best-sellers emphasize reusability, adhesive installation (no-drill), and multi-functionality to appeal to home office and tech-savvy consumers."
+      },
+      "features": [
+        {
+          "feature_name": "Reusable/Adjustable Cable Ties",
+          "mention_count": 15,
+          "satisfaction_pct": 93,
+          "avg_rating_with_feature": 4.68,
+          "insight": "Reusable cable ties are the category cornerstone \u2014 highly mentioned and rated. Customers value eco-friendly, adjustable solutions that eliminate single-use zip ties, indicating strong sustainability interest."
+        },
+        {
+          "feature_name": "Self-Adhesive/No-Drill Installation",
+          "mention_count": 14,
+          "satisfaction_pct": 92,
+          "avg_rating_with_feature": 4.63,
+          "insight": "No-drill, self-adhesive mounting dominates the home office segment. This feature dramatically lowers friction for renters and desk users, driving high adoption and consistent 4.6+ ratings."
+        },
+        {
+          "feature_name": "Cable Sleeves/Wire Loom Tubing",
+          "mention_count": 11,
+          "satisfaction_pct": 91,
+          "avg_rating_with_feature": 4.61,
+          "insight": "Cable sleeves provide protective bundling and cable protection (some explicitly mention pet-proofing). This feature appeals to households with pets/children and tech enthusiasts seeking cable protection."
+        },
+        {
+          "feature_name": "Multi-Piece/Bundle Kits",
+          "mention_count": 18,
+          "satisfaction_pct": 90,
+          "avg_rating_with_feature": 4.59,
+          "insight": "Bulk kits with 50-300+ pieces dominate the market. Customers perceive high value in comprehensive solutions covering multiple cable types, though newer sellers could differentiate with curated, purpose-built kits."
+        },
+        {
+          "feature_name": "Under-Desk/Raceway Cable Management",
+          "mention_count": 10,
+          "satisfaction_pct": 91,
+          "avg_rating_with_feature": 4.61,
+          "insight": "Under-desk trays, raceways, and J-channels are sought by home office workers. These higher-priced solutions ($13-$32) offer visibility and cable routing but require desk compatibility."
+        },
+        {
+          "feature_name": "Magnetic/Adhesive Cable Clips",
+          "mention_count": 9,
+          "satisfaction_pct": 90,
+          "avg_rating_with_feature": 4.6,
+          "insight": "Magnetic and adhesive clips are preferred for quick access and repositioning. They're marketed for nightstands, desks, and cars, indicating strong demand for flexible, temporary solutions."
+        },
+        {
+          "feature_name": "Rack Mount/Server Cabinet Systems",
+          "mention_count": 7,
+          "satisfaction_pct": 90,
+          "avg_rating_with_feature": 4.6,
+          "insight": "Specialized 1U rack mount managers target data centers and professional IT. Lower mention count suggests niche positioning, but consistent 4.5-4.8 ratings indicate strong professional demand."
+        },
+        {
+          "feature_name": "Multi-Size/Mixed Capacity Options",
+          "mention_count": 8,
+          "satisfaction_pct": 92,
+          "avg_rating_with_feature": 4.68,
+          "insight": "Products offering multiple sizes (4\"/6\"/8\"/10\" ties or mixed-slot clips) score higher satisfaction. Customers value versatility for different cable gauges, indicating room for more size-curated offerings."
+        }
+      ],
+      "opportunities": [
+        {
+          "opportunity": "Premium Smart Cable Organization (WiFi-enabled or app-tracked)",
+          "reasoning": "No products in the analyzed set mention smart/connected features, yet premium electronics buyers increasingly seek IoT-integrated solutions. A cable management system with LED indicators, smart routing, or app-based cord tracking could command $50-100+ price points.",
+          "priority": "medium"
+        },
+        {
+          "opportunity": "Specialized Desk Cable Management for Standing/Adjustable Desks",
+          "reasoning": "Only 2-3 products explicitly mention standing desk compatibility. As remote work grows, standing desk owners face unique cable routing challenges (moving cables with height adjustment). A dynamic cable routing system could fill this gap.",
+          "priority": "high"
+        },
+        {
+          "opportunity": "Eco-Certified/Sustainable Material Cable Organizers",
+          "reasoning": "While some products mention 'Global Recycled Standard,' few heavily emphasize biodegradable or carbon-neutral materials. With 4.6+ satisfaction across the board, eco-marketing (e.g., plant-based silicone, certified compostable) is underutilized.",
+          "priority": "medium"
+        },
+        {
+          "opportunity": "Pet & Child Safety-First Cable Management (locked, pet-proof designs)",
+          "reasoning": "Only 2-3 products explicitly highlight pet/child safety. Products mentioning 'baby-proofing' or 'pet-safe' features score consistently high. A locked cable cover or bite-resistant sleeve could become a distinct brand positioning.",
+          "priority": "high"
+        }
+      ]
+    },
+    "reusable-food-storage-bags": {
+      "category_id": "grocery-kitchen-reusable-food-storage-bags",
+      "category_name": "Grocery & Kitchen > Reusable Food Storage Bags",
+      "market_summary": {
+        "price_range": "$5.99 - $66.35",
+        "total_products_analyzed": 40,
+        "avg_rating": 4.42,
+        "market_insight": "The reusable food storage bags market is highly competitive with strong customer satisfaction (4.4/5 avg). Silicone-based bags dominate the premium segment ($40+), while budget options ($6-14) command the highest review volumes. Key differentiators include material composition (100% silicone vs PEVA/plastic-free), leak-proof design, and multi-use functionality (freezer/microwave/dishwasher safe)."
+      },
+      "features": [
+        {
+          "feature_name": "Dishwasher Safe",
+          "mention_count": 38,
+          "satisfaction_pct": 88,
+          "avg_rating_with_feature": 4.42,
+          "insight": "Virtually all products claim dishwasher safety, indicating it's table-stakes for this category \u2014 customers expect reusable bags to handle machine washing."
+        },
+        {
+          "feature_name": "Leakproof Design",
+          "mention_count": 32,
+          "satisfaction_pct": 87,
+          "avg_rating_with_feature": 4.41,
+          "insight": "Leakproof is a critical selling point advertised by 80% of products, and high ratings show it directly impacts purchase satisfaction and repeat business."
+        },
+        {
+          "feature_name": "100% Silicone Material",
+          "mention_count": 16,
+          "satisfaction_pct": 90,
+          "avg_rating_with_feature": 4.54,
+          "insight": "Premium silicone bags command higher ratings (4.54/5), suggesting consumers perceive superior quality and durability \u2014 a strong differentiation opportunity at higher price points."
+        },
+        {
+          "feature_name": "BPA Free",
+          "mention_count": 20,
+          "satisfaction_pct": 86,
+          "avg_rating_with_feature": 4.33,
+          "insight": "BPA-free messaging resonates with health-conscious buyers but appears on mid-range products; not a strong differentiator since most competitors also claim this."
+        },
+        {
+          "feature_name": "Microwave Safe",
+          "mention_count": 26,
+          "satisfaction_pct": 88,
+          "avg_rating_with_feature": 4.42,
+          "insight": "Microwave capability is a growing expectation, mentioned by 65% of products \u2014 particularly important for meal prep and reheating use cases."
+        },
+        {
+          "feature_name": "Freezer Safe / Freezer Bags",
+          "mention_count": 35,
+          "satisfaction_pct": 88,
+          "avg_rating_with_feature": 4.41,
+          "insight": "Core feature mentioned by 87% of products; freezer compatibility is table-stakes functionality that buyers assume without needing heavy promotion."
+        },
+        {
+          "feature_name": "Stand-Up / Wide-Mouth Design",
+          "mention_count": 18,
+          "satisfaction_pct": 89,
+          "avg_rating_with_feature": 4.48,
+          "insight": "Stand-up and wide-mouth features command higher satisfaction (4.48/5) and address a key pain point \u2014 easy filling and cleaning. Lower mention count suggests under-emphasized opportunity."
+        },
+        {
+          "feature_name": "Multiple Size Options (Gallon/Sandwich/Snack)",
+          "mention_count": 24,
+          "satisfaction_pct": 87,
+          "avg_rating_with_feature": 4.38,
+          "insight": "Bundled multi-size packs (gallon/quart/snack) resonate with meal prep buyers seeking versatility; products offering this see consistent satisfaction."
+        }
+      ],
+      "top_products": [
+        {
+          "name": "SPLF 6 Pack Reusable Gallon Freezer Bags Dishwasher Safe, BPA FREE...",
+          "asin": "B089GJRMFL",
+          "price": 12.59,
+          "rating": 4.5,
+          "reviews_count": 18853,
+          "estimated_monthly_revenue": 10457,
+          "key_features": [
+            "Leakproof",
+            "Dishwasher Safe",
+            "BPA Free",
+            "Extra Thick"
+          ]
+        },
+        {
+          "name": "SPLF 10 Pack Reusable Sandwich Bags Dishwasher Safe, Reusable Quart...",
+          "asin": "B0C7ZV6LVW",
+          "price": 12.59,
+          "rating": 4.5,
+          "reviews_count": 18853,
+          "estimated_monthly_revenue": 10457,
+          "key_features": [
+            "Leakproof",
+            "Dishwasher Safe",
+            "Extra Thick",
+            "Silicone Free"
+          ]
+        },
+        {
+          "name": "SPLF 12 Pack Dishwasher Safe Reusable Storage Bags...",
+          "asin": "B07V4332K7",
+          "price": 13.49,
+          "rating": 4.5,
+          "reviews_count": 18853,
+          "estimated_monthly_revenue": 10613,
+          "key_features": [
+            "Leakproof",
+            "Dishwasher Safe",
+            "Extra Thick",
+            "Plastic Free"
+          ]
+        },
+        {
+          "name": "Reusable Food Storage Bags - 10 Pack Freezer Bags...",
+          "asin": "B07ZRLGJLK",
+          "price": 13.99,
+          "rating": 4.4,
+          "reviews_count": 19642,
+          "estimated_monthly_revenue": 11393,
+          "key_features": [
+            "Extra Thick",
+            "Leakproof",
+            "Reusable",
+            "Multiple Sizes"
+          ]
+        },
+        {
+          "name": "IDEATECH 20Pack Reusable Bags Dishwasher Safe, Leakproof...",
+          "asin": "B088K3494K",
+          "price": 19.54,
+          "rating": 4.4,
+          "reviews_count": 10019,
+          "estimated_monthly_revenue": 8182,
+          "key_features": [
+            "Leakproof",
+            "Dishwasher Safe",
+            "BPA Free",
+            "Multiple Sizes"
+          ]
+        },
+        {
+          "name": "Lerine 10 Pack Dishwasher Safe Reusable Bags, Leakproof...",
+          "asin": "B0B2C1K45V",
+          "price": 9.99,
+          "rating": 4.4,
+          "reviews_count": 6037,
+          "estimated_monthly_revenue": 2514,
+          "key_features": [
+            "Leakproof",
+            "Dishwasher Safe",
+            "BPA Free",
+            "Multiple Sizes"
+          ]
+        },
+        {
+          "name": "Reusable food container silicone bag, Upgrade second generation...",
+          "asin": "B07Y6CK6XZ",
+          "price": 19.99,
+          "rating": 4.4,
+          "reviews_count": 5189,
+          "estimated_monthly_revenue": 4283,
+          "key_features": [
+            "100% Silicone",
+            "Stand-Up Design",
+            "Easy Cleaning",
+            "Rounded Interior"
+          ]
+        },
+        {
+          "name": "Stasher Silicone Reusable Food Storage Bags, 4-Pack...",
+          "asin": "B087XBR564",
+          "price": 46.38,
+          "rating": 4.5,
+          "reviews_count": 3408,
+          "estimated_monthly_revenue": 6620,
+          "key_features": [
+            "100% Silicone",
+            "Dishwasher Safe",
+            "Oven Safe",
+            "Sous Vide"
+          ]
+        },
+        {
+          "name": "Stasher Silicone Reusable Storage Bags, 3-Pack Bowls...",
+          "asin": "B0B3NJLQF9",
+          "price": 51.99,
+          "rating": 4.7,
+          "reviews_count": 684,
+          "estimated_monthly_revenue": 1869,
+          "key_features": [
+            "100% Silicone",
+            "Oven Safe",
+            "Sous Vide",
+            "Premium"
+          ]
+        },
+        {
+          "name": "Stasher Silicone Reusable Storage Bag, Stand-Up Mega Bag...",
+          "asin": "B08M3RBD2Y",
+          "price": 29.99,
+          "rating": 4.5,
+          "reviews_count": 1008,
+          "estimated_monthly_revenue": 1258,
+          "key_features": [
+            "100% Silicone",
+            "Stand-Up Design",
+            "Large Capacity",
+            "Dishwasher Safe"
+          ]
+        }
+      ]
+    },
+    "makeup-brush-sets": {
+      "category_id": "makeup-brush-sets",
+      "category_name": "Beauty & Personal Care > makeup-brush-sets",
+      "market_summary": {
+        "price_range": "$7.59 - $125.00",
+        "avg_rating": 4.6,
+        "total_products_analyzed": 40,
+        "market_insight": "The makeup brush set market is highly competitive with strong average ratings (4.6 stars), indicating consistent quality expectations. Price-to-value is critical, with budget options ($7-$10) capturing massive review volume alongside premium sets ($35+). Top sellers emphasize synthetic/premium materials, multiple brush counts (14-32 pieces), included accessories (cases, sponges), and professional-grade positioning."
+      },
+      "features": [
+        {
+          "feature_name": "Synthetic Hair/Premium Synthetic",
+          "mention_count": 28,
+          "avg_rating_with_feature": 4.63,
+          "satisfaction_pct": 93,
+          "insight": "Synthetic/premium synthetic bristles are the dominant material standard\u2014mentioned in 70% of products. Strong ratings (4.63 avg) suggest buyers prefer synthetic for durability, washability, and cruelty-free positioning over natural hair."
+        },
+        {
+          "feature_name": "Travel Case/Holder Included",
+          "mention_count": 26,
+          "avg_rating_with_feature": 4.64,
+          "satisfaction_pct": 93,
+          "insight": "26 of 40 products bundle a travel case or holder\u2014this accessory is nearly table-stakes. Products with cases rate highly (4.64 avg), indicating buyers expect organized storage and portability as standard."
+        },
+        {
+          "feature_name": "Multiple Brush Count (14+ pieces)",
+          "mention_count": 35,
+          "avg_rating_with_feature": 4.62,
+          "satisfaction_pct": 92,
+          "insight": "35 of 40 products feature 14+ pieces, signaling that larger sets drive perceived value. Buyers expect enough variety for foundation, powder, eye shadows, blush, and contour in one kit."
+        },
+        {
+          "feature_name": "Kabuki/Powder Brush Emphasis",
+          "mention_count": 15,
+          "avg_rating_with_feature": 4.61,
+          "satisfaction_pct": 92,
+          "insight": "Kabuki and powder brushes are called out in 15 products, showing sellers position these as 'must-have' for face application. Even emphasis on a specific brush type correlates with 4.6+ ratings."
+        },
+        {
+          "feature_name": "Cruelty-Free/Vegan",
+          "mention_count": 7,
+          "avg_rating_with_feature": 4.71,
+          "satisfaction_pct": 94,
+          "insight": "Only 7 products explicitly advertise cruelty-free/vegan positioning, but those score highest (4.71 avg). This ethical angle is underutilized\u2014room to differentiate on sustainability messaging."
+        },
+        {
+          "feature_name": "Labeled/Color-Coded Brushes",
+          "mention_count": 6,
+          "avg_rating_with_feature": 4.63,
+          "satisfaction_pct": 93,
+          "insight": "Only 6 products mention labeling (e.g., brush purpose labels), yet those score well (4.63 avg). Labeling addresses beginner pain point\u2014underserved opportunity for user-friendly design."
+        },
+        {
+          "feature_name": "Double-Ended/Multi-Functional Brushes",
+          "mention_count": 4,
+          "avg_rating_with_feature": 4.65,
+          "satisfaction_pct": 93,
+          "insight": "Only 4 products emphasize double-ended design for space-saving/versatility. Limited mention but strong ratings (4.65) suggest early adopters value this innovation\u2014room to expand."
+        },
+        {
+          "feature_name": "Bonus Accessories (Sponge, Cleaner, Razor)",
+          "mention_count": 13,
+          "avg_rating_with_feature": 4.64,
+          "satisfaction_pct": 93,
+          "insight": "13 products bundle extras like makeup sponges, cleaner, or eyebrow razors. High ratings (4.64 avg) show buyers appreciate all-in-one kits. Increasingly common but still differentiator vs. brush-only sets."
+        }
+      ]
+    },
+    "dish-drying-racks": {
+      "category_id": "home-kitchen-dish-drying-racks",
+      "category_name": "Home & Kitchen > Dish Drying Racks",
+      "market_summary": {
+        "price_range": "$14.99 - $49.99",
+        "total_products_analyzed": 40,
+        "avg_rating": 4.45,
+        "market_insight": "The dish drying rack market is highly competitive with strong customer satisfaction (4.45 avg rating). Most products cluster in the $16-$40 range with heavy emphasis on expandable/adjustable designs, stainless steel construction, and multi-functional features like utensil holders. Top performers combine space-saving design with rust-resistant materials and drain boards, indicating buyers value practicality and durability over budget options."
+      },
+      "features": [
+        {
+          "feature_name": "Expandable/Adjustable Length",
+          "mention_count": 19,
+          "satisfaction_pct": 88,
+          "avg_rating_with_feature": 4.42,
+          "insight": "Nearly half of all products advertise expandable sizing (17.5-29.4 inches), suggesting this is a must-have feature for sellers; buyers rate these highly, making it a winning product attribute."
+        },
+        {
+          "feature_name": "Stainless Steel/Rust-Resistant",
+          "mention_count": 23,
+          "satisfaction_pct": 89,
+          "avg_rating_with_feature": 4.46,
+          "insight": "Rust-resistance is the #1 advertised feature; strong 4.46 avg rating shows buyers are willing to pay for durability and material quality in a wet-use product category."
+        },
+        {
+          "feature_name": "Utensil/Cutlery Holder",
+          "mention_count": 28,
+          "satisfaction_pct": 89,
+          "avg_rating_with_feature": 4.48,
+          "insight": "Multi-functionality drives satisfaction; products with dedicated cutlery holders consistently score highest, indicating buyers want all-in-one organization solutions on their countertop."
+        },
+        {
+          "feature_name": "Drain Board/Drainboard",
+          "mention_count": 25,
+          "satisfaction_pct": 88,
+          "avg_rating_with_feature": 4.43,
+          "insight": "Included drain boards are advertised in 62% of products and highly rated; this feature prevents water pooling and is clearly a core expectation for kitchen sink organization."
+        },
+        {
+          "feature_name": "Large Capacity/Multi-Tier",
+          "mention_count": 15,
+          "satisfaction_pct": 87,
+          "avg_rating_with_feature": 4.41,
+          "insight": "2-tier or large capacity variants appeal to a growing segment; these products maintain strong ratings (4.41) despite higher complexity, showing demand for space-efficient solutions."
+        },
+        {
+          "feature_name": "Cup Holder/Mug Hooks",
+          "mention_count": 10,
+          "satisfaction_pct": 89,
+          "avg_rating_with_feature": 4.48,
+          "insight": "Specialized cup/mug storage is mentioned in only 25% of products but scores exceptionally high (4.48 rating), indicating underserved niche with strong buyer satisfaction."
+        },
+        {
+          "feature_name": "Space-Saving/Compact Design",
+          "mention_count": 8,
+          "satisfaction_pct": 87,
+          "avg_rating_with_feature": 4.39,
+          "insight": "Compact variants are less common but maintain solid ratings; opportunity for new sellers to specialize in small apartment/dorm markets with minimalist designs."
+        },
+        {
+          "feature_name": "Silicone Mat/Non-Slip Base",
+          "mention_count": 9,
+          "satisfaction_pct": 90,
+          "avg_rating_with_feature": 4.52,
+          "insight": "Products featuring silicone mats or non-slip bases score highest (4.52 avg); this safety/stability feature is underutilized but clearly resonates with quality-conscious buyers."
+        }
+      ],
+      "opportunities": [
+        {
+          "opportunity": "Rotating Drain Spout / Flexible Drainage System",
+          "reasoning": "Only 2 products mention rotating spout functionality, yet both (SAYZH B0F7RDVRB7 & B0CPY4DJMX) rate 4.5-4.6 stars. This niche feature solves the problem of water pooling and directional draining in awkward sink setups.",
+          "priority": "high"
+        },
+        {
+          "opportunity": "Eco-Friendly / Sustainable Materials (Recycled Content, GRS Certified)",
+          "reasoning": "3 products explicitly mention 'Global Recycled Standard' certification; while limited, these products rate 4.5-4.6 stars. Growing consumer demand for sustainability in home goods suggests room for a dedicated eco-friendly line.",
+          "priority": "high"
+        },
+        {
+          "opportunity": "Over-Sink / In-Sink Mounting (Non-Counter Models)",
+          "reasoning": "Only 4 products mention over-sink or in-sink capability, yet this design serves small kitchen / RV / commercial use cases. Products like B0FNM58VFK position this as a space-saving alternative to counter placement.",
+          "priority": "medium"
+        },
+        {
+          "opportunity": "Premium Design Aesthetics (Color Variety, Mid-Century/Minimalist Style)",
+          "reasoning": "Most products are black or silver/stainless; only 1 mentions decorative design (Watercolor Turtle mat). Buyers in the $30-50 range may be willing to pay for premium finishes (gunmetal, rose gold, wood accents, colored ceramics).",
+          "priority": "medium"
+        }
+      ]
+    }
+  }
+}

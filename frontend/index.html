@@ -17,9 +17,8 @@
                 <span class="navbar-logo-icon"></span>LaunchLens
             </a>
             <nav class="navbar-links">
-                <a href="#budget" class="navbar-link">Home</a>
-                <a href="#" class="navbar-link">About</a>
-                <a href="#budget" class="navbar-cta">Get Started</a>
+                <a href="#budget" class="navbar-link" id="nav-home">Home</a>
+                <a href="#" class="navbar-link" id="nav-about">About</a>
             </nav>
         </div>
     </header>
@@ -36,6 +35,9 @@
             <div class="step" data-screen="launch">7. Launch Plan</div>
         </div>
     </nav>
+
+    <!-- Global 3D prism background (persists across all screens) -->
+    <div class="prism-canvas" id="prism-canvas"></div>
 
     <!-- Screen container — each screen renders here -->
     <main id="app"></main>

@@ -32,7 +32,7 @@ function renderScoreBars(scores) {
 function renderCard(cat, index) {
     const color = scoreColor(cat.scores.composite);
     return `
-        <div class="card category-card">
+        <div class="card category-card" style="--card-delay: ${index * 100}ms">
             <div class="category-card-header">
                 <span class="category-rank">#${index + 1}</span>
                 <div class="category-card-info">
@@ -53,12 +53,30 @@ function renderCard(cat, index) {
             </div>
 
             <div class="category-card-footer">
-                <button class="btn-secondary btn-explore" disabled>
+                <button class="btn-secondary btn-explore" onclick="window.launchLensState.categoryId='${cat.id}'; window.location.hash='#deep-dive/${cat.id}'">
                     Explore category &rarr;
                 </button>
             </div>
         </div>
     `;
+}
+
+function observeCards(container) {
+    const observer = new IntersectionObserver(
+        (entries) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add("card-visible");
+                    observer.unobserve(entry.target);
+                }
+            });
+        },
+        { threshold: 0.1, rootMargin: "0px 0px -40px 0px" }
+    );
+
+    container.querySelectorAll(".category-card").forEach((card) => {
+        observer.observe(card);
+    });
 }
 
 function renderCategoryCards(container, data) {
@@ -91,6 +109,8 @@ function renderCategoryCards(container, data) {
             </button>
         </div>
     `;
+
+    observeCards(container);
 }
 
 export function renderCategories(container) {

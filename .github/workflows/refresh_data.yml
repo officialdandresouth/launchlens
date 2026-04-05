@@ -1,0 +1,68 @@
+name: Weekly Data Refresh
+
+on:
+  schedule:
+    - cron: '30 17 * * 1'  # Monday 1:30 PM EST = 5:30 PM UTC
+  workflow_dispatch:
+    inputs:
+      only_categories:
+        description: 'Comma-separated category IDs to refresh (empty = all)'
+        required: false
+        default: ''
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.13
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Scrape Amazon categories
+        env:
+          SCRAPER_API_KEY: ${{ secrets.SCRAPER_API_KEY }}
+        run: |
+          if [ -n "${{ inputs.only_categories }}" ]; then
+            python -m scripts.scrape_categories --only "${{ inputs.only_categories }}" --append
+          else
+            python -m scripts.scrape_categories
+          fi
+
+      - name: Score categories with Claude
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          if [ -n "${{ inputs.only_categories }}" ]; then
+            python -m scripts.score_categories --only "${{ inputs.only_categories }}"
+          else
+            python -m scripts.score_categories
+          fi
+
+      - name: Analyze features with Claude
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          if [ -n "${{ inputs.only_categories }}" ]; then
+            python -m scripts.analyze_features --only "${{ inputs.only_categories }}"
+          else
+            python -m scripts.analyze_features
+          fi
+
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add backend/data/*.json
+          if git diff --staged --quiet; then
+            echo "No data changes to commit"
+          else
+            git commit -m "chore: weekly data refresh $(date +%Y-%m-%d)"
+            git push
+          fi
