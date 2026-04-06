@@ -1144,6 +1144,62 @@ body {
     to { transform: rotate(360deg); }
 }
 
+/* ===== Spec Screen 3D Loading Cube ===== */
+.spec-loading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 60vh;
+    gap: 28px;
+}
+
+.spec-cube-wrap {
+    perspective: 400px;
+}
+
+.spec-cube {
+    width: 56px;
+    height: 56px;
+    position: relative;
+    transform-style: preserve-3d;
+    animation: specCubeSpin 3s ease-in-out infinite;
+}
+
+.spec-cube-face {
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    border: 1.5px solid rgba(0, 212, 126, 0.45);
+    background: rgba(0, 212, 126, 0.06);
+    border-radius: 4px;
+}
+
+.spec-cube-face.front  { transform: translateZ(28px); }
+.spec-cube-face.back   { transform: translateZ(-28px) rotateY(180deg); }
+.spec-cube-face.top    { transform: translateY(-28px) rotateX(90deg); }
+.spec-cube-face.bottom { transform: translateY(28px) rotateX(-90deg); }
+.spec-cube-face.left   { transform: translateX(-28px) rotateY(-90deg); }
+.spec-cube-face.right  { transform: translateX(28px) rotateY(90deg); }
+
+@keyframes specCubeSpin {
+    0%   { transform: rotateX(0deg) rotateY(0deg); }
+    33%  { transform: rotateX(20deg) rotateY(120deg); }
+    66%  { transform: rotateX(-15deg) rotateY(240deg); }
+    100% { transform: rotateX(0deg) rotateY(360deg); }
+}
+
+.spec-loading-status {
+    font-size: 1rem;
+    color: var(--text-muted);
+    transition: opacity 0.3s;
+}
+
+.spec-loading-hint {
+    font-size: 0.8rem;
+    color: var(--text-dim);
+}
+
 /* ===== Product Spec (Screen 4) ===== */
 
 .spec-screen {

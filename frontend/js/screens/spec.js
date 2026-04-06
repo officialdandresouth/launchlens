@@ -8,12 +8,35 @@ export function renderSpec(container) {
 
     container.innerHTML = `
         <div class="screen">
-            <div class="loading">
-                <div class="spinner"></div>
-                <p>Generating your product specification...</p>
+            <div class="spec-loading">
+                <div class="spec-cube-wrap">
+                    <div class="spec-cube">
+                        <div class="spec-cube-face front"></div>
+                        <div class="spec-cube-face back"></div>
+                        <div class="spec-cube-face top"></div>
+                        <div class="spec-cube-face bottom"></div>
+                        <div class="spec-cube-face left"></div>
+                        <div class="spec-cube-face right"></div>
+                    </div>
+                </div>
+                <p class="spec-loading-status" id="spec-status">Analyzing market data...</p>
+                <p class="spec-loading-hint">This usually takes 10–15 seconds</p>
             </div>
         </div>
     `;
+
+    const statuses = [
+        "Analyzing market data...",
+        "Extracting review insights...",
+        "Identifying product opportunities...",
+        "Writing your spec brief...",
+    ];
+    let statusIdx = 0;
+    const statusEl = container.querySelector('#spec-status');
+    const intervalId = setInterval(() => {
+        statusIdx = (statusIdx + 1) % statuses.length;
+        if (statusEl) statusEl.textContent = statuses[statusIdx];
+    }, 3000);
 
     fetch("/api/spec", {
         method: "POST",
@@ -28,11 +51,13 @@ export function renderSpec(container) {
             return res.json();
         })
         .then((data) => {
+            clearInterval(intervalId);
             state.productSpec = data.spec;
             state.categoryName = data.category_name;
             renderSpecContent(container, data);
         })
         .catch((err) => {
+            clearInterval(intervalId);
             container.innerHTML = `
                 <div class="screen">
                     <h1 class="screen-title">Something went wrong</h1>
