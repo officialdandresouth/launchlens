@@ -142,4 +142,17 @@ export function renderBudget(container) {
     document.getElementById('hero-learn-more').addEventListener('click', () => {
         document.getElementById('why-section').scrollIntoView({ behavior: 'smooth' });
     });
+
+    // Fetch data freshness and update hero badge
+    fetch('/api/meta')
+        .then(res => res.json())
+        .then(meta => {
+            const badge = container.querySelector('.hero-badge');
+            if (badge && meta.data_updated_at) {
+                const date = new Date(meta.data_updated_at);
+                const formatted = date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+                badge.innerHTML = `<span class="hero-badge-dot"></span>Data refreshed ${formatted} &mdash; ${meta.category_count} categories`;
+            }
+        })
+        .catch(() => {}); // Keep default badge text on failure
 }

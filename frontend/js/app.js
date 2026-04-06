@@ -6,7 +6,6 @@ import { renderEconomics } from './screens/economics.js';
 import { renderSuppliers } from './screens/suppliers.js';
 import { renderLaunchPlan } from './screens/launch_plan.js';
 import { init as initPrism } from './prism.js';
-import { initMascot } from './mascot.js';
 
 // Global state — accumulates user selections as they move through screens
 window.launchLensState = {
@@ -109,9 +108,6 @@ window.addEventListener('scroll', () => {
 
 // Initialize global 3D prism background (persists across all screens)
 initPrism(document.getElementById('prism-canvas'));
-
-// Initialize mascot
-initMascot();
 
 // Listen for hash changes
 window.addEventListener('hashchange', navigate);

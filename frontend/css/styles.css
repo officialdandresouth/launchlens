@@ -1623,23 +1623,6 @@ body {
     padding-bottom: 60px;
 }
 
-/* ===== Mascot Character ===== */
-.mascot {
-    position: fixed;
-    bottom: 32px;
-    right: 32px;
-    z-index: 150;
-    pointer-events: none;
-    transition: transform 0.08s ease-out;
-    --bounce: 0px;
-    filter: drop-shadow(0 4px 20px rgba(0, 0, 0, 0.5));
-}
-
-.mascot-img {
-    width: 90px;
-    height: auto;
-    display: block;
-}
 
 /* ===== Responsive ===== */
 @media (max-width: 768px) {
@@ -1711,8 +1694,6 @@ body {
 }
 
 @media (max-width: 480px) {
-    .mascot { display: none; }
-
     .hero-headline { font-size: 2rem; }
     .budget-display { font-size: 2.2rem; }
     .step { font-size: 0.68rem; padding: 12px 4px; }

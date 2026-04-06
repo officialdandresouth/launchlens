@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: launchlens
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn backend.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: ANTHROPIC_API_KEY
+        sync: false
+      - key: SCRAPER_API_KEY
+        sync: false
+      - key: PYTHON_VERSION
+        value: "3.13.0"
+    plan: free
+    autoDeploy: true
