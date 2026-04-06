@@ -1500,6 +1500,26 @@ body {
     margin-bottom: 32px;
 }
 
+.econ-inputs-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    gap: 12px;
+}
+
+.econ-inputs-header .section-heading {
+    margin-bottom: 0;
+}
+
+.econ-inputs-hint {
+    font-size: 0.72rem;
+    color: var(--green);
+    letter-spacing: 0.04em;
+    white-space: nowrap;
+    opacity: 0.8;
+}
+
 .economics-layout {
     display: grid;
     grid-template-columns: 1fr 1fr;

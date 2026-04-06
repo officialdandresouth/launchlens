@@ -27,7 +27,10 @@ export function renderEconomics(container) {
             <div class="economics-layout">
                 <!-- Inputs -->
                 <div class="economics-inputs card">
-                    <h2 class="section-heading">Inputs</h2>
+                    <div class="econ-inputs-header">
+                        <h2 class="section-heading">Adjust Inputs</h2>
+                        <span class="econ-inputs-hint">&#9998; All values are editable</span>
+                    </div>
                     <div class="econ-input-row">
                         <label for="econ-sell-price">Selling Price ($)</label>
                         <input type="number" id="econ-sell-price" value="${defaults.sellPrice.toFixed(2)}" step="0.01" min="0">
