@@ -5,11 +5,24 @@
  */
 
 let lastSpawnTime = 0;
-const THROTTLE_MS = 35; // one cube every ~35ms while moving
+let spawnIndex = 0;
+const THROTTLE_MS = 35;
+
+// Light → dark green cycle, repeating
+const GREEN_SHADES = [
+    { bg: 'rgba(187, 247, 208, 0.22)', border: 'rgba(187, 247, 208, 0.45)' }, // green-200
+    { bg: 'rgba(134, 239, 172, 0.20)', border: 'rgba(134, 239, 172, 0.40)' }, // green-300
+    { bg: 'rgba(74,  222, 128, 0.17)', border: 'rgba(74,  222, 128, 0.35)' }, // green-400
+    { bg: 'rgba(34,  197, 94,  0.14)', border: 'rgba(34,  197, 94,  0.30)' }, // green-500
+    { bg: 'rgba(22,  163, 74,  0.12)', border: 'rgba(22,  163, 74,  0.25)' }, // green-600
+    { bg: 'rgba(21,  128, 61,  0.10)', border: 'rgba(21,  128, 61,  0.20)' }, // green-700
+];
 
 function spawnCube(x, y) {
-    const size = 22 + Math.random() * 10;         // 22–32 px
+    const size = 32 + Math.random() * 16;         // 32–48 px
     const rotation = (Math.random() - 0.5) * 40;  // ±20°
+    const shade = GREEN_SHADES[spawnIndex % GREEN_SHADES.length];
+    spawnIndex++;
 
     const cube = document.createElement('div');
     Object.assign(cube.style, {
@@ -18,9 +31,9 @@ function spawnCube(x, y) {
         top:           `${y - size / 2}px`,
         width:         `${size}px`,
         height:        `${size}px`,
-        background:    'rgba(34, 197, 94, 0.10)',
-        border:        '1px solid rgba(34, 197, 94, 0.22)',
-        borderRadius:  '3px',
+        background:    shade.bg,
+        border:        `1px solid ${shade.border}`,
+        borderRadius:  '4px',
         pointerEvents: 'none',
         zIndex:        '8000',
         willChange:    'opacity, transform',
