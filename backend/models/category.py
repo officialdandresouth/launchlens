@@ -27,7 +27,7 @@ class CategoryScore(BaseModel):
     avg_margin_pct: float
     scores: ScoreBreakdown
     score_explanations: dict[str, str]
-    top_products: list[TopProduct]
+    top_products: list[TopProduct] = []
 
 
 class CategoriesResponse(BaseModel):
