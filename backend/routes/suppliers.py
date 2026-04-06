@@ -86,16 +86,19 @@ For each query:
     if not tool_result:
         raise HTTPException(status_code=500, detail="Failed to generate supplier queries")
 
-    # Build Alibaba URLs from search terms
+    # Build Alibaba URLs from search terms — skip malformed entries
     queries = []
-    for q in tool_result["queries"]:
-        queries.append(SupplierQuery(
-            search_term=q["search_term"],
-            alibaba_url=f"https://www.alibaba.com/trade/search?SearchText={quote_plus(q['search_term'])}",
-            explanation=q["explanation"],
-            estimated_moq=q["estimated_moq"],
-            estimated_price_range=q["estimated_price_range"],
-        ))
+    for q in tool_result.get("queries", []):
+        try:
+            queries.append(SupplierQuery(
+                search_term=q["search_term"],
+                alibaba_url=f"https://www.alibaba.com/trade/search?SearchText={quote_plus(q['search_term'])}",
+                explanation=q.get("explanation", ""),
+                estimated_moq=q.get("estimated_moq", "100-500 units"),
+                estimated_price_range=q.get("estimated_price_range", "Contact supplier"),
+            ))
+        except Exception:
+            pass
 
     return SuppliersResponse(
         category_id=req.category_id,

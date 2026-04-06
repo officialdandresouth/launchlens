@@ -107,8 +107,21 @@ Be realistic — a first-time seller with ${req.budget:,} should be conservative
     if not tool_result:
         raise HTTPException(status_code=500, detail="Failed to generate launch plan")
 
-    milestones = [Milestone(**m) for m in tool_result["milestones"]]
-    mistakes = [CommonMistake(**m) for m in tool_result["common_mistakes"]]
+    # Safely build milestones — skip any that are missing required fields
+    milestones = []
+    for m in tool_result.get("milestones", []):
+        try:
+            milestones.append(Milestone(**m))
+        except Exception:
+            pass
+
+    # Safely build mistakes
+    mistakes = []
+    for m in tool_result.get("common_mistakes", []):
+        try:
+            mistakes.append(CommonMistake(**m))
+        except Exception:
+            pass
 
     return LaunchPlanResponse(
         category_id=req.category_id,
@@ -116,5 +129,5 @@ Be realistic — a first-time seller with ${req.budget:,} should be conservative
         budget=req.budget,
         milestones=milestones,
         common_mistakes=mistakes,
-        total_timeline_weeks=tool_result["total_timeline_weeks"],
+        total_timeline_weeks=tool_result.get("total_timeline_weeks", 16),
     )
