@@ -166,7 +166,22 @@ Generate a product spec that a new seller could hand to a manufacturer. Focus on
     if not tool_result:
         raise HTTPException(status_code=500, detail="Failed to generate product spec")
 
-    spec = ProductSpec(**tool_result)
+    # Merge Claude's output with safe defaults so missing fields never crash
+    safe = {
+        "product_title": "",
+        "target_price_min": scores.avg_price * 0.8,
+        "target_price_max": scores.avg_price * 1.2,
+        "target_unit_cost_max": scores.avg_price * 0.3,
+        "required_features": [],
+        "features_to_avoid": [],
+        "key_differentiators": [],
+        "ideal_product_description": "",
+        "packaging_notes": "",
+        "target_rating": 4.5,
+        "estimated_monthly_units": 0,
+    }
+    safe.update(tool_result)
+    spec = ProductSpec(**safe)
 
     return SpecResponse(
         category_id=req.category_id,
