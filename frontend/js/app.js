@@ -111,6 +111,9 @@ import('./prism.js')
     .then(({ init }) => init(document.getElementById('prism-canvas')))
     .catch(e => console.warn('Prism background unavailable:', e));
 
+// Cursor trail — green-tinted cubes that follow and fade
+import('./cursor-trail.js').then(({ initCursorTrail }) => initCursorTrail());
+
 // Listen for hash changes
 window.addEventListener('hashchange', navigate);
 
