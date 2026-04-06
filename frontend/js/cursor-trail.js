@@ -8,7 +8,7 @@ let lastSpawnTime = 0;
 const THROTTLE_MS = 35; // one cube every ~35ms while moving
 
 function spawnCube(x, y) {
-    const size = 14 + Math.random() * 8;          // 14–22 px
+    const size = 22 + Math.random() * 10;         // 22–32 px
     const rotation = (Math.random() - 0.5) * 40;  // ±20°
 
     const cube = document.createElement('div');
