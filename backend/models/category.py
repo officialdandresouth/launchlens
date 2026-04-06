@@ -109,12 +109,12 @@ class ProductSpec(BaseModel):
     target_price_max: float
     target_unit_cost_max: float
     required_features: list[RequiredFeature]
-    features_to_avoid: list[FeatureToAvoid]
-    key_differentiators: list[KeyDifferentiator]
-    ideal_product_description: str
-    packaging_notes: str
-    target_rating: float
-    estimated_monthly_units: int
+    features_to_avoid: list[FeatureToAvoid] = []
+    key_differentiators: list[KeyDifferentiator] = []
+    ideal_product_description: str = ""
+    packaging_notes: str = ""
+    target_rating: float = 4.5
+    estimated_monthly_units: int = 0
 
 class SpecResponse(BaseModel):
     category_id: str
