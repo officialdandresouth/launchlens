@@ -5,7 +5,6 @@ import { renderSpec } from './screens/spec.js';
 import { renderEconomics } from './screens/economics.js';
 import { renderSuppliers } from './screens/suppliers.js';
 import { renderLaunchPlan } from './screens/launch_plan.js';
-import { init as initPrism } from './prism.js';
 
 // Global state — accumulates user selections as they move through screens
 window.launchLensState = {
@@ -106,8 +105,11 @@ window.addEventListener('scroll', () => {
     }
 });
 
-// Initialize global 3D prism background (persists across all screens)
-initPrism(document.getElementById('prism-canvas'));
+// Initialize global 3D prism background — dynamic import so a CDN failure
+// doesn't crash the whole app and leave the screen blank
+import('./prism.js')
+    .then(({ init }) => init(document.getElementById('prism-canvas')))
+    .catch(e => console.warn('Prism background unavailable:', e));
 
 // Listen for hash changes
 window.addEventListener('hashchange', navigate);
