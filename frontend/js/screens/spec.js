@@ -38,7 +38,7 @@ export function renderSpec(container) {
         if (statusEl) statusEl.textContent = statuses[statusIdx];
     }, 3000);
 
-    fetch("/api/spec", {
+    window.apiFetch("/api/spec", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({

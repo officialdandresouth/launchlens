@@ -17,7 +17,8 @@ export function renderSuppliers(container) {
 
     const specSummary = buildSpecSummary(state.productSpec);
 
-    fetch("/api/suppliers", {
+    const statusEl = container.querySelector('p');
+    window.apiFetch("/api/suppliers", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -25,7 +26,7 @@ export function renderSuppliers(container) {
             budget: state.budget,
             product_spec_summary: specSummary,
         }),
-    })
+    }, () => { if (statusEl) statusEl.textContent = "Server waking up, retrying..."; })
         .then((res) => {
             if (!res.ok) throw new Error(`API error: ${res.status}`);
             return res.json();

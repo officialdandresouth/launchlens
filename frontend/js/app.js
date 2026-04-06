@@ -114,6 +114,18 @@ import('./prism.js')
 // Cursor trail — green-tinted cubes that follow and fade
 import('./cursor-trail.js').then(({ initCursorTrail }) => initCursorTrail());
 
+// Shared fetch with auto-retry for AI routes (handles Render cold-start timeouts)
+// Retries once after 5s if the first attempt fails with a network error
+window.apiFetch = async function(url, options, onRetry) {
+    try {
+        return await fetch(url, options);
+    } catch {
+        if (onRetry) onRetry();
+        await new Promise(r => setTimeout(r, 5000));
+        return fetch(url, options);
+    }
+};
+
 // Listen for hash changes
 window.addEventListener('hashchange', navigate);
 
