@@ -6,6 +6,8 @@ export function renderSpec(container) {
         return;
     }
 
+    let cancelled = false;
+
     container.innerHTML = `
         <div class="screen">
             <div class="spec-loading">
@@ -21,9 +23,15 @@ export function renderSpec(container) {
                 </div>
                 <p class="spec-loading-status" id="spec-status">Analyzing market data...</p>
                 <p class="spec-loading-hint">This usually takes 10–15 seconds</p>
+                <button class="btn-secondary spec-cancel-btn" id="spec-cancel-btn">&larr; Back to Deep Dive</button>
             </div>
         </div>
     `;
+
+    document.getElementById('spec-cancel-btn').addEventListener('click', () => {
+        cancelled = true;
+        window.location.hash = `#deep-dive/${state.categoryId}`;
+    });
 
     const statuses = [
         "Analyzing market data...",
@@ -52,6 +60,7 @@ export function renderSpec(container) {
         })
         .then((data) => {
             clearInterval(intervalId);
+            if (cancelled) return;
             state.productSpec = data.spec;
             state.categoryName = data.category_name;
             renderSpecContent(container, data);
