@@ -523,17 +523,21 @@ body {
 
 /* ===== Cards ===== */
 .card {
-    background: var(--bg-card);
-    border: 1px solid var(--border);
+    background: linear-gradient(135deg, rgba(255,255,255,0.045) 0%, rgba(255,255,255,0.01) 60%, rgba(255,255,255,0.025) 100%);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255,255,255,0.07);
     border-radius: var(--radius);
     padding: 24px;
     margin-bottom: 12px;
-    transition: border-color 0.3s, transform 0.2s;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.28), 0 1px 0 rgba(255,255,255,0.04) inset;
+    transition: border-color 0.3s, transform 0.25s cubic-bezier(0.22,1,0.36,1), box-shadow 0.3s;
 }
 
 .card:hover {
-    border-color: var(--border-hover);
-    transform: translateY(-2px);
+    border-color: rgba(255,255,255,0.13);
+    transform: translateY(-3px);
+    box-shadow: 0 10px 36px rgba(0,0,0,0.38), 0 1px 0 rgba(255,255,255,0.06) inset;
 }
 
 /* ===== Category Cards (Screen 2) ===== */
@@ -679,7 +683,7 @@ body {
 .score-bars {
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 10px;
     margin-bottom: 20px;
 }
 
@@ -691,7 +695,7 @@ body {
 
 .score-bar-label {
     font-size: 0.72rem;
-    color: var(--text-dim);
+    color: var(--text-muted);
     min-width: 110px;
     text-align: right;
     text-transform: uppercase;
@@ -700,36 +704,36 @@ body {
 
 .score-bar-track {
     flex: 1;
-    height: 5px;
-    background: rgba(255, 255, 255, 0.04);
-    border-radius: 3px;
+    height: 7px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 4px;
     overflow: hidden;
 }
 
 .score-bar-fill {
     height: 100%;
-    border-radius: 3px;
+    border-radius: 4px;
     transition: width 1s cubic-bezier(0.22, 1, 0.36, 1);
     position: relative;
 }
 
 .score-bar-fill.score-green {
-    background: linear-gradient(90deg, var(--green), rgba(0, 212, 126, 0.7));
-    box-shadow: 0 0 8px rgba(0, 212, 126, 0.3);
+    background: linear-gradient(90deg, rgba(0,212,126,0.5), var(--green));
+    box-shadow: 0 0 10px rgba(0, 212, 126, 0.45);
 }
 .score-bar-fill.score-yellow {
-    background: linear-gradient(90deg, var(--yellow), rgba(255, 176, 32, 0.7));
-    box-shadow: 0 0 8px rgba(255, 176, 32, 0.3);
+    background: linear-gradient(90deg, rgba(255,176,32,0.5), var(--yellow));
+    box-shadow: 0 0 10px rgba(255, 176, 32, 0.45);
 }
 .score-bar-fill.score-red {
-    background: linear-gradient(90deg, var(--red), rgba(255, 77, 77, 0.7));
-    box-shadow: 0 0 8px rgba(255, 77, 77, 0.3);
+    background: linear-gradient(90deg, rgba(255,77,77,0.5), var(--red));
+    box-shadow: 0 0 10px rgba(255, 77, 77, 0.45);
 }
 
 .score-bar-value {
     font-size: 0.72rem;
-    font-weight: 600;
-    color: var(--text-dim);
+    font-weight: 700;
+    color: var(--text-muted);
     min-width: 24px;
     text-align: right;
     font-variant-numeric: tabular-nums;
@@ -739,13 +743,20 @@ body {
 .category-meta {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
-    font-size: 0.75rem;
-    color: var(--text-dim);
+    gap: 8px;
+    font-size: 0.72rem;
+    color: var(--text-muted);
     margin-bottom: 16px;
-    letter-spacing: 0.02em;
     padding-top: 16px;
-    border-top: 1px solid rgba(255, 255, 255, 0.04);
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.category-meta span {
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.07);
+    border-radius: var(--radius-pill);
+    padding: 4px 12px;
+    letter-spacing: 0.02em;
 }
 
 .category-card-footer {
@@ -849,20 +860,26 @@ body {
 .market-stat {
     display: flex;
     flex-direction: column;
-    gap: 4px;
+    gap: 6px;
+    background: rgba(255,255,255,0.03);
+    border: 1px solid rgba(255,255,255,0.07);
+    border-radius: 10px;
+    padding: 16px 20px;
 }
 
 .market-stat-label {
-    font-size: 0.68rem;
+    font-size: 0.65rem;
     color: var(--text-dim);
-    letter-spacing: 0.06em;
+    letter-spacing: 0.08em;
     font-weight: 500;
+    text-transform: uppercase;
 }
 
 .market-stat-value {
-    font-size: 1.2rem;
-    font-weight: 600;
+    font-size: 1.3rem;
+    font-weight: 700;
     color: #fff;
+    letter-spacing: -0.3px;
 }
 
 .market-insight {
@@ -877,13 +894,24 @@ body {
 .feature-bars {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
 }
 
 .feature-bar-row {
     display: flex;
     flex-direction: column;
-    gap: 6px;
+    gap: 8px;
+    background: linear-gradient(135deg, rgba(255,255,255,0.04) 0%, rgba(255,255,255,0.01) 100%);
+    border: 1px solid rgba(255,255,255,0.07);
+    border-radius: var(--radius);
+    padding: 16px 20px;
+    transition: background 0.25s, border-color 0.25s, transform 0.25s cubic-bezier(0.22,1,0.36,1);
+}
+
+.feature-bar-row:hover {
+    background: rgba(255,255,255,0.055);
+    border-color: rgba(255,255,255,0.12);
+    transform: translateX(4px);
 }
 
 .feature-bar-info {
@@ -893,14 +921,17 @@ body {
 }
 
 .feature-bar-label {
-    font-size: 0.9rem;
-    font-weight: 500;
+    font-size: 0.92rem;
+    font-weight: 600;
     color: #fff;
 }
 
 .feature-bar-mentions {
-    font-size: 0.7rem;
+    font-size: 0.68rem;
     color: var(--text-dim);
+    background: rgba(255,255,255,0.05);
+    border-radius: var(--radius-pill);
+    padding: 2px 8px;
 }
 
 .feature-bar-track-wrap {
@@ -911,8 +942,8 @@ body {
 
 .feature-bar-track {
     flex: 1;
-    height: 8px;
-    background: var(--surface);
+    height: 7px;
+    background: rgba(255,255,255,0.05);
     border-radius: 4px;
     overflow: hidden;
 }
@@ -920,12 +951,21 @@ body {
 .feature-bar-fill {
     height: 100%;
     border-radius: 4px;
-    transition: width 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+    transition: width 0.9s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
-.feature-bar-fill.score-green { background: var(--green); }
-.feature-bar-fill.score-yellow { background: var(--yellow); }
-.feature-bar-fill.score-red { background: var(--red); }
+.feature-bar-fill.score-green {
+    background: linear-gradient(90deg, rgba(0,212,126,0.5), var(--green));
+    box-shadow: 0 0 8px rgba(0, 212, 126, 0.4);
+}
+.feature-bar-fill.score-yellow {
+    background: linear-gradient(90deg, rgba(255,176,32,0.5), var(--yellow));
+    box-shadow: 0 0 8px rgba(255, 176, 32, 0.4);
+}
+.feature-bar-fill.score-red {
+    background: linear-gradient(90deg, rgba(255,77,77,0.5), var(--red));
+    box-shadow: 0 0 8px rgba(255, 77, 77, 0.4);
+}
 
 .feature-bar-value {
     font-size: 0.85rem;
@@ -941,8 +981,7 @@ body {
 
 .feature-insight {
     font-size: 0.75rem;
-    color: var(--text-dim);
-    font-style: italic;
+    color: var(--text-muted);
     line-height: 1.5;
     padding-left: 2px;
 }
@@ -951,20 +990,33 @@ body {
 .opportunity-grid {
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 10px;
 }
 
 .opportunity-card {
-    background: var(--bg-card);
-    border: 1px solid var(--border);
-    border-left: 4px solid var(--text-dim);
-    border-radius: var(--radius-sm);
-    padding: 20px;
+    background: linear-gradient(135deg, rgba(255,255,255,0.04) 0%, rgba(255,255,255,0.01) 100%);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(255,255,255,0.07);
+    border-left: 3px solid var(--text-dim);
+    border-radius: var(--radius);
+    padding: 20px 24px;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.2);
+    transition: transform 0.3s cubic-bezier(0.22,1,0.36,1), box-shadow 0.3s, border-color 0.3s;
+}
+
+.opportunity-card:hover {
+    transform: translateX(6px);
+    box-shadow: 0 6px 28px rgba(0,0,0,0.32);
+    border-color: rgba(255,255,255,0.12);
 }
 
 .opportunity-card.priority-high { border-left-color: var(--green); }
 .opportunity-card.priority-medium { border-left-color: var(--yellow); }
 .opportunity-card.priority-low { border-left-color: var(--text-dim); }
+
+.opportunity-card.priority-high:hover { box-shadow: 0 6px 28px rgba(0,0,0,0.32), -2px 0 16px rgba(0,212,126,0.08); }
+.opportunity-card.priority-medium:hover { box-shadow: 0 6px 28px rgba(0,0,0,0.32), -2px 0 16px rgba(255,176,32,0.08); }
 
 .opportunity-header {
     display: flex;
