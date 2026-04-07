@@ -150,7 +150,7 @@ Generate a product spec that a new seller could hand to a manufacturer. Focus on
 
     response = client.messages.create(
         model="claude-sonnet-4-6",
-        max_tokens=2000,
+        max_tokens=4000,
         tools=[SPEC_TOOL],
         tool_choice={"type": "tool", "name": "generate_product_spec"},
         messages=[{"role": "user", "content": prompt}],
@@ -166,22 +166,42 @@ Generate a product spec that a new seller could hand to a manufacturer. Focus on
     if not tool_result:
         raise HTTPException(status_code=500, detail="Failed to generate product spec")
 
-    # Merge Claude's output with safe defaults so missing fields never crash
-    safe = {
-        "product_title": "",
-        "target_price_min": scores.avg_price * 0.8,
-        "target_price_max": scores.avg_price * 1.2,
-        "target_unit_cost_max": scores.avg_price * 0.3,
-        "required_features": [],
-        "features_to_avoid": [],
-        "key_differentiators": [],
-        "ideal_product_description": "",
-        "packaging_notes": "",
-        "target_rating": 4.5,
-        "estimated_monthly_units": 0,
-    }
-    safe.update(tool_result)
-    spec = ProductSpec(**safe)
+    # Build nested lists safely — skip any malformed items
+    from backend.models.category import RequiredFeature, FeatureToAvoid, KeyDifferentiator
+    required_features = []
+    for item in tool_result.get("required_features", []):
+        try:
+            required_features.append(RequiredFeature(**item))
+        except Exception:
+            pass
+
+    features_to_avoid = []
+    for item in tool_result.get("features_to_avoid", []):
+        try:
+            features_to_avoid.append(FeatureToAvoid(**item))
+        except Exception:
+            pass
+
+    key_differentiators = []
+    for item in tool_result.get("key_differentiators", []):
+        try:
+            key_differentiators.append(KeyDifferentiator(**item))
+        except Exception:
+            pass
+
+    spec = ProductSpec(
+        product_title=tool_result.get("product_title", ""),
+        target_price_min=tool_result.get("target_price_min", scores.avg_price * 0.8),
+        target_price_max=tool_result.get("target_price_max", scores.avg_price * 1.2),
+        target_unit_cost_max=tool_result.get("target_unit_cost_max", scores.avg_price * 0.3),
+        required_features=required_features,
+        features_to_avoid=features_to_avoid,
+        key_differentiators=key_differentiators,
+        ideal_product_description=tool_result.get("ideal_product_description", ""),
+        packaging_notes=tool_result.get("packaging_notes", ""),
+        target_rating=tool_result.get("target_rating", 4.5),
+        estimated_monthly_units=tool_result.get("estimated_monthly_units", 0),
+    )
 
     return SpecResponse(
         category_id=req.category_id,
