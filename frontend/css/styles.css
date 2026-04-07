@@ -822,6 +822,12 @@ body {
     margin-bottom: 24px;
 }
 
+.deep-dive-action {
+    margin-bottom: 28px;
+    display: flex;
+    justify-content: flex-start;
+}
+
 .btn-back {
     background: transparent;
     border: 1px solid var(--border);

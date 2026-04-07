@@ -311,6 +311,13 @@ function renderDeepDiveContent(container, data) {
                 <div class="composite-score ${compositeColor}">${data.scores.composite}</div>
             </div>
 
+            <!-- Quick action -->
+            <div class="deep-dive-action">
+                <button class="btn-primary" onclick="window.location.hash='#spec'">
+                    Select this category &rarr;
+                </button>
+            </div>
+
             <!-- Score breakdown -->
             <div class="deep-dive-scores card">
                 <div class="score-bars">
@@ -334,9 +341,6 @@ function renderDeepDiveContent(container, data) {
             <div class="deep-dive-footer">
                 <button class="btn-secondary" onclick="window.location.hash='#categories'">
                     &larr; Back to categories
-                </button>
-                <button class="btn-primary" onclick="window.location.hash='#spec'">
-                    Select this category &rarr;
                 </button>
             </div>
         </div>
