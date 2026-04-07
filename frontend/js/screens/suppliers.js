@@ -8,16 +8,38 @@ export function renderSuppliers(container) {
 
     container.innerHTML = `
         <div class="screen">
-            <div class="loading">
-                <div class="spinner"></div>
-                <p>Finding suppliers for your product...</p>
+            <div class="spec-loading">
+                <div class="spec-cube-wrap">
+                    <div class="spec-cube">
+                        <div class="spec-cube-face front"></div>
+                        <div class="spec-cube-face back"></div>
+                        <div class="spec-cube-face top"></div>
+                        <div class="spec-cube-face bottom"></div>
+                        <div class="spec-cube-face left"></div>
+                        <div class="spec-cube-face right"></div>
+                    </div>
+                </div>
+                <p class="spec-loading-status" id="suppliers-status">Finding suppliers for your product...</p>
+                <p class="spec-loading-hint">This usually takes 8–12 seconds</p>
             </div>
         </div>
     `;
 
     const specSummary = buildSpecSummary(state.productSpec);
 
-    const statusEl = container.querySelector('p');
+    const supplierStatuses = [
+        "Finding suppliers for your product...",
+        "Searching manufacturer databases...",
+        "Evaluating sourcing options...",
+        "Preparing your results...",
+    ];
+    let supplierStatusIdx = 0;
+    const statusEl = container.querySelector('#suppliers-status');
+    const intervalId = setInterval(() => {
+        supplierStatusIdx = (supplierStatusIdx + 1) % supplierStatuses.length;
+        if (statusEl) statusEl.textContent = supplierStatuses[supplierStatusIdx];
+    }, 3000);
+
     window.apiFetch("/api/suppliers", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -31,8 +53,12 @@ export function renderSuppliers(container) {
             if (!res.ok) throw new Error(`API error: ${res.status}`);
             return res.json();
         })
-        .then((data) => renderSuppliersContent(container, data))
+        .then((data) => {
+            clearInterval(intervalId);
+            renderSuppliersContent(container, data);
+        })
         .catch((err) => {
+            clearInterval(intervalId);
             container.innerHTML = `
                 <div class="screen">
                     <h1 class="screen-title">Something went wrong</h1>

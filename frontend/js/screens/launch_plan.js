@@ -8,16 +8,38 @@ export function renderLaunchPlan(container) {
 
     container.innerHTML = `
         <div class="screen">
-            <div class="loading">
-                <div class="spinner"></div>
-                <p>Building your personalized launch timeline...</p>
+            <div class="spec-loading">
+                <div class="spec-cube-wrap">
+                    <div class="spec-cube">
+                        <div class="spec-cube-face front"></div>
+                        <div class="spec-cube-face back"></div>
+                        <div class="spec-cube-face top"></div>
+                        <div class="spec-cube-face bottom"></div>
+                        <div class="spec-cube-face left"></div>
+                        <div class="spec-cube-face right"></div>
+                    </div>
+                </div>
+                <p class="spec-loading-status" id="launch-status">Building your personalized launch timeline...</p>
+                <p class="spec-loading-hint">This usually takes 10–15 seconds</p>
             </div>
         </div>
     `;
 
     const specSummary = buildSpecSummary(state.productSpec);
 
-    const statusEl = container.querySelector('p');
+    const launchStatuses = [
+        "Building your personalized launch timeline...",
+        "Calculating milestones and durations...",
+        "Estimating costs for your budget...",
+        "Writing your launch plan...",
+    ];
+    let launchStatusIdx = 0;
+    const statusEl = container.querySelector('#launch-status');
+    const intervalId = setInterval(() => {
+        launchStatusIdx = (launchStatusIdx + 1) % launchStatuses.length;
+        if (statusEl) statusEl.textContent = launchStatuses[launchStatusIdx];
+    }, 3000);
+
     window.apiFetch("/api/launch-plan", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -31,8 +53,12 @@ export function renderLaunchPlan(container) {
             if (!res.ok) throw new Error(`API error: ${res.status}`);
             return res.json();
         })
-        .then((data) => renderLaunchContent(container, data))
+        .then((data) => {
+            clearInterval(intervalId);
+            renderLaunchContent(container, data);
+        })
         .catch((err) => {
+            clearInterval(intervalId);
             container.innerHTML = `
                 <div class="screen">
                     <h1 class="screen-title">Something went wrong</h1>

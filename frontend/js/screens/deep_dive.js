@@ -351,20 +351,47 @@ export function renderDeepDive(container) {
 
     container.innerHTML = `
         <div class="screen">
-            <div class="loading">
-                <div class="spinner"></div>
-                <p>Analyzing category data...</p>
+            <div class="spec-loading">
+                <div class="spec-cube-wrap">
+                    <div class="spec-cube">
+                        <div class="spec-cube-face front"></div>
+                        <div class="spec-cube-face back"></div>
+                        <div class="spec-cube-face top"></div>
+                        <div class="spec-cube-face bottom"></div>
+                        <div class="spec-cube-face left"></div>
+                        <div class="spec-cube-face right"></div>
+                    </div>
+                </div>
+                <p class="spec-loading-status" id="dd-status">Analyzing category data...</p>
+                <p class="spec-loading-hint">Loading market intelligence...</p>
             </div>
         </div>
     `;
+
+    const ddStatuses = [
+        "Analyzing category data...",
+        "Processing market trends...",
+        "Scoring opportunities...",
+        "Loading your deep dive...",
+    ];
+    let ddStatusIdx = 0;
+    const ddStatusEl = container.querySelector('#dd-status');
+    const ddIntervalId = setInterval(() => {
+        ddStatusIdx = (ddStatusIdx + 1) % ddStatuses.length;
+        if (ddStatusEl) ddStatusEl.textContent = ddStatuses[ddStatusIdx];
+    }, 3000);
 
     fetch(`/api/category/${categoryId}?budget=${state.budget}`)
         .then((res) => {
             if (!res.ok) throw new Error(`API error: ${res.status}`);
             return res.json();
         })
-        .then((data) => renderDeepDiveContent(container, data))
+        .then((data) => {
+            clearInterval(ddIntervalId);
+            renderDeepDiveContent(container, data);
+        })
         .catch((err) => {
+            clearInterval(ddIntervalId);
             container.innerHTML = `
                 <div class="screen">
                     <h1 class="screen-title">Something went wrong</h1>
