@@ -689,22 +689,60 @@ body {
 
 .score-bar-row {
     display: flex;
-    align-items: center;
-    gap: 12px;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.score-bar-header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 8px;
 }
 
 .score-bar-label {
-    font-size: 0.72rem;
+    font-size: 0.78rem;
     color: var(--text-muted);
-    min-width: 110px;
-    text-align: right;
     text-transform: uppercase;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.05em;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.score-bar-right {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+}
+
+.score-bar-desc {
+    font-size: 0.72rem;
+    color: var(--text-dim);
+    font-style: italic;
+    text-align: right;
+}
+
+.score-bar-value {
+    font-size: 1.15rem;
+    font-weight: 800;
+    font-variant-numeric: tabular-nums;
+    line-height: 1;
+    letter-spacing: -0.5px;
+}
+
+.score-bar-value.score-green { color: var(--green); text-shadow: 0 0 12px rgba(0,212,126,0.5); }
+.score-bar-value.score-yellow { color: var(--yellow); text-shadow: 0 0 12px rgba(255,176,32,0.5); }
+.score-bar-value.score-red { color: var(--red); text-shadow: 0 0 12px rgba(255,77,77,0.5); }
+
+.score-bar-pct {
+    font-size: 0.7em;
+    font-weight: 600;
+    opacity: 0.75;
 }
 
 .score-bar-track {
-    flex: 1;
-    height: 7px;
+    width: 100%;
+    height: 8px;
     background: rgba(255, 255, 255, 0.05);
     border-radius: 4px;
     overflow: hidden;
@@ -713,30 +751,20 @@ body {
 .score-bar-fill {
     height: 100%;
     border-radius: 4px;
-    transition: width 1s cubic-bezier(0.22, 1, 0.36, 1);
-    position: relative;
+    transition: width 1.1s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 .score-bar-fill.score-green {
-    background: linear-gradient(90deg, rgba(0,212,126,0.5), var(--green));
+    background: linear-gradient(90deg, rgba(0,212,126,0.4), var(--green));
     box-shadow: 0 0 10px rgba(0, 212, 126, 0.45);
 }
 .score-bar-fill.score-yellow {
-    background: linear-gradient(90deg, rgba(255,176,32,0.5), var(--yellow));
+    background: linear-gradient(90deg, rgba(255,176,32,0.4), var(--yellow));
     box-shadow: 0 0 10px rgba(255, 176, 32, 0.45);
 }
 .score-bar-fill.score-red {
-    background: linear-gradient(90deg, rgba(255,77,77,0.5), var(--red));
+    background: linear-gradient(90deg, rgba(255,77,77,0.4), var(--red));
     box-shadow: 0 0 10px rgba(255, 77, 77, 0.45);
-}
-
-.score-bar-value {
-    font-size: 0.72rem;
-    font-weight: 700;
-    color: var(--text-muted);
-    min-width: 24px;
-    text-align: right;
-    font-variant-numeric: tabular-nums;
 }
 
 /* Card metadata */
@@ -1940,7 +1968,9 @@ body {
         justify-content: center;
     }
 
-    .score-bar-label { min-width: 80px; font-size: 0.68rem; }
+    .score-bar-label { font-size: 0.68rem; }
+    .score-bar-desc { display: none; }
+    .score-bar-value { font-size: 1rem; }
 
     .why-headline { font-size: 2rem; }
     .why-section { padding: 60px 24px; }

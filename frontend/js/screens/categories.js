@@ -12,17 +12,39 @@ function scoreColor(score) {
     return "score-red";
 }
 
+const SCORE_DESCS = {
+    gross_margin: ["Low margin — cost-sensitive", "Moderate margin", "Strong margin potential"],
+    demand_satisfaction_gap: ["Buyers are mostly satisfied", "Some unmet demand", "Big gap to exploit"],
+    revenue_concentration: ["Few sellers dominate", "Moderate spread", "Revenue well distributed"],
+    capital_efficiency: ["Capital-heavy category", "Moderate ROI", "Capital-efficient"],
+    barrier_to_entry: ["Hard to enter", "Moderate competition", "Accessible for new sellers"],
+};
+
+function scoreDesc(key, val) {
+    const tiers = SCORE_DESCS[key];
+    if (!tiers) return "";
+    if (val >= 70) return tiers[2];
+    if (val >= 45) return tiers[1];
+    return tiers[0];
+}
+
 function renderScoreBars(scores) {
     return Object.entries(SCORE_LABELS)
         .map(([key, label]) => {
             const val = scores[key];
+            const color = scoreColor(val);
             return `
                 <div class="score-bar-row">
-                    <span class="score-bar-label">${label}</span>
-                    <div class="score-bar-track">
-                        <div class="score-bar-fill ${scoreColor(val)}" style="width: ${val}%"></div>
+                    <div class="score-bar-header">
+                        <span class="score-bar-label">${label}</span>
+                        <div class="score-bar-right">
+                            <span class="score-bar-desc">${scoreDesc(key, val)}</span>
+                            <span class="score-bar-value ${color}">${val}<span class="score-bar-pct">%</span></span>
+                        </div>
                     </div>
-                    <span class="score-bar-value">${val}</span>
+                    <div class="score-bar-track">
+                        <div class="score-bar-fill ${color}" style="width: ${val}%"></div>
+                    </div>
                 </div>
             `;
         })
