@@ -6,21 +6,21 @@
 
 let lastSpawnTime = 0;
 let spawnIndex = 0;
-const THROTTLE_MS = 45;  // spawn less often → shorter trail
+const THROTTLE_MS = 70;  // very infrequent — minimal trail
 
-// Light → dark green cycle, repeating
+// Subtle light → dark green, low opacity
 const GREEN_SHADES = [
-    { bg: 'rgba(187, 247, 208, 0.20)', border: 'rgba(187, 247, 208, 0.45)' }, // green-200
-    { bg: 'rgba(134, 239, 172, 0.18)', border: 'rgba(134, 239, 172, 0.40)' }, // green-300
-    { bg: 'rgba(74,  222, 128, 0.15)', border: 'rgba(74,  222, 128, 0.35)' }, // green-400
-    { bg: 'rgba(34,  197, 94,  0.12)', border: 'rgba(34,  197, 94,  0.30)' }, // green-500
-    { bg: 'rgba(22,  163, 74,  0.10)', border: 'rgba(22,  163, 74,  0.25)' }, // green-600
-    { bg: 'rgba(21,  128, 61,  0.08)', border: 'rgba(21,  128, 61,  0.20)' }, // green-700
+    { bg: 'rgba(187, 247, 208, 0.08)', border: 'rgba(187, 247, 208, 0.22)' }, // green-200
+    { bg: 'rgba(134, 239, 172, 0.07)', border: 'rgba(134, 239, 172, 0.18)' }, // green-300
+    { bg: 'rgba(74,  222, 128, 0.06)', border: 'rgba(74,  222, 128, 0.15)' }, // green-400
+    { bg: 'rgba(34,  197, 94,  0.05)', border: 'rgba(34,  197, 94,  0.12)' }, // green-500
+    { bg: 'rgba(22,  163, 74,  0.04)', border: 'rgba(22,  163, 74,  0.10)' }, // green-600
+    { bg: 'rgba(21,  128, 61,  0.03)', border: 'rgba(21,  128, 61,  0.08)' }, // green-700
 ];
 
 function spawnCube(x, y) {
-    const size = 40 + Math.random() * 20;          // 40–60 px
-    const rotation = (Math.random() - 0.5) * 40;   // ±20°
+    const size = 14 + Math.random() * 10;          // 14–24 px — small and refined
+    const rotation = (Math.random() - 0.5) * 25;   // ±12.5° — subtle tilt
     const shade = GREEN_SHADES[spawnIndex % GREEN_SHADES.length];
     spawnIndex++;
 
@@ -33,7 +33,7 @@ function spawnCube(x, y) {
         height:        `${size}px`,
         background:    shade.bg,
         border:        `1px solid ${shade.border}`,
-        borderRadius:  '5px',
+        borderRadius:  '3px',
         pointerEvents: 'none',
         zIndex:        '8000',
         willChange:    'opacity, transform',
@@ -43,10 +43,10 @@ function spawnCube(x, y) {
 
     cube.animate(
         [
-            { opacity: 0.70, transform: `rotate(${rotation}deg) scale(1)` },
-            { opacity: 0,    transform: `rotate(${rotation + 10}deg) scale(0.5)` },
+            { opacity: 0.55, transform: `rotate(${rotation}deg) scale(1)` },
+            { opacity: 0,    transform: `rotate(${rotation + 6}deg) scale(0.6)` },
         ],
-        { duration: 750, easing: 'ease-out', fill: 'forwards' }
+        { duration: 500, easing: 'ease-out', fill: 'forwards' }
     ).onfinish = () => cube.remove();
 }
 
