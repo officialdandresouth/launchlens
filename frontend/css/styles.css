@@ -1518,35 +1518,22 @@ body {
     gap: 10px;
 }
 
-.spec-feature-card {
-    padding: 16px 20px;
-    border-left: 4px solid var(--border);
-}
-
-.spec-feature-required {
-    border-left-color: var(--green);
-}
-
-.spec-feature-avoid {
-    border-left-color: var(--red);
-}
-
-.spec-feature-diff {
-    border-left-color: var(--yellow);
-}
+.spec-feature-required { border-left-color: var(--green); }
+.spec-feature-avoid    { border-left-color: var(--red); }
+.spec-feature-diff     { border-left-color: var(--yellow); }
 
 .spec-feature-name {
     font-size: 0.9rem;
     font-weight: 600;
     color: #fff;
     display: block;
-    margin-bottom: 4px;
+    line-height: 1.4;
 }
 
 .spec-feature-rationale {
     font-size: 0.82rem;
     color: var(--text-muted);
-    line-height: 1.6;
+    line-height: 1.65;
     margin: 0;
 }
 
@@ -1571,6 +1558,121 @@ body {
     align-items: center;
     margin-top: 16px;
     padding-bottom: 60px;
+}
+
+/* ── Unit Economics shortcut in spec header ── */
+.spec-econ-top-btn {
+    flex-shrink: 0;
+    font-size: 0.82rem;
+    padding: 8px 18px;
+}
+
+/* ── Spec: progressive reveal ── */
+.spec-reveal {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.42s ease, transform 0.42s ease;
+}
+.spec-reveal.spec-revealed {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* ── Scroll hint below hero card ── */
+.spec-scroll-hint {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 18px;
+    padding-top: 14px;
+    border-top: 1px solid rgba(255,255,255,0.06);
+    color: var(--text-dim);
+    font-size: 0.75rem;
+    animation: scrollHintPulse 2.4s ease-in-out infinite;
+}
+.scroll-hint-arrow {
+    font-size: 0.9rem;
+    opacity: 0.7;
+}
+@keyframes scrollHintPulse {
+    0%, 100% { opacity: 0.45; transform: translateY(0); }
+    50%       { opacity: 0.85; transform: translateY(4px); }
+}
+
+/* ── Feature card: clickable + expandable ── */
+.spec-feature-card {
+    padding: 16px 20px;
+    border-left: 4px solid var(--border);
+    cursor: pointer;
+    user-select: none;
+    transition: background 0.22s ease, box-shadow 0.22s ease, transform 0.18s ease;
+}
+.spec-feature-card:hover {
+    transform: translateX(3px);
+    box-shadow: 0 6px 28px rgba(0,0,0,0.35), 0 1px 0 rgba(255,255,255,0.05) inset;
+}
+
+.spec-feature-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 6px;
+}
+.spec-feature-meta {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+    margin-top: 2px;
+}
+.spec-feature-priority {
+    font-size: 0.62rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 2px 7px;
+    border-radius: 4px;
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.1);
+    color: var(--text-dim);
+}
+.spec-feature-chevron {
+    font-size: 1.1rem;
+    color: var(--text-dim);
+    line-height: 1;
+    transition: transform 0.22s ease;
+    margin-top: 1px;
+}
+.spec-feature-card.expanded .spec-feature-chevron {
+    transform: rotate(90deg);
+}
+
+/* ── Expanded extra content ── */
+.spec-feature-expanded {
+    display: none;
+    margin-top: 14px;
+    padding-top: 12px;
+    border-top: 1px solid rgba(255,255,255,0.07);
+}
+.spec-feature-card.expanded .spec-feature-expanded {
+    display: block;
+}
+.spec-tip-label {
+    display: block;
+    font-size: 0.62rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    margin-bottom: 5px;
+}
+.spec-tip-text {
+    font-size: 0.82rem;
+    color: var(--text-muted);
+    font-style: italic;
+    line-height: 1.65;
+    margin: 0;
 }
 
 /* ===== Unit Economics (Screen 5) ===== */
