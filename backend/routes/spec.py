@@ -104,20 +104,21 @@ def generate_spec(req: SpecRequest):
     if not detail or not scores:
         raise HTTPException(status_code=404, detail=f"Category '{req.category_id}' not found")
 
-    # Build context from feature analysis data
+    # Top 8 features by mention count — most relevant signal, keeps prompt concise
+    top_features = sorted(detail.features, key=lambda f: f.mention_count, reverse=True)[:8]
     features_text = "\n".join(
-        f"- {f.feature_name}: {f.satisfaction_pct}% satisfaction ({f.mention_count} products mention it). {f.insight}"
-        for f in detail.features
+        f"- {f.feature_name}: {f.satisfaction_pct}% satisfaction ({f.mention_count} products). {f.insight}"
+        for f in top_features
     )
 
     opportunities_text = "\n".join(
-        f"- [{o.priority} priority] {o.opportunity}: {o.reasoning}"
+        f"- [{o.priority}] {o.opportunity}: {o.reasoning}"
         for o in detail.opportunities
     ) if detail.opportunities else "No specific opportunities identified."
 
     products_text = "\n".join(
-        f"- {p.name} — ${p.price:.2f}, {p.rating}★, ~{p.reviews_count} reviews, ~${p.estimated_monthly_revenue}/mo"
-        for p in detail.top_products[:10]
+        f"- {p.name[:60]} — ${p.price:.2f}, {p.rating}★, ~${p.estimated_monthly_revenue}/mo"
+        for p in detail.top_products[:5]
     ) if detail.top_products else "No product data available."
 
     market_text = ""
@@ -149,8 +150,8 @@ SCORING:
 Generate a product spec that a new seller could hand to a manufacturer. Focus on features that buyers actually care about (high mention count + low satisfaction = biggest opportunity). Set realistic price targets that maintain healthy margins. The ideal product description should read like a compelling brief — explain WHAT to build and WHY, citing specific data points from the analysis."""
 
     response = client.messages.create(
-        model="claude-sonnet-4-6",
-        max_tokens=4000,
+        model="claude-haiku-4-5-20251001",
+        max_tokens=2500,
         tools=[SPEC_TOOL],
         tool_choice={"type": "tool", "name": "generate_product_spec"},
         messages=[{"role": "user", "content": prompt}],

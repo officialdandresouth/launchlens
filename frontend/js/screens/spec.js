@@ -22,7 +22,7 @@ export function renderSpec(container) {
                     </div>
                 </div>
                 <p class="spec-loading-status" id="spec-status">Analyzing market data...</p>
-                <p class="spec-loading-hint">This usually takes 10–15 seconds</p>
+                <p class="spec-loading-hint">This usually takes 8–12 seconds</p>
                 <button class="btn-secondary spec-cancel-btn" id="spec-cancel-btn">&larr; Back to Deep Dive</button>
             </div>
         </div>
