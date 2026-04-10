@@ -147,7 +147,7 @@ class SuppliersResponse(BaseModel):
 class LaunchPlanRequest(BaseModel):
     category_id: str
     budget: int
-    product_spec_summary: str
+    product_spec_summary: str = ""
 
 class Milestone(BaseModel):
     step_number: int

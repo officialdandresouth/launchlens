@@ -74,12 +74,14 @@ def generate_launch_plan(req: LaunchPlanRequest):
 
     today = date.today().isoformat()
 
+    spec_line = f"PRODUCT SPEC: {req.product_spec_summary}" if req.product_spec_summary.strip() else ""
+
     prompt = f"""You are an Amazon FBA launch strategist. Create a personalized launch timeline for a first-time seller.
 
 TODAY'S DATE: {today}
 CATEGORY: {scores.name}
 BUDGET: ${req.budget:,}
-PRODUCT SPEC: {req.product_spec_summary}
+{spec_line}
 
 Generate a step-by-step launch plan with:
 1. Real dates starting from today (all target_date fields must be YYYY-MM-DD format)
@@ -92,7 +94,7 @@ Be realistic — a first-time seller with ${req.budget:,} should be conservative
 
     response = client.messages.create(
         model="claude-haiku-4-5-20251001",
-        max_tokens=2000,
+        max_tokens=3500,
         tools=[LAUNCH_PLAN_TOOL],
         tool_choice={"type": "tool", "name": "generate_launch_plan"},
         messages=[{"role": "user", "content": prompt}],
