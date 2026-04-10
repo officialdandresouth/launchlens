@@ -6,7 +6,7 @@ LaunchLens is a web app for first-time Amazon FBA sellers to find what product t
 
 Tagline: "You have $10K. This tool tells you where to put it."
 
-**Live site:** https://launchlens.onrender.com (Render free tier, auto-deploys from GitHub)
+**Live site:** https://launchlens-4d46.onrender.com (Render free tier, auto-deploys from GitHub)
 
 ---
 
