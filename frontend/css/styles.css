@@ -1891,6 +1891,13 @@ body {
     margin-bottom: 32px;
 }
 
+.launch-download-btn {
+    flex-shrink: 0;
+    font-size: 0.82rem;
+    padding: 8px 18px;
+    transition: background 0.2s, color 0.2s;
+}
+
 .launch-title-group {
     flex: 1;
     display: flex;
